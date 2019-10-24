@@ -1192,7 +1192,7 @@ let HomeComponent = class HomeComponent {
     ngOnInit() {
         $('.backB').click(function () {
             const url = 'https://webpage-test-1.github.io/';
-            window.open(url, '_blank');
+            window.open(url, '_self');
         });
         function doAnimation(container, animatorClass) {
             $(container).removeClass('bounceIn pulse slideInDown flipOutX flipInY flipInX animated').addClass(animatorClass + ' animated').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function () {
