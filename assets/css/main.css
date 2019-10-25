@@ -214,9 +214,10 @@ body::-webkit-scrollbar {
 	background: #56CCF2;  /* fallback for old browsers *
 	background: -webkit-linear-gradient(to left, #2F80ED, #56CCF2);  /* Chrome 10-25, Safari 5.1-6 *
 	background: linear-gradient(to left, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ *
-	*/
+  */
+  z-index: 8;
   background-color: #40BDF2;
-  margin-top: -3.7rem;
+  
 	border: 0;
   /*background-image: url(../images/blue-tri.svg);
   background-position: center;  Center the image 
