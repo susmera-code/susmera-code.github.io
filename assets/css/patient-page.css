@@ -58,8 +58,9 @@
 	transform: rotate(-180deg);
 }
 
+
 .patient-banner-info {
-	margin-top: 0.1rem !important;
+    margin-top: 0.1rem !important;
 }
 
 .skyblue-gradient {
@@ -381,6 +382,12 @@
     only screen 
     and (max-width: 760px), (min-device-width: 768px) 
     and (max-device-width: 1024px)  { 
+
+		.btn-glass {
+			
+			width: 92% !important; 
+		}
+
 		.cbp-vimenu li{
 
 			font-size: 10px !important;
@@ -759,6 +766,7 @@ table.or.table td, table.or.table th {
 /*---------------------------------------------------------*/
 
 .btn-glass {
+	
   flex-grow: 1;
   text-align: left;
   display: inline-block;
@@ -776,6 +784,7 @@ table.or.table td, table.or.table th {
 }
 .btn-glass:hover {
   background-position: -100vw 0, 0 0;
+
 }
 .btn-glass:active {
   background-position: -75vw 0, 0 0;

@@ -1,0 +1,1843 @@
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["main"],{
+
+/***/ "./$$_lazy_route_resource lazy recursive":
+/*!******************************************************!*\
+  !*** ./$$_lazy_route_resource lazy namespace object ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+function webpackEmptyAsyncContext(req) {
+	// Here Promise.resolve().then() is used instead of new Promise() to prevent
+	// uncaught exception popping up in devtools
+	return Promise.resolve().then(function() {
+		var e = new Error("Cannot find module '" + req + "'");
+		e.code = 'MODULE_NOT_FOUND';
+		throw e;
+	});
+}
+webpackEmptyAsyncContext.keys = function() { return []; };
+webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
+module.exports = webpackEmptyAsyncContext;
+webpackEmptyAsyncContext.id = "./$$_lazy_route_resource lazy recursive";
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/allergy/allergy.component.html":
+/*!**************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/allergy/allergy.component.html ***!
+  \**************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n\n                \n                <div class=\"container-fluid\" id=\"allr\">\n \n              \n          <div class=\"row\" style=\"margin-top: 10px;\">\n          \n            <div class=\"col-md-3\">\n          <div class=\"hero-message\"> \n                               \n                                  \n                                                \n                                        <div class=\"row\" >\n                                            <div class=\"col-md-9\">\n                                               <h4 style=\"color: #fff;\">Allergy Details</h4>\n                             \n                                            </div>\n                                            <div class=\"col-md-3\" >\n                                                <!-- <button class=\"button glass blue-a\" type=\"button\">ADD</button> -->\n                                                <a href=\"#\" title=\"Add\" class=\"btn-add btn btn-success btn-xs waves-effect\" style=\"float: right;    box-shadow: none;\n                                                margin-top: 11.3px;    border: 1.5px solid #fff; border-radius: 50px;    background-color: transparent !important;\">Add</a>\n                                            </div>\n                                        </div>\n                                        <hr style=\"background-color: #fff;border: 0 none;color: #fff;height: 1.3px;\"/> \n                                   \n                                        <div class=\"card-body\" style=\"    padding: 16px;\">\n                        \n                                            <div id=\"allergydtl\">\n                                            <mat-checkbox class=\"example-margin\" [(ngModel)]=\"disabled\" style=\"float: right;\">No Known Allergies</mat-checkbox>\n\n                                            <mat-form-field class=\"example-full-width\">\n                                            <mat-label>{{ 'AllergyTypes' | translate }}</mat-label>\n                                            <mat-select [disabled]=\"disabled\">\n                                            <mat-option>--Select--</mat-option>\n                                            <mat-option value=\"option1\">Drug</mat-option>\n                                            <mat-option value=\"option2\">Environment</mat-option>\n                                            <mat-option value=\"option3\">Food</mat-option>\n                                            <mat-option value=\"option3\">Insects</mat-option>\n                                            \n                                            </mat-select>\n                                            </mat-form-field>\n                                            \n                                            <!-- <div class=\"form-group row\">\n                                            <label for=\"allergic-to\" class=\"col-sm-4 col-form-label\">{{ 'AllergicTo' | translate }}</label>\n                                            <div class=\"col-sm-8\">\n                                            <input type=\"text\" id=\"allergic-to\" class=\"form-control\" id=\"allergic-to\">\n                                            </div>\n                                            </div> -->\n                                            \n                                            <mat-form-field class=\"example-full-width\">\n                                            <input matInput placeholder=\"{{ 'AllergicTo' | translate }}\" [disabled]=\"disabled\">\n                                            </mat-form-field>\n                                            <mat-form-field class=\"example-full-width\">\n                                            <mat-label>{{ 'Onset' | translate }}</mat-label>\n                                            <mat-select [disabled]=\"disabled\">\n                                            <mat-option>{{ '--Select--' | translate}}</mat-option>\n                                            <mat-option value=\"option1\">{{ 'Insidious' | translate}}</mat-option>\n                                            <mat-option value=\"option2\">{{ 'Sudden' | translate}} </mat-option>\n                                            \n                                            </mat-select>\n                                            </mat-form-field>\n                                            \n                                            \n                                            <!-- <div class=\"form-group row\">\n                                            <label for=\"onSetType\" class=\"col-sm-4 col-form-label\">{{ 'OnsetType' | translate }}</label>\n                                            <div class=\"col-sm-8\">\n                                            <select id=\"onSetType\" class=\"browser-default custom-select\">\n                                            <option>--Select--</option>\n                                            <option>Approximate</option>\n                                            <option>Exact</option>\n                                            </select>\n                                            </div>\n                                            </div> -->\n                                            \n                                            \n                                            <mat-form-field class=\"example-full-width\">\n                                            <mat-label>{{ 'OnsetType' | translate }}</mat-label>\n                                            <mat-select [disabled]=\"disabled\">\n                                            <mat-option>{{ '--Select--' | translate}}</mat-option>\n                                            <mat-option value=\"option1\">{{ 'Approximate' | translate}}</mat-option>\n                                            <mat-option value=\"option2\">{{ 'Exact' | translate}} </mat-option>\n                                            \n                                            </mat-select>\n                                            </mat-form-field>\n                                            \n                                            \n                                            <!-- <div class=\"form-group row\">\n                                            <label for=\"allergyStatus\"\n                                            class=\"col-sm-4 col-form-label\">{{ 'AllergyStatus' | translate}}</label>\n                                            <div class=\"col-sm-8\">\n                                            <select id=\"allergyStatus\" class=\"browser-default custom-select\">\n                                            <option>--Select--</option>\n                                            <option>Active</option>\n                                            <option>Resolved</option>\n                                            <option>Uncharted</option>\n                                            </select>\n                                            </div>\n                                            </div> -->\n                                            \n                                            <mat-form-field class=\"example-full-width\">\n                                            <mat-label>{{ 'OnsetType' | translate }}</mat-label>\n                                            <mat-select [disabled]=\"disabled\">\n                                            <mat-option>{{ '--Select--' | translate}}</mat-option>\n                                            <mat-option value=\"option1\">{{ 'Active' | translate}}</mat-option>\n                                            <mat-option value=\"option2\">{{ 'Resolved' | translate}} </mat-option>\n                                            <mat-option value=\"option2\">{{ 'Uncharted' | translate}} </mat-option>\n                                            \n                                            </mat-select>\n                                            </mat-form-field>\n                                            \n                                            <mat-form-field>\n                                            <input matInput [matDatepicker]=\"picker\" placeholder=\"{{ 'OnsetDate' | translate }}\" [disabled]=\"disabled\">\n                                            <mat-datepicker-toggle matSuffix [for]=\"picker\" ></mat-datepicker-toggle>\n                                            <mat-datepicker #picker></mat-datepicker>\n                                            </mat-form-field>\n                                            \n                                            \n                                            <!-- <div class=\"form-group row\">\n                                            <label for=\"onsetDate\" class=\"col-sm-4 col-form-label\">{{ 'OnsetDate' | translate }}</label>\n                                            <div class=\"col-sm-8\">\n                                            <input placeholder=\"Onset date\" type=\"text\" id=\"onsetDate\" class=\"form-control datepicker\">\n                                            </div>\n                                            </div> -->\n                                            \n                                            <mat-form-field>\n                                            <input matInput [matDatepicker]=\"dp\" placeholder=\"{{ 'ResolvedDate' | translate }}\" [disabled]=\"disabled\">\n                                            <mat-datepicker-toggle matSuffix [for]=\"dp\" ></mat-datepicker-toggle>\n                                            <mat-datepicker #dp></mat-datepicker>\n                                            </mat-form-field>\n                                        \n                                            \n                                            <mat-form-field>\n                                            <mat-label>{{ 'Reactions' | translate }}</mat-label>\n                                            <mat-select [disabled]=\"disabled\" [formControl]=\"toppings\" multiple>\n                                            <mat-option *ngFor=\"let topping of toppingList\" [value]=\"topping\">{{topping}}</mat-option>\n                                            </mat-select>\n                                            </mat-form-field>\n                                            \n                                            </div><!-- Allergy Wrapper Ends -->\n                                            </div>\n                                <!-- </div> -->\n                            \n                            </div>\n                  \n                               </div>\n                             \n                                 \n                               \n                                    <div class=\"col-md-9\">              \n                                        <h4 style=\"color: #366e86;font-weight: 300;margin-top: 4px;\"> Current Allergies</h4><hr style=\"background-color: #366e86;border: 0 none;color: #366e86;height: 1.3px;\"/>\n                                          <br/>\n                                         \n                                          <div class=\"card tb\">\n                                              <div class=\"table-responsive\">\n                                                  <table class=\"table table-striped\">\n                                                      <thead>\n                                                          <tr>\n                                                              <th>Visit No</th>\n                                                              <th>Allergy Category</th>\n                                                              <th>Allergic To</th>\n                                                              <th>Status</th>\n                                                              <!-- <th>Action</th> -->\n                                                          </tr>                                        \n                                                      </thead>\n                                                      <tbody>\n                                                          <tr>\n                                                              <td>OP-002</td>\n                                                              <td>Drug</td>\n                                                              <td>POLYETHYLENE GLYCOL 3350 AND ELECTROLYTES</td>\n                                                              <td>Resolved</td>\n                                                              <!-- <td><span class=\"badge badge-pill primary-color\">Edit</span></td> -->\n                                                          </tr>\n                                                          <tr>\n                                                              <td>OP-002</td>\n                                                              <td>Environmental</td>\n                                                              <td>Pollen</td>\n                                                              <td>Active</td>\n                                                              <!-- <td><span class=\"badge badge-pill primary-color\">Edit</span></td> -->\n                                                          </tr>\n                                                      </tbody>\n                                                  </table>\n                                              </div>\n                                          </div>\n                                  <br/>\n                                          <h4 class=\"tp\" style=\"color: #366e86;font-weight: 300;margin-top: -15px;\"> Past Allergies</h4\n                                            ><hr style=\"background-color: #366e86;border: 0 none;color: #366e86;height: 1.3px;\"/>                                          <br/>\n                                    \n                                          <div class=\"card tb\">\n                                              <div class=\"table-responsive\">\n                                                  <table class=\"table table-striped\">\n                                                      <thead>\n                                                          <tr>\n                                                              <th>Visit No</th>\n                                                              <th>Allergy Category</th>\n                                                              <th>Allergic To</th>\n                                                              <th>Status</th>\n                                                              <!-- <th>Action</th> -->\n                                                          </tr>                                        \n                                                      </thead>\n                                                      <tbody>\n                                                          <tr>\n                                                              <td>OP-001</td>\n                                                              <td>Drug</td>\n                                                              <td>POLYETHYLENE GLYCOL 3350 AND ELECTROLYTES</td>\n                                                              <td>Active</td>\n                                                              <!-- <td><span class=\"badge badge-pill primary-color\">Edit</span></td> -->\n                                                          </tr>\n                                                          <tr>\n                                                              <td>OP-001</td>\n                                                              <td>Environmental</td>\n                                                              <td>Pollen</td>\n                                                              <td>Uncharted</td>\n                                                              <!-- <td><span class=\"badge badge-pill primary-color\">Edit</span></td> -->\n                                                          </tr>\n                                                      </tbody>\n                                                  </table>\n                                              </div>\n                                          </div>\n                                     \n                              \n                              \n                                      </div>\n                                  </div></div>\n                                                        \n                                            \n \n                                                 <!-- </div> -->\n                                       \n                 <script type=\"text/javascript\" src=\"https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js\"></script>\n                 <script src=\"js/material.js\"></script>\n                 <!-- Bootstrap tooltips -->\n                 <script type=\"text/javascript\" src=\"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js\"></script>\n                 <!-- Bootstrap core JavaScript -->\n                 <script type=\"text/javascript\" src=\"https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js\"></script>\n                 <!-- MDB core JavaScript -->\n                 <script type=\"text/javascript\" src=\"https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.8/js/mdb.min.js\"></script>\n                 <script src=\"https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js\"></script>\n                 <!-- Include all compiled plugins (below), or include individual files as needed -->\n                 <script src=\"//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js\"></script>\n \n    ");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/app.component.html":
+/*!**************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/app.component.html ***!
+  \**************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<app-home></app-home>");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/diagnosis/diagnosis.component.html":
+/*!******************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/diagnosis/diagnosis.component.html ***!
+  \******************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n <div class=\"container-fluid\" id=\"diag\">\n        <!-- <h2 style=\"color: #366e86;\">Diagnosis</h2><hr style=\"background-color: #366e86;border: 0 none;color: #366e86;height: 1.3px;\"/> -->\n\n                <div id=\"diagnosis-section\" class=\"row subsection\" >\n                        <div class=\"col-md-12 col-lg-12 col-sm-12\">\n                                <br>\n                                <div class=\"row\">\n                                                <div class=\"col-md-3 bt\">\n                                                                <h4 style=\"color: #366e86;\">Diagnosis</h4>\n                                                                <hr style=\"background-color: #366e86;border: 0 none;color: #366e86;height: 1.3px\"/>\n\n                                                                <div class=\"hero-message\">\n                                                                    <li id=\"package\" class=\"list-group-item lgi-custom\"  style=\"margin-top: 10px;\"> Provisional Diagnosis<i id=\"chn2\" class=\"fa fa-plus\" style=\" border-radius: 50%;\"></i></li>\n                                                            </div>\n                                                          \n                                                                   \n                                                                <div class=\"hero-message\">\n                                                \n                                                                    <li id=\"primary\" class=\"list-group-item lgi-custom selected\"  ng-click=\"myFunc()\"> Primary Diagnosis* <i id=\"chn\" class=\"fa fa-plus\" style=\" border-radius: 50%;\"></i></li>  \n                                                           \n                                                            </div>\n                                                           \n                                                                \n                                                \n                                                                        <div class=\"hero-message\">\n                                                                            <li id=\"drug\" class=\"list-group-item lgi-custom\" >Secondary Diagnosis*<i id=\"chn1\" class=\"fa fa-plus\" style=\" border-radius: 50%;\"></i></li>\n                                                                    </div></div>\n                                                                   \n                                                                         \n                                                                    \n                                                               \n                                                                \n                                                            \n\n                                                            <div class=\"card sc\" id=\"scan2\" style=\"display:none;top:5.1rem\">\n                                                                                                        \n                                                              <img id=\"arrow\" src=\"assets/images/right-arrow.png\" style=\"width: 29px;position: absolute;right: 10px;cursor: pointer;\" />\n                                                                  <input id=\"dig\" type=\"text\" placeholder=\"Diagnosis\"  class=\"inputTextClass\">\n                                                               </div>\n\n                                                               <div class=\"card sc\" id=\"scan\"  style=\"display:none;top:7.8rem\">\n                                                                <img id=\"arrow1\" src=\"assets/images/right-arrow.png\" style=\"width: 29px;position: absolute;right: 10px;cursor: pointer;\" />\n                                                                <div class=\"autocomplete\">\n                                                                  <input id=\"service1\" type=\"text\" name=\"service1\" placeholder=\"Primary Diagnosis*\" class=\"inputTextClass\">\n                                                                </div> </div>\n\n                                                                <div class=\"card sc\" id=\"scan1\" style=\"display:none;top: 10.6rem;\">\n                                                                  <img id=\"arrow2\" src=\"assets/images/right-arrow.png\" style=\"width: 29px;position: absolute;right: 10px;cursor: pointer;\" />                  \n                                                                  <div class=\"autocomplete\" >\n                                                                   <input id=\"service2\" type=\"text\" placeholder=\"Secondary Diagnosis*\"  class=\"inputTextClass\">\n                                                                 </div> </div>\n\n\n                                        <!-- </div> -->\n                                        <div class=\"col-md-9 col-lg-9 col-sm-9\" id=\"prime\" style=\"    height: 26.4rem;   overflow: auto;  \">\n                                          <div id=\"exp\"> \n                                            <mat-expansion-panel [expanded]=\"true\"  style=\"background-color: transparent !important;box-shadow: none !important;\">\n                                            <mat-expansion-panel-header style=\"border-bottom: 1.3px solid #366e86;border-radius: 0px;\">\n                                            <mat-panel-title >\n                                            <h4 style=\"color: #366e86;\">  Provisional Diagnosis</h4>\n\n                                           </mat-panel-title>\n                                                 \n                                           </mat-expansion-panel-header>\n                                                   \n                                          \n                                             <div class=\"card tb\">\n                                           <div class=\"table-responsive\">\n                                            <table class=\"table table-striped\" id=\"tab\" >\n                                            <thead>\n                                            <tr>\n                                                  \n                                                   <th>Description</th>\n                                                   \n                                                   </tr>\n                                                   </thead>\n                                                   <tbody>\n                                                   <tr>\n                                                   <td> Chest Pain </td> </tr>\n                                                   </tbody>\n                                                   </table>\n                                                   </div>\n                                                   </div>\n                                                   \n                                                   </mat-expansion-panel></div>\n\n\n                                                                 <div id=\"exp1\" style=\"display: none;\"> \n                                                                 <mat-expansion-panel [expanded]=\"true\"  style=\"background-color: transparent !important;box-shadow: none !important;\">\n                                                                 <mat-expansion-panel-header style=\"border-bottom: 1.3px solid #366e86;border-radius: 0px;\">\n                                                                 <mat-panel-title >\n                                                                 <h4 style=\"color: #366e86;\">  Primary Diagnosis</h4>\n\n                                                                </mat-panel-title>\n                                                                      \n                                                                </mat-expansion-panel-header>\n                                                                        \n                                                               \n                                                                  <div class=\"card tb\">\n                                                                <div class=\"table-responsive\">\n                                                                 <table class=\"table table-striped\" id=\"tab1\" >\n                                                                 <thead>\n                                                                 <tr>\n                                                                        <th>\n                                                                        Primary Diagnosis\n                                                                        </th>\n                                                                        <th>Present On Admission</th>\n                                                                        \n                                                                        </tr>\n                                                                        </thead>\n                                                                        <tbody>\n                                                                        <tr>\n                                                                        <td>\n                                                                                \n                                                                        <p id=\"newValueDisease\"></p>\n                                                                        </td>\n                                                                        <td>\n                                                                         <section class=\"example-section\">\n                                                                        <mat-checkbox class=\"example-margin\" >Present</mat-checkbox>\n                                                                          </section>\n                                                                        </td>\n                                                                        </tr>\n                                                                        </tbody>\n                                                                        </table>\n                                                                        </div>\n                                                                        </div>\n                                                                        \n                                                                        </mat-expansion-panel></div>\n\n                                                                        <div id=\"exp2\" style=\"display: none !important;\">\n                                                                        <mat-expansion-panel [expanded]=\"true\" \n                                                                        (closed)=\"true\"  style=\"background-color: transparent !important;box-shadow: none !important;\">\n                                                                        <mat-expansion-panel-header  style=\"border-bottom: 1.3px solid #366e86;border-radius: 0px;\">\n                                                                        <mat-panel-title>\n                                                                                        <h4 style=\"color: #366e86;\"> Secondary diagnosis</h4>\n                                                                        </mat-panel-title>\n                                                                        \n                                                                        </mat-expansion-panel-header>\n                                                                        <div class=\"card tb\">\n                                                                        <div class=\"table-responsive\">\n                                                                        <table class=\"table table-striped\" id=\"tab2\" style=\"display: none;\">\n                                                                        <thead>\n                                                                        <tr>\n                                                                        <th>Secondary diagnosis</th>\n                                                                        <th> Present On Admission</th>\n                                                                        \n                                                                        </tr>\n                                                                        </thead>\n                                                                        <tbody>\n                                                                        <tr>\n                                                                        <td>\n                                                                        <p id=\"newValueDisease1\"></p>\n                                                                        </td>\n                                                                        <td>\n                                                                         <section class=\"example-section\">\n                                                                        <mat-checkbox class=\"example-margin\" >Present</mat-checkbox>\n                                                                         </section>\n                                                                        </td> </tr>\n                                                                        </tbody>\n                                                                        </table>\n                                                                        </div>\n                                                                        </div>\n                                                                         \n                                                                        </mat-expansion-panel></div>\n                                                                      </div>\n\n                              \n                        </div>\n                \n        </div></div>\n</div>\n\n<script src=\"https://jsplayground.syncfusion.com/16.1.0.24/scripts/web/codemirror/codemirror.js\"\n        type=\"text/javascript\"></script>\n<script src=\"https://jsplayground.syncfusion.com/16.1.0.24/scripts/web/codemirror/javascript.js\"\n        type=\"text/javascript\"></script>\n<script src=\"https://jsplayground.syncfusion.com/16.1.0.24/scripts/web/codemirror/css.js\"\n        type=\"text/javascript\"></script>\n<script src=\"https://jsplayground.syncfusion.com/16.1.0.24/scripts/web/codemirror/xml.js\"\n        type=\"text/javascript\"></script>\n<script src=\"https://jsplayground.syncfusion.com/16.1.0.24/scripts/web/codemirror/htmlmixed.js\"\n        type=\"text/javascript\"></script>\n<link href=\"https://jsplayground.syncfusion.com/16.1.0.24/scripts/web/codemirror/codemirror.min.css\" rel=\"stylesheet\" />\n\n<script src=\"https://code.jquery.com/jquery-3.4.1.min.js\"></script>\n<!-- JQuery -->\n<script type=\"text/javascript\" src=\"https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js\"></script>\n<!-- Bootstrap tooltips -->\n<script type=\"text/javascript\" src=\"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js\"></script>\n<!-- Bootstrap core JavaScript -->\n<script type=\"text/javascript\"\n        src=\"https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js\"></script>\n<!-- MDB core JavaScript -->");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/hist/hist.component.html":
+/*!********************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/hist/hist.component.html ***!
+  \********************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n\n\n                \n                <div class=\"container-fluid\" id=\"cc\">\n <!-- <h2 style=\"color: #366e86;\">CC & HPI</h2><hr style=\"background-color: #366e86;border: 0 none;color: #366e86;height: 1.3px;\"/>\n         \n          <br/> -->\n              \n          <div class=\"row\" style=\"margin-top: 10px;\">\n          \n            <div class=\"col-md-3 bt\">\n                    \n                    <h4 style=\"color: #366e86;\"> History And Examinations</h4>\n                    <hr style=\"background-color: #366e86;border: 0 none;color: #366e86;height: 1.3px;\"/>\n                <div class=\"hero-message\">\n\n                        <li id=\"chief\" class=\"list-group-item lgi-custom selected\"  data-target=\"chief-complaints\" ng-click=\"myFunc()\" style=\"margin-top: 10px;\">Chief Complaints  <i id=\"chn\" class=\"fa fa-plus\" style=\" border-radius: 50%;\"></i></li>  \n               \n                </div>\n               \n                                 \n\n                <div class=\"hero-message\">\n                        <li id=\"hist\" class=\"list-group-item lgi-custom\" data-target=\"history-illness\">History Of Illness <i id=\"chn1\" class=\"fa fa-plus\" style=\" border-radius: 50%;\"></i></li>\n                </div>\n               \n                     \n                <div class=\"hero-message\">\n                        <li id=\"com\" class=\"list-group-item lgi-custom\" data-target=\"co-morbidities\">Comorbidities <i id=\"chn2\" class=\"fa fa-plus\" style=\" border-radius: 50%;\"></i></li>\n                </div>\n               \n                            \n                <div class=\"hero-message\">\n                        <li id=\"asso\" class=\"list-group-item lgi-custom\" data-target=\"associated-symptoms\">AssociatedSymptoms <i id=\"chn3\" class=\"fa fa-plus\" style=\" border-radius: 50%;\"></i></li>\n                </div>\n              </div>\n\n\n                                       <div class=\"card sc\" id=\"auto1\"  style=\"display:none; top: 3.58rem;\">\n                                             \n                                        <img id=\"arrow1\" src=\"assets/images/right-arrow.png\" style=\"width: 29px;position: absolute;right: 10px;cursor: pointer;\" />\n                                        <input id=\"chief1\" type=\"text\" name=\"chief1\" placeholder=\"Chief Complaints\"  class=\"inputTextClass\">\n                                      \n                                   </div> \n                                   <div class=\"card sc\" id=\"auto2\" style=\"display:none;top:6.3rem\">\n                                    <img id=\"arrow2\" src=\"assets/images/right-arrow.png\" style=\"width: 29px;position: absolute;right: 10px;cursor: pointer;\" />\n                                    <input id=\"hist1\" type=\"text\" name=\"hist1\" placeholder=\"History Of Illness\"  class=\"inputTextClass\">\n                                     \n                                  \n                                     \n                                   </div>\n\n                                   <div class=\"card sc\" id=\"auto3\" style=\"display:none;top: 8.98rem;\">\n                                           \n                                  \n                                    <img id=\"arrow3\" src=\"assets/images/right-arrow.png\" style=\"width: 29px;position: absolute;right: 10px;cursor: pointer;\" />\n                                  \n                                          <div class=\"autocomplete\" >\n                                              <input id=\"com1\" type=\"text\" name=\"com1\" placeholder=\"Comorbidity\"  class=\"inputTextClass\">\n  <!--                                    \n                                            <input id=\"com1\" type=\"text\" name=\"com1\" placeholder=\"Comorbidity\"  class=\"inputTextClass\"> -->\n                                          </div></div>\n\n\n                                          \n                                <div class=\"card sc\" id=\"auto4\" style=\"display:none;top: 11.66rem;\">\n                                  <img id=\"arrow4\" src=\"assets/images/right-arrow.png\" style=\"width: 29px;position: absolute;right: 10px;cursor: pointer;\" />\n                                      <div class=\"autocomplete\">\n                                       <input id=\"asso1\" type=\"text\" name=\"asso1\" placeholder=\"AssociatedSymptoms\" class=\"inputTextClass\">\n                                     </div></div>\n\n\n\n\n                             <div class=\"col-md-9\" style=\"    height: 26.4rem; overflow: auto;  \">\n \n                                     <mat-expansion-panel [expanded]=\"true\" id=\"exp1\" style=\"background-color: transparent !important;box-shadow: none !important;\">\n                                         <mat-expansion-panel-header style=\"border-bottom: 1.3px solid #366e86;border-radius: 0px;\">\n                                         <mat-panel-title >\n                                         <h4 style=\"color: #366e86;\">Chief Complaints</h4>\n \n                                         </mat-panel-title>\n                                       \n                                         </mat-expansion-panel-header>\n \n                                 <div class=\"card tb\">\n                                                 <div class=\"table-responsive\">\n                                                    <table class=\"table table-striped\" id=\"chiefTable\">\n                                                        <thead>\n                                                            <tr>\n                                                                <!-- <th style=\"width: 10%;\">{{ 'Sl No' | translate}}</th> -->\n                                                                <th >{{ 'Description' | translate}}</th>\n                                                            </tr>                                        \n                                                        </thead>\n                                                        <tbody>\n                                                          <tr>\n                                                            <td>BAND LIKE SENSATION</td>\n                                                    </tr>\n                                                        </tbody>\n                                                    </table></div></div>\n                                               </mat-expansion-panel>\n \n \n                                               <div id=\"exp2\" style=\"display: none !important;\"> \n \n \n                                                   <mat-expansion-panel [expanded]=\"true\" style=\"background-color: transparent !important;box-shadow: none !important;\">\n                                                       <mat-expansion-panel-header style=\"border-bottom: 1.3px solid #366e86;border-radius: 0px;\">\n                                                       <mat-panel-title >\n                                                       <h4 style=\"color: #366e86;\"> History Of Illness</h4>\n               \n                                                       </mat-panel-title>\n                                                     \n                                                       </mat-expansion-panel-header>\n                                                 <div class=\"card tb\">\n                                                   <div class=\"table-responsive\">\n                                                    <table class=\"table table-striped\" id=\"historyofIllness\">\n                                                        <thead>\n                                                            <tr>\n                                                                    <!-- <th style=\"width: 10%;\">{{ 'Sl No' | translate}}</th> -->\n                                                                    <th >{{ 'Description' | translate}}</th>\n                                                            </tr>                                        \n                                                        </thead>\n                                                        <tbody></tbody>\n                                                                \n                                                    </table></div></div>\n                                                     </mat-expansion-panel></div>\n                                                   \n \n \n \n                                                     <div id=\"exp3\" style=\"display: none !important;\"> \n \n \n                                                         <mat-expansion-panel [expanded]=\"true\"  style=\"background-color: transparent !important;box-shadow: none !important;\">\n                                                             <mat-expansion-panel-header style=\"border-bottom: 1.3px solid #366e86;border-radius: 0px;\">\n                                                             <mat-panel-title >\n                                                             <h4 style=\"color: #366e86;\">Comorbidity</h4>\n                     \n                                                             </mat-panel-title>\n                                                           \n                                                             </mat-expansion-panel-header>\n   \n                                                       <div class=\"card tb\" >\n                                                         <div class=\"table-responsive\">\n                                                            <table class=\"table table-striped\" id=\"comoriditiesTable\">\n                                                                <thead>\n                                                                    <tr>\n                                                                            <!-- <th style=\"width: 10%;\">{{ 'Sl No' | translate}}</th> -->\n                                                                            <th >{{ 'Description' | translate}}</th>\n                                                                    </tr>                                        \n                                                                </thead>\n                                                                <tbody>\n                                                                       \n                                                                </tbody>\n                                                            </table></div></div>\n                                                             </mat-expansion-panel></div>\n                                                       \n \n                                                           <div id=\"exp4\" style=\"display: none !important;\"> \n \n \n                                                               <mat-expansion-panel [expanded]=\"true\" style=\"background-color: transparent !important;box-shadow: none !important;\">\n                                                                   <mat-expansion-panel-header style=\"border-bottom: 1.3px solid #366e86;border-radius: 0px;\">\n                                                                   <mat-panel-title >\n                                                                   <h4 style=\"color: #366e86;\"> Associated Symptoms</h4>\n                           \n                                                                   </mat-panel-title>\n                                                                 \n                                                                   </mat-expansion-panel-header>\n   \n                                                             <div class=\"card tb\">\n                                                               <div class=\"table-responsive\">\n                                                                <table class=\"table table-striped\" id=\"assosymTable\">\n                                                                    <thead>\n                                                                        <tr>\n                                                                                <!-- <th style=\"width: 10%;\">{{ 'Sl No' | translate}}</th> -->\n                                                                                <th >{{ 'Description' | translate}}</th>\n                                                                        </tr>                                        \n                                                                    </thead>\n                                                                    <tbody>\n                                                                           \n                                                                    </tbody>\n                                                                </table></div></div>\n                                                                   </mat-expansion-panel></div>\n   \n                                                           </div>\n                                                        \n                                               </div>\n \n \n                                      \n         \n                           </div>\n                             \n                                                 <!-- </div> -->\n                                       \n                 <script type=\"text/javascript\" src=\"https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js\"></script>\n                 <script src=\"js/material.js\"></script>\n                 <!-- Bootstrap tooltips -->\n                 <script type=\"text/javascript\" src=\"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js\"></script>\n                 <!-- Bootstrap core JavaScript -->\n                 <script type=\"text/javascript\" src=\"https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js\"></script>\n                 <!-- MDB core JavaScript -->\n                 <script type=\"text/javascript\" src=\"https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.8/js/mdb.min.js\"></script>\n                 <script src=\"https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js\"></script>\n                 <!-- Include all compiled plugins (below), or include individual files as needed -->\n                 <script src=\"//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js\"></script>\n \n    ");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/home/home.component.html":
+/*!********************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/home/home.component.html ***!
+  \********************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n <div id=\"bg\" class=\"bg\">\n     \n</div> \n\n<a class=\"btn-float-chat btn-sm btn-floating blue-gradient my-0 waves-effect waves-light\">\n  <i class=\"fas fa-comments\"></i>\n</a>\n\n<!-- <div class=\"container-fluid top-nav\" id=\"top-nav-bar\">\n  <div class=\"row\">\n      <div class=\"col-md-12\">\n          <div class=\"topnav\">\n          \n            <a href=\"#\">Claims</a>\n            <a href=\"#\">Financials</a>\n            <a href=\"#\">Reports</a>\n            <a href=\"#\">Quality</a>\n            <a href=\"#\">Support</a>\n            <a href=\"#\"><i class=\"fas fa-cog\" style=\"color: white;\"></i></a>\n          \n            <a href=\"#\" class=\"rt-most last-child\">Logout</a>\n            <a href=\"#\" class=\"rt-most no-bottom txt-ic\"><i class=\"fas fa-search\"></i></a>\n            <a href=\"#\" class=\"rt-most no-bottom txt-bx\"><span class=\"search-box\"><input type=\"text\" class=\"form-control top-search\" placeholder=\"Search\"></span></a>\n            <a href=\"#\" class=\"rt-most no-bottom txt-ic\"><i class=\"fas fa-user-md\"></i></a>\n\n          </div>\n      </div>\n  </div>\n</div> -->\n\n<div class=\"container-fluid nav-top\">\n        <div class=\"container-fluid\">\n\n                <div class=\"card\" id=\"dct\">\n                    \n                        <div class=\"row\">\n                                <div class=\"col-md-4\"><img src=\"assets/images/icons/New Project.png\" style=\" position: absolute;width: 9.25rem;top: 9px; left: 11px;\"><span style=\"position: absolute;\n                       left: 85px;   top: 18.4px;  font-family: 'Source Sans Pro', sans-serif; color: white;font-size: 20px;\">Doctors</span><span style=\"  font-family: 'Source Sans Pro', sans-serif;  position: absolute; z-index: 8; font-size: 18px; left: 10rem; top: 21px\">Work Bench</span> </div>\n               \n  \n      <div class=\"col-md-4\">\n          \n          <div class=\"card card-custom\">\n              <img class=\"pic\" src=\"assets/images/user.webp\"> \n              <div class=\"name\">Mr.Manas Rahman | Male | 43 years</div>\n              <div class=\"name1\">AKHS-T-00154345 | OP-204  </div>\n          </div>\n          \n          <a class=\"slide-btn btn-floating btn-sm skyblue-gradient waves-effect waves-light\">\n              <img class=\"pic-icon\" src=\"assets/images/icons/icon_down_double_arrow.webp\">\n              </a>\n\n           <div class=\"patient-banner-info card custom-card card-custom-info btn-glass btn-info\" style=\"display: none;\">\n              <div class=\"name-info ptd-blood\">AB +Ve</div>\n              <div class=\"name-info ptd-phone\">+91 9876543210 </div>\n              <div class=\"name-info ptd-location\">NURSE STATION FF/ DLX B 1</div>\n              <div class=\"name-info ptd-consultant\">Dr. Yasar </div>\n              <div class=\"name-info ptd-current-visit\">In-Patient (Under IP Care)</div>\n              <div class=\"name-info ptd-admitted-on\">08-Jul-2019 (12 days in IP Care.) </div>\n              <div class=\"name-info ptd-patient-condition\">Start Consultation </div>\n              <div class=\"name-info ptd-insurance-name\">Medsave Healthcare TPA ltd </div>\n              <div class=\"name-info ptd-eligibility\">Medsave Healthcare TPA ltd/Aug 28, 2020 </div>\n              <div class=\"name-info ptd-policy-no\">zzxxxaa2132 </div>\n          </div>\n                                     \n\n      </div>\n      <div class=\"col-md-8\">\n         \n       \n  </div>\n</div> </div>\n\n</div>\n\n<div class=\"card gls\" >\n\n\n\n\n    <div class=\"main\">\n\n            <div class=\"container-fluid\">\n                <div class=\"row med\" style=\"margin-top: 14px;\">\n                    <div class=\"col-md-1 col-sm-1\">\n                        <button mat-button class=\"backB\">\n                            <i class=\"material-icons\">\n                                keyboard_arrow_left\n                                </i>\n                           Back\n                          </button>\n      \n                      </div>\n                        <!-- <a href=\"#\" title=\"Back\" class=\"btn-back btn btn-success btn-sm waves-effect\" style=\"margin-top: 8px;\"><i class=\"fa fa-angle-left\" style=\"font-size:20px\"></i>Back</a>\n                    </div> -->\n                    <div class=\"col-md-10 col-sm-10\">\n                        <div class=\"no-pad scroller\">\n                            <div class=\"no-pad btn-header-links padding-align top-adjust\" id=\"scroll-div\">\n                                 <div class=\"list-group list-group-visit list-group-horizontal\">\n                                    <!-- <a href=\"#\" class=\"left-btn-scroller left-scroll list-group-item lgi-visit waves-effect\"><i class=\"fas fa-chevron-left\"></i></a> -->\n                                    <a href=\"#\" class=\"list-group-item lgi-visit waves-effect active\">18 July 2019<br>OP-204</a>\n                                    <a href=\"#\" class=\"list-group-item lgi-visit waves-effect\">17 Jul 2019<br>OP-103</a>\n                                    <a href=\"#\" class=\"list-group-item lgi-visit waves-effect\">16 Jun 2019<br>OP-092</a>\n                                    <a href=\"#\" class=\"list-group-item lgi-visit waves-effect\">15 May 2019<br>OP-053</a>\n                                    <a href=\"#\" class=\"list-group-item lgi-visit waves-effect\">15 Apr 2019<br>OP-042</a>\n                                    <a href=\"#\" class=\"list-group-item lgi-visit waves-effect\">15 Mar 2019<br>OP-039</a>\n                                    <a href=\"#\" class=\"list-group-item lgi-visit waves-effect\">15 Feb 2019<br>OP-020</a>\n                                    <!-- <a href=\"#\" class=\"list-group-item lgi-visit waves-effect\"><i class=\"fas fa-chevron-right\"></i></a> -->\n                                </div>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"col-md-1 col-sm-1\">\n                        <button mat-button class=\"sv\">\n                            <i class=\"material-icons\">\n                                save_alt\n                                </i>\n                         Save\n                          </button>\n                        <!-- <a href=\"#\" title=\"Save\" class=\"btn-save btn btn-success btn-sm waves-effect\" id=\"save1\" style=\"margin-top: 14px;\"> Save</a> -->\n                    </div>\n                    \n                </div>\n            </div></div>\n\n<router-outlet></router-outlet>\n\n</div>\n<div class=\"page-wrap\">\n\n    <ul class=\"cbp-vimenu\">\n      <li id=\"vitals\" class=\"waves-effect sidemenu\" [routerLinkActive]=\"['active']\"   ><a routerLink=\"/vitals\"><img class=\"icon-vitals\"></a>Vitals</li>\n      <li id=\"allergy\" class=\"waves-effect sidemenu\" [routerLinkActive]=\"['active']\"><a routerLink=\"/allergy\"><img class=\"icon-allergy\"></a>Allergy</li>\n      <li id=\"ccandhpi\" class=\"waves-effect sidemenu\" [routerLinkActive]=\"['active']\"><a routerLink=\"/hist\" href=\"#\"><img class=\"icon-report\"></a>CC & HPI</li>\n       <li id=\"diagnosis\" class=\"waves-effect sidemenu\" [routerLinkActive]=\"['active']\"><a routerLink=\"/diagnosis\"  href=\"#\"><img class=\"icon-lab\"></a>Diagnosis</li>\n      <li id=\"orders\" class=\"waves-effect sidemenu\" [routerLinkActive]=\"['active']\"><a routerLink=\"/orders1\"><img class=\"icon-first-aid\"></a>Orders</li>\n    </ul>\n  \n    \n      \n      </div>\n<footer></footer>");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/orders1/orders1.component.html":
+/*!**************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/orders1/orders1.component.html ***!
+  \**************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n\n\n                \n               <div class=\"container-fluid\" id=\"ord\">\n<!-- <h2 style=\"color: #366e86;\">Orders</h2><hr style=\"background-color: #366e86;border: 0 none;color: #366e86;height: 1.3px;\"/>\n        \n         <br/>\n              -->\n         <div class=\"row\" style=\"margin-top: 10px;\" >\n           \n            <div class=\"col-md-3 bt\">\n                <h4 style=\"color: #366e86;\"> Orders</h4>\n                <hr style=\"background-color: #366e86;border: 0 none;color: #366e86;height: 1.3px;\"/>\n                <div class=\"hero-message\">\n\n                    <li id=\"service\" class=\"list-group-item lgi-custom selected\"  data-target=\"chief-complaints\" ng-click=\"myFunc()\" style=\"margin-top: 10px;\">Service <i id=\"chn\" class=\"fa fa-plus\" style=\" border-radius: 50%;\"></i></li>  \n           \n            </div>\n           \n                        <div class=\"hero-message\">\n                            <li id=\"drug\" class=\"list-group-item lgi-custom\" >Drugs<i id=\"chn1\" class=\"fa fa-plus\" style=\" border-radius: 50%;\"></i></li>\n                    </div>\n                   \n                       \n                    <div class=\"hero-message\">\n                        <li id=\"package\" class=\"list-group-item lgi-custom\" >Package<i id=\"chn2\" class=\"fa fa-plus\" style=\" border-radius: 50%;\"></i></li>\n                </div>\n              \n                       \n               \n                <div class=\"hero-message\">\n                    <li id=\"direct\" class=\"list-group-item lgi-custom\" >Direct<i id=\"chn3\" class=\"fa fa-plus\" style=\" border-radius: 50%;\"></i></li>\n            </div>\n           \n                  \n            <div class=\"hero-message\">\n                    <li id=\"set\" class=\"list-group-item lgi-custom\" >Orderset<i id=\"chn4\" class=\"fa fa-plus\" style=\" border-radius: 50%;\"></i></li>\n            </div>\n            \n                   \n            <div class=\"hero-message\">\n                <li id=\"diet\" class=\"list-group-item lgi-custom\" >Diet Prescription<i id=\"chn5\" class=\"fa fa-plus\" style=\" border-radius: 50%;\"></i></li>\n        </div>\n            </div>\n\n            <div class=\"card sc\" id=\"scan\"  style=\"display:none;top: 3.58rem;\">\n              <img id=\"arrow1\" src=\"assets/images/right-arrow.png\" style=\"width: 29px;position: absolute;right: 10px;cursor: pointer;\" />\n              <div class=\"autocomplete\">\n                <input id=\"service1\" type=\"text\" name=\"service1\" placeholder=\"Service Name\" class=\"inputTextClass\">\n              </div> </div>\n              <div class=\"card sc\" id=\"scan1\" style=\"display:none;top:6.3rem ;\">\n                <img id=\"arrow2\" src=\"assets/images/right-arrow.png\" style=\"width: 29px;position: absolute;right: 10px;cursor: pointer;\" />\n              \n                <div class=\"autocomplete\" >\n                 <input id=\"drug1\" type=\"text\" name=\"drug1\" placeholder=\"Drug Name\"  class=\"inputTextClass\">\n               </div> </div>\n               <div class=\"card sc\" id=\"scan2\" style=\"display:none;    top: 8.98rem;\">\n                <img id=\"arrow3\" src=\"assets/images/right-arrow.png\" style=\"width: 29px;position: absolute;right: 10px;cursor: pointer;\" />                         \n                <div class=\"autocomplete\" >\n                  <input id=\"package1\" type=\"text\" name=\"package1\" placeholder=\"Package Name\"  class=\"inputTextClass\">\n                </div></div>\n                <div class=\"card sc\" id=\"scan3\" style=\"display:none;top: 11.66rem;\">\n                  <img id=\"arrow4\" src=\"assets/images/right-arrow.png\" style=\"width: 29px;position: absolute;right: 10px;cursor: pointer;\" />\n                  <div class=\"autocomplete\">\n                   <input id=\"direct1\" type=\"text\" name=\"direct1\" placeholder=\"Direct Name\" class=\"inputTextClass\">\n                 </div></div>\n                 <div class=\"card sc\" id=\"scan4\" style=\"display:none;    top: 14.35rem;\">\n                  <img id=\"arrow5\" src=\"assets/images/right-arrow.png\" style=\"width: 29px;position: absolute;right: 10px;cursor: pointer;\" />\n                  <div class=\"autocomplete\">\n                    <input id=\"set1\" type=\"text\" name=\"set1\" placeholder=\"Order Name\"  class=\"inputTextClass\">\n                  </div></div>\n    <!-- <div class=\"hero-message\"> \n       \n                   <h5 style=\"color: #366e86;\"> Orders</h5>\n                   <hr style=\"background-color: #366e86;border: 0 none;color: #366e86;height: 1.3px;\"/>\n                 <ul class=\"list-group list-group-flush\" style=\"padding:10px;\">\n                     <li id=\"chief\" class=\"list-group-item lgi-custom selected\"  data-target=\"chief-complaints\" ng-click=\"myFunc()\">Service</li>\n                     <li id=\"hist\" class=\"list-group-item lgi-custom\" data-target=\"history-illness\">Drugs</li>\n                     <li id=\"com\" class=\"list-group-item lgi-custom\" data-target=\"co-morbidities\">package</li>\n                     <li id=\"asso\" class=\"list-group-item lgi-custom\" data-target=\"associated-symptoms\">Direct</li>\n                     <li id=\"asso\" class=\"list-group-item lgi-custom\" data-target=\"associated-symptoms\">Orderset</li>\n                     <li id=\"asso\" class=\"list-group-item lgi-custom\" data-target=\"associated-symptoms\">Diet Prescription</li>\n                 </ul></div></div> -->\n           <!-- <div class=\"col-md-4 bt\">\n         <div class=\"hero-message\"> \n                              \n                                    <div class=\"row\"> \n                                               \n                                 <div class=\"col-md-10\">\n                                                <div class=\"dropdown\"  >\n                                                                <button class=\"btn btn-primary dropdown-toggle\" type=\"button\" id=\"dropdownMenu5\" data-toggle=\"dropdown\"\n                                                                  aria-haspopup=\"true\" aria-expanded=\"false\" style=\"    width: 100%;border-bottom: 1px solid #dad3d3;color: white;\">\n                                                                  Orders\n                                                                </button>\n                                                               <ul  class=\"dropdown-menu\" aria-labelledby=\"dropdownMenu5\" id=\"options\" role=\"menu\"  name=\"college_name\" >\n                                                                \n                                                                  <a value=\"service\" class=\"dropdown-item\" id=\"service\" selected>Service</a >\n                                                                  <a value=\"drug\" class=\"dropdown-item\"  id=\"drug\" >Drugs</a >\n                                                                  <a value=\"package\" class=\"dropdown-item\" id=\"package\" >Package</a >\n                                                                  <a value=\"direct\" class=\"dropdown-item\" id=\"direct\" >Direct</a >\n                                                                  <a value=\"set\" class=\"dropdown-item\" id=\"set\" >Orderset</a >\n                                                                  <a value=\"diet\" class=\"dropdown-item\" id=\"diet\">Diet Prescription</a >\n                                                               </ul></div>\n                                                        \n                                                        </div>\n                                                        \n                                                              \n\n\n                                                        <div class=\"col-md-2\">\n                                                                        <i id=\"chn\" class=\"fa fa-plus\" style=\" border-radius: 50%;\"></i>\n                                                        </div>\n                                        \n                                                        \n                                </div>\n                                <div class=\"row\">\n                                                     \n                                  <div class=\"col-md-12\">\n                                                           <div class=\"card sc\" id=\"scan\"  style=\"display:none;padding: 10px;\">\n                                                            <div class=\"autocomplete\">\n                                                              <input id=\"service1\" type=\"text\" name=\"service1\" placeholder=\"Service Name\" class=\"inputTextClass\">\n                                                            </div> </div>\n                                                            <div class=\"card sc\" id=\"scan1\" style=\"display:none;padding: 10px;\">\n                                                            \n                                                             <div class=\"autocomplete\" >\n                                                              <input id=\"drug1\" type=\"text\" name=\"drug1\" placeholder=\"Drug Name\"  class=\"inputTextClass\">\n                                                            </div> </div>\n                                                            <div class=\"card sc\" id=\"scan2\" style=\"display:none;padding: 10px;\">\n                                                            \n                                                            <div class=\"autocomplete\" >\n                                                              <input id=\"package1\" type=\"text\" name=\"package1\" placeholder=\"Package Name\"  class=\"inputTextClass\">\n                                                            </div></div>\n                                                            <div class=\"card sc\" id=\"scan3\" style=\"display:none;padding: 10px;\">\n                                                             <div class=\"autocomplete\">\n                                                              <input id=\"direct1\" type=\"text\" name=\"direct1\" placeholder=\"Direct Name\" class=\"inputTextClass\">\n                                                            </div></div>\n                                                            <div class=\"card sc\" id=\"scan4\" style=\"display:none;padding: 10px;\">\n                                                            <div class=\"autocomplete\">\n                                                              <input id=\"set1\" type=\"text\" name=\"set1\" placeholder=\"Order Name\"  class=\"inputTextClass\">\n                                                            </div></div>\n                                                          \n                                                        \n                                                        </div>\n                </div>\n                              </div></div> -->\n                            \n                               \n                               \n                              \n                                <div class=\"col-md-9\" style=\"    height: 26.4rem; overflow: auto;  \">\n\n                                \n                                     \n\n\n                                    <mat-expansion-panel [expanded]=\"true\" id=\"exp1\" style=\"background-color: transparent !important;box-shadow: none !important;\">\n                                        <mat-expansion-panel-header style=\"border-bottom: 1.3px solid #366e86;border-radius: 0px;\">\n                                        <mat-panel-title >\n                                        <h4 style=\"color: #366e86;\"> Service</h4>\n\n                                        </mat-panel-title>\n                                      \n                                        </mat-expansion-panel-header>\n\n                                <div class=\"card tb\">\n                                                <div class=\"table-responsive\">\n                                                <table class=\"table table-striped\" id=\"current\" >\n                                                   \n                                                  <thead>\n                                                    <tr>\n                                                      <th scope=\"col\">Service Name</th>\n                                                      <th scope=\"col\">Portable</th>\n                                                      <th scope=\"col\">Qty</th>\n                                                      <th scope=\"col\">Priority</th>\n                                                      <th scope=\"col\">Service Center</th>\n                                                      <th scope=\"col\">Actions</th>\n                                                    </tr>\n                                                    \n                                                \n                                                  </thead> \n                                                  <tbody>\n                                                      <tr>\n                                                          <td>ADMINISTRATIVE CHARGES</td>\n                                                         \n                                                          <td>No</td>\n                                                          <td><input class='form-control' type='text'  style='margin-left: -9px;width: 43px;background-color:transparent;height: 17px; box-shadow: none; color: #fff; border: none; border-bottom: 1.5px solid #ffffffc7;border-radius: 0;'/></td>\n                                                          <td><select class='form-control' style='box-shadow:none;display:block !important; background-color: transparent; color: #fff;border: none;border-radius: 0;padding:0;width:66px;cursor:pointer; margin-top: -5px;height: 23px;border-bottom: 1.5px solid #ffffffc7;'><option style='color:black;'>Select</option><option style='color:black;'>Routine</option><option style='color:black;'>Stat</option></select></td>\n                                                          <td><select class='form-control' style='    margin-top: -5px;box-shadow:none;display:block !important; background-color: transparent; color: #fff;border: none;border-radius: 0;padding:0;width:116px;cursor:pointer;height: 23px;border-bottom: 1.5px solid #ffffffc7;'><option style='color:black;'>Select</option><option style='color:black;'>Banjara Demo</option><option style='color:black;'>Blood Bank</option></select></td>\n                                                          <td><img data-placement='bottom'  width='23px' style='cursor:pointer;border-radius:50%;'  src='assets/images/pencil.png' title='Edit'/><img title='close' data-placement='bottom'  width='16px' style='cursor:pointer;border-radius:50%;position: relative;right: -5px;'  src='assets/images/close.jpg' /></td>\n                                            \n                                                       </tr>\n                                                  </tbody>\n                                                </table></div></div>\n                                              </mat-expansion-panel>\n\n\n                                              <div id=\"exp2\" style=\"display: none !important;\"> \n\n\n                                                  <mat-expansion-panel [expanded]=\"true\" style=\"background-color: transparent !important;box-shadow: none !important;\">\n                                                      <mat-expansion-panel-header style=\"border-bottom: 1.3px solid #366e86;border-radius: 0px;\">\n                                                      <mat-panel-title >\n                                                      <h4 style=\"color: #366e86;\"> Drugs</h4>\n              \n                                                      </mat-panel-title>\n                                                    \n                                                      </mat-expansion-panel-header>\n                                                <div class=\"card tb\">\n                                                  <div class=\"table-responsive\">\n                                                      <table class=\"table table-striped\" id=\"drugtb\" style=\"display: none;\">\n                                                        <thead>\n                                                          <tr>\n                                                            <th scope=\"col1\">Generic/Item Name</th>\n                                                            <th scope=\"col1\">Frequency</th>\n                                                            <th scope=\"col1\">No Of Days</th>\n                                                            <th scope=\"col1\">Total Qty</th>\n                                                            <th scope=\"col1\">Drug Instructions</th>\n                                                            <th scope=\"col1\">Priority</th>\n                                                            <th scope=\"col1\">Order No</th>\n                                                            <th scope=\"col1\">Actions</th>\n                                                          </tr>\n                                                          \n                                                      \n                                                        </thead>\n                                                        <tbody>\n                                                          \n                                                        </tbody>\n                                                      </table></div></div>\n                                                    </mat-expansion-panel></div>\n                                                  \n\n\n\n                                                    <div id=\"exp3\" style=\"display: none !important;\"> \n\n\n                                                        <mat-expansion-panel [expanded]=\"true\" style=\"background-color: transparent !important;box-shadow: none !important;\">\n                                                            <mat-expansion-panel-header style=\"border-bottom: 1.3px solid #366e86;border-radius: 0px;\">\n                                                            <mat-panel-title >\n                                                            <h4 style=\"color: #366e86;\"> Packages</h4>\n                    \n                                                            </mat-panel-title>\n                                                          \n                                                            </mat-expansion-panel-header>\n  \n                                                      <div class=\"card tb\" >\n                                                        <div class=\"table-responsive\">\n                                                            <table class=\"table table-striped\" id=\"packagetb\"  style=\"display: none;\">\n                                                                <thead>\n                                                                  <tr>\n                                                                    <th scope=\"col1\">Package Name</th>\n                                                                    <th scope=\"col1\">Unit Price</th>\n                                                                    <th scope=\"col1\">Service Center </th>\n                                                                    <th scope=\"col1\">Actions</th>\n                                                                  \n                                                                  </tr>\n                                                                  \n                                                              \n                                                                </thead>\n                                                              <tbody>\n                                                                \n                                                              </tbody>\n                                                            </table></div></div>\n                                                            </mat-expansion-panel></div>\n                                                      \n\n                                                          <div id=\"exp4\" style=\"display: none !important;\"> \n\n\n                                                              <mat-expansion-panel [expanded]=\"true\" style=\"background-color: transparent !important;box-shadow: none !important;\">\n                                                                  <mat-expansion-panel-header style=\"border-bottom: 1.3px solid #366e86;border-radius: 0px;\">\n                                                                  <mat-panel-title >\n                                                                  <h4 style=\"color: #366e86;\"> Direct</h4>\n                          \n                                                                  </mat-panel-title>\n                                                                \n                                                                  </mat-expansion-panel-header>\n  \n                                                            <div class=\"card tb\">\n                                                              <div class=\"table-responsive\">\n                                                                  <table class=\"table table-striped\" id=\"directtb\" style=\"display: none;\">\n                                                                      <thead>\n                                                                        <tr>\n                                                                          <th scope=\"col1\">Service Name</th>\n                                                                          <th scope=\"col1\">Attached to Service</th>\n                                                                          <th scope=\"col1\">QTY</th>\n                                                                          <th scope=\"col1\">Unit Price</th>\n                                                                          <th scope=\"col1\">Total Price</th>\n                                                                          <th scope=\"col1\">Priority</th>\n                                                                          <th scope=\"col1\">Service Center</th>\n                                                                           <th scope=\"col1\">Actions</th>\n                                                                        </tr>\n                                                                        \n                                                                    \n                                                                      </thead>\n                                                                    <tbody>\n  \n                                                                    </tbody>\n                                                                  </table></div></div>\n                                                                  </mat-expansion-panel></div>\n                                                             \n                                                                <div id=\"exp5\" style=\"display: none !important;\"> \n\n\n                                                                    <mat-expansion-panel [expanded]=\"true\" style=\"background-color: transparent !important;box-shadow: none !important;\">\n                                                                        <mat-expansion-panel-header style=\"border-bottom: 1.3px solid #366e86;border-radius: 0px;\">\n                                                                        <mat-panel-title >\n                                                                        <h4 style=\"color: #366e86;\"> Oder Set</h4>\n                                \n                                                                        </mat-panel-title>\n                                                                      \n                                                                        </mat-expansion-panel-header>\n                                                                  <div class=\"card tb\" >\n                                                                    <div class=\"table-responsive\">\n                                                                        <table class=\"table table-striped\" id=\"ordertb\" style=\"display: none;\">\n                                                                            <thead>\n                                                                              <tr>\n                                                                                <th scope=\"col1\">Material Name</th>\n                                                                                <th scope=\"col1\">QTY</th>\n                                                                                <th scope=\"col1\">Actions</th>\n                                                                              </tr>\n                                                                              \n                                                                          \n                                                                            </thead>\n                                                                          <tbody>\n                                                                             \n                                                                          </tbody>\n                                                                        </table></div></div>  </mat-expansion-panel></div> \n  \n                                                          </div>\n                                                       \n                                              </div>\n\n\n                                     \n        \n                          </div>\n                         \n                            \n                                                <!-- </div> -->\n                                      \n                <script type=\"text/javascript\" src=\"https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js\"></script>\n                <script src=\"js/material.js\"></script>\n                <!-- Bootstrap tooltips -->\n                <script type=\"text/javascript\" src=\"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js\"></script>\n                <!-- Bootstrap core JavaScript -->\n                <script type=\"text/javascript\" src=\"https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js\"></script>\n                <!-- MDB core JavaScript -->\n                <script type=\"text/javascript\" src=\"https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.8/js/mdb.min.js\"></script>\n                <script src=\"https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js\"></script>\n                <!-- Include all compiled plugins (below), or include individual files as needed -->\n                <script src=\"//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js\"></script>\n\n   ");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/vitals/vitals.component.html":
+/*!************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/vitals/vitals.component.html ***!
+  \************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n\n    <div class=\"container-fluid\">\n        <!-- <h2 style=\"color: #366e86;\">Vitals</h2><hr style=\"background-color: #366e86;border: 0 none;color: #366e86;height: 1.3px;\"/>\n      \n         <br/> -->\n        <!-- <div class=\"space2\"></div>\n       -->\n            <div id=\"vitals-section\" class=\"row\" style=\"margin-top: 10px;\">\n            <!-- LEFT Container -->\n\n\n\n            <div class=\"col-md-3\">\n                    <h4 style=\"color: #366e86;\"> Vital Signs</h4>\n                    <hr style=\"background-color: #366e86;border: 0 none;color: #366e86;height: 1.3px;\"/>\n\n                    <div class=\"hero-message\">\n\n                            <li class=\"list-group-item lgi-custom selected\" data-target=\"general-vitals\" ng-click=\"myFunc()\" style=\"margin-top: 10px;\">General Vitals</li>\n                    </div>\n                    <div class=\"hero-message\">\n\n                            <li class=\"list-group-item lgi-custom\" data-target=\"cardiac-vitals\">Cardiac Vitals</li>\n                        </div>\n                    <div class=\"hero-message\">\n\n                            <li class=\"list-group-item lgi-custom\" data-target=\"pediatric-vitals\">Pediatric Vitals</li>\n                    </div>\n                    <div class=\"hero-message\">\n\n                            <li class=\"list-group-item lgi-custom\" data-target=\"er-vitals\">ER Vitals</li>\n                    </div>\n                    <div class=\"hero-message\">\n\n                            <li class=\"list-group-item lgi-custom\" data-target=\"ot-parameters\">OT Parameters</li>\n                    </div>\n\n                        <!-- <div class=\"hero-message\"> \n                                <h5 style=\"color: #366e86;\"> Vital Signs</h5>\n                                <hr style=\"background-color: #366e86;border: 0 none;color: #366e86;height: 1.3px;\"/>\n                    <ul class=\"list-group list-group-flush\" style=\"padding:10px;\">\n                        <li class=\"list-group-item lgi-custom selected\" data-target=\"general-vitals\" ng-click=\"myFunc()\">General Vitals</li>\n                        <li class=\"list-group-item lgi-custom\" data-target=\"cardiac-vitals\">Cardiac Vitals</li>\n                        <li class=\"list-group-item lgi-custom\" data-target=\"pediatric-vitals\">Pediatric Vitals</li>\n                        <li class=\"list-group-item lgi-custom\" data-target=\"er-vitals\">ER Vitals</li>\n                        <li class=\"list-group-item lgi-custom\" data-target=\"ot-parameters\">OT Parameters</li>\n                    </ul>\n                </div> -->\n            </div>\n            \n        \n  \n            <div class=\"col-md-7\" >\n                   \n                <div id=\"general-vitals\" >\n                    <!-- <div class=\"card-header container-fluid\"> -->\n                        \n                            <h4 style=\"color: #366e86;\"> General Vitals</h4> \n                            <hr style=\"background-color: #366e86;border: 0 none;color: #366e86;height: 1.3px;\"/><br/>\n                          \n                    <!-- </div> -->\n                    \n                    <div class=\"card tb\" >\n                        <div class=\"table-responsive\">\n                            <div class=\"col-md-12\">\n                        <table class=\"table table-striped\">\n                            <tr class=\"d-flex\">\n                                <td class=\"col-sm-3 col-md-3 col-lg-3\">\n                                        <mat-form-field class=\"form-sm\" style=\"\">\n                                                <input matInput placeholder=\"Height (cm)\" type=\"number\" id=\"general-vitals-height\"\n                                                class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                                </mat-form-field>\n                                        <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                            <input matInput placeholder=\"Weight (kg)\" type=\"number\" id=\"general-vitals-weight\"\n                                             class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                            </mat-form-field>\n                                            <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                              <input matInput placeholder=\"Temperature (F)\" type=\"number\" id=\"general-vitals-height\"\n                                               class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                              </mat-form-field>\n                                              <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                                <input matInput placeholder=\"Systolic BP(mm Hg)\" type=\"number\" id=\"general-vitals-bp-systolic\"\n                                                 class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                                </mat-form-field>\n                                              <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                                  <input matInput placeholder=\"Diastolic BP(mm Hg)\" type=\"number\" id=\"general-vitals-bp-diastolic\"\n                                                   class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                                  </mat-form-field>\n                                              <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                                    <input matInput placeholder=\"Pulse Rate \" type=\"number\" id=\"general-vitals-pulse\"\n                                                     class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                                 </mat-form-field>\n                                                <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                                    <input matInput placeholder=\"Pulse Rate \" type=\"number\" id=\"general-vitals-pulse\"\n                                                     class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                                </mat-form-field>\n                                                <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                                  <input matInput placeholder=\"Respiratory Rate \" type=\"number\" id=\"general-vitals-rr\"\n                                                   class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                              </mat-form-field>\n  \n                                              <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                                <input matInput placeholder=\"SPO2 (%)\" type=\"number\"  id=\"general-vitals-spo2\"\n                                                 class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                            </mat-form-field>\n                                            <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                              <input matInput placeholder=\"Pain Score\" type=\"number\"  id=\"general-vitals-pain-score\"\n                                               class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                          </mat-form-field>\n                                          <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                            <input matInput placeholder=\"Pain Acuity\" type=\"text\"  id=\"general-vitals-pain-acuity\"\n                                             class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                        </mat-form-field>\n                                        <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                          <input matInput placeholder=\"Pain Character\" type=\"text\"  id=\"general-vitals-pain-character\"\n                                           class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                      </mat-form-field>\n                                      <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                        <input matInput placeholder=\"Pain Location\" type=\"text\"  id=\"general-vitals-pain-location\"\n                                         class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                    </mat-form-field>\n                                    <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                      <input matInput placeholder=\"BMI (%)\" type=\"number\"  id=\"general-vitals-bmi\"\n                                       class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                  </mat-form-field>\n                                 \n                                </td>\n  \n                                <!-- <td class=\"col-sm-1 col-md-1 col-lg-1\">\n  \n  \n                                    <div class=\"md-form form-sm\">\n                                        <input type=\"text\" class=\"hideThis form-control form-control-sm\">\n                                        <label class=\"badge-value-indic\"><i title=\"High\" class=\"fas fa-arrow-alt-circle-up\"></i></label>\n                                    </div>\n                                    <div class=\"md-form form-sm\">\n                                        <input type=\"text\" class=\"hideThis form-control form-control-sm\">\n                                        <label class=\"badge-value-indic\"><i title=\"Low\" class=\"fas fa-arrow-alt-circle-down\"></i></label>\n                                    </div>\n                                    <div class=\"md-form form-sm\">\n                                        <input type=\"text\" class=\"hideThis form-control form-control-sm\">\n                                        <label class=\"badge-value-indic\"><i title=\"High\" class=\"fas fa-arrow-alt-circle-up\"></i></label>\n                                    </div>\n                                    <div class=\"md-form form-sm\">\n                                        <input type=\"text\" class=\"hideThis form-control form-control-sm\">\n                                        <label class=\"badge-value-indic\"><i title=\"Low\" class=\"fas fa-arrow-alt-circle-down\"></i></label>\n                                    </div>\n                                    <div class=\"md-form form-sm\">\n                                        <input type=\"text\" class=\"hideThis form-control form-control-sm\">\n                                        <label class=\"badge-value-indic\"><i title=\"High\" class=\"fas fa-arrow-alt-circle-up\"></i></label>\n                                    </div>\n                                    <div class=\"md-form form-sm\">\n                                        <input type=\"text\" class=\"hideThis form-control form-control-sm\">\n                                        <label class=\"badge-value-indic\"><i title=\"Normal\" class=\"fas fa-check-circle\"></i></label>\n                                    </div>\n                                    <div class=\"md-form form-sm\">\n                                        <input type=\"text\" class=\"hideThis form-control form-control-sm\">\n                                        <label class=\"badge-value-indic\"><i title=\"High\" class=\"fas fa-arrow-alt-circle-up\"></i></label>\n                                    </div>\n                                    <div class=\"md-form form-sm\">\n                                        <input type=\"text\" class=\"hideThis form-control form-control-sm\">\n                                        <label class=\"badge-value-indic\"><i title=\"High\" class=\"fas fa-arrow-alt-circle-up\"></i></label>\n                                    </div>\n                                    <div class=\"md-form form-sm\">\n                                        <input type=\"text\" class=\"hideThis form-control form-control-sm\">\n                                        <label class=\"badge-value-indic\"><i title=\"High\" class=\"fas fa-arrow-alt-circle-up\"></i></label>\n                                    </div>\n                                    <div class=\"md-form form-sm\">\n                                        <input type=\"text\" class=\"hideThis form-control form-control-sm\">\n                                        <label class=\"badge-value-indic\"><i title=\"High\" class=\"fas fa-arrow-alt-circle-up\"></i></label>\n                                    </div>\n                                    <div class=\"md-form form-sm\">\n                                        <input type=\"text\" class=\"hideThis form-control form-control-sm\">\n                                        <label class=\"badge-value-indic\"><i title=\"High\" class=\"fas fa-arrow-alt-circle-up\"></i></label>\n                                    </div>\n                                 \n  \n                                </td>\n   -->\n                                <td class=\"col-sm-9 col-md-9 col-lg-9\">\n  \n  \n  \n                                    <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                        <input matInput placeholder=\"Remarks\" type=\"text\" id=\"general-vitals-height-remarks\"\n                                         class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                    </mat-form-field>\n                                    <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                        <input matInput placeholder=\"Remarks\" type=\"text\"  id=\"general-vitals-weight-remarks\"\n                                         class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                    </mat-form-field>\n                                    <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                        <input matInput placeholder=\"Remarks\" type=\"text\"  id=\"general-vitals-temperature-remarks\"\n                                         class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                    </mat-form-field>\n                                    <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                        <input matInput placeholder=\"Remarks\" type=\"text\"  id=\"general-vitals-bp-systolic-remarks\"\n                                         class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                    </mat-form-field>\n                                    <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                        <input matInput placeholder=\"Remarks\" type=\"text\"  id=\"general-vitals-bp-diastolic-remarks\"\n                                         class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                    </mat-form-field>\n                                    <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                        <input matInput placeholder=\"Remarks\" type=\"text\"  id=\"general-vitals-pulse-remarks\"\n                                         class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                    </mat-form-field>\n                                    <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                        <input matInput placeholder=\"Remarks\" type=\"text\"   id=\"general-vitals-rr-remarks\"\n                                         class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                    </mat-form-field>\n  \n                                    <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                        <input matInput placeholder=\"Remarks\" type=\"text\"  id=\"general-vitals-spo2-remarks\"\n                                         class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                    </mat-form-field>\n                                    <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                        <input matInput placeholder=\"Remarks\" type=\"text\"  id=\"general-vitals-pain-score-remarks\"\n                                         class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                    </mat-form-field>\n                                    <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                        <input matInput placeholder=\"Remarks\" type=\"text\"  id=\"general-vitals-pain-acuity-remarks\"\n                                         class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                    </mat-form-field>\n                                    <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                        <input matInput placeholder=\"Remarks\" type=\"text\" id=\"general-vitals-pain-character-remarks\"\n                                         class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                    </mat-form-field>\n                                    <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                        <input matInput placeholder=\"Remarks\" type=\"text\" id=\"general-vitals-pain-location-remarks\"\n                                         class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                    </mat-form-field>\n                                    <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                        <input matInput placeholder=\"Remarks\" type=\"text\" id=\"general-vitals-bmi-remarks\"\n                                         class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                    </mat-form-field>\n  \n  \n                                </td>\n  \n                            </tr>\n                        </table></div></div>\n                    </div>\n                </div>\n                \n                <div id=\"cardiac-vitals\" class=\" card-details bg-info card-accent-colored\" style=\"display: none;\">\n                        <h4 style=\"color: #366e86;\">Cardiac Vitals</h4> \n                        <hr style=\"background-color: #366e86;border: 0 none;color: #366e86;height: 1.3px;\"/><br/>\n                   \n                    \n                    <div class=\"card tb\">\n                            <div class=\"table-responsive\">\n                        <table class=\"table borderless\">\n                            <tr class=\"d-flex\">\n                                <td class=\"col-sm-3 col-md-3 col-lg-3\">\n  \n  \n                                    <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                        <input matInput placeholder=\"Height (cm)\" type=\"number\" id=\"cardiac-vitals-height\"\n                                        class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                        </mat-form-field>\n                                <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                    <input matInput placeholder=\"Weight (kg)\" type=\"number\" id=\"cardiac-vitals-weight\"\n                                     class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                    </mat-form-field>\n                                    <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                      <input matInput placeholder=\"Temperature (F)\" type=\"number\" id=\"cardiac-vitals-temperature\"\n                                       class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                      </mat-form-field>\n                                      <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                        <input matInput placeholder=\"Systolic BP(mm Hg)\" type=\"number\" id=\"cardiac-vitals-bp-systolic\"\n                                         class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                        </mat-form-field>\n                                      <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                          <input matInput placeholder=\"Diastolic BP(mm Hg)\" type=\"number\"  id=\"cardiac-vitals-bp-diastolic\"\n                                           class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                          </mat-form-field>\n                                          <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                              <input matInput placeholder=\"Respiratory Rate \" type=\"number\" id=\"cardiac-vitals-rr\"\n                                               class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                          </mat-form-field>\n                                      <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                            <input matInput placeholder=\"SPO2 (%)\" type=\"number\"  id=\"cardiac-vitals-spo2\"\n                                             class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                         </mat-form-field>\n                                        <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                            <input matInput placeholder=\"Pain Score 1\" type=\"number\" id=\"cardiac-vitals-pain-score\"\n                                             class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                        </mat-form-field>\n                                         <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                        <input matInput placeholder=\"GRBS\" type=\"number\"  id=\"cardiac-vitals-grbs\"\n                                         class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                    </mat-form-field>\n                                    <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                      <input matInput placeholder=\"BMI (%)\" type=\"number\"  id=\"cardiac-vitals-bmi\"\n                                       class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                  </mat-form-field>\n  \n  \n  \n                                </td>\n  \n                                <!-- <td class=\"col-sm-1 col-md-1 col-lg-1\">\n                                    <div class=\"md-form form-sm\">\n                                        <input type=\"text\" class=\"hideThis form-control form-control-sm\">\n                                        <label class=\"badge-value-indic\"><i title=\"High\" class=\"fas fa-arrow-alt-circle-up\"></i></label>\n                                    </div>\n                                    <div class=\"md-form form-sm\">\n                                        <input type=\"text\" class=\"hideThis form-control form-control-sm\">\n                                        <label class=\"badge-value-indic\"><i title=\"Low\" class=\"fas fa-arrow-alt-circle-down\"></i></label>\n                                    </div>\n                                    <div class=\"md-form form-sm\">\n                                        <input type=\"text\" class=\"hideThis form-control form-control-sm\">\n                                        <label class=\"badge-value-indic\"><i title=\"High\" class=\"fas fa-arrow-alt-circle-up\"></i></label>\n                                    </div>\n                                    <div class=\"md-form form-sm\">\n                                        <input type=\"text\" class=\"hideThis form-control form-control-sm\">\n                                        <label class=\"badge-value-indic\"><i title=\"Low\" class=\"fas fa-arrow-alt-circle-down\"></i></label>\n                                    </div>\n                                    <div class=\"md-form form-sm\">\n                                        <input type=\"text\" class=\"hideThis form-control form-control-sm\">\n                                        <label class=\"badge-value-indic\"><i title=\"High\" class=\"fas fa-arrow-alt-circle-up\"></i></label>\n                                    </div>\n                                    <div class=\"md-form form-sm\">\n                                        <input type=\"text\" class=\"hideThis form-control form-control-sm\">\n                                        <label class=\"badge-value-indic\"><i title=\"High\" class=\"fas fa-arrow-alt-circle-up\"></i></label>\n                                    </div>\n                                    <div class=\"md-form form-sm\">\n                                        <input type=\"text\" class=\"hideThis form-control form-control-sm\">\n                                        <label class=\"badge-value-indic\"><i title=\"High\" class=\"fas fa-arrow-alt-circle-up\"></i></label>\n                                    </div>\n                                    <div class=\"md-form form-sm\">\n                                        <input type=\"text\" class=\"hideThis form-control form-control-sm\">\n                                        <label class=\"badge-value-indic\"><i title=\"High\" class=\"fas fa-arrow-alt-circle-up\"></i></label>\n                                    </div>\n                                  \n  \n                                </td>\n   -->\n                                <td class=\"col-sm-9 col-md-9 col-lg-9\">\n  \n                                    <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                        <input matInput placeholder=\"Remarks\" type=\"text\" id=\"cardiac-vitals-height-remarks\"\n                                         class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                    </mat-form-field>\n                                    <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                        <input matInput placeholder=\"Remarks\" type=\"text\"  id=\"cardiac-vitals-weight-remarks\"\n                                         class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                    </mat-form-field>\n                                    <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                        <input matInput placeholder=\"Remarks\" type=\"text\"  id=\"cardiac-vitals-temperature-remarks\"\n                                         class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                    </mat-form-field>\n                                    <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                        <input matInput placeholder=\"Remarks\" type=\"text\"  id=\"cardiac-vitals-bp-systolic-remarks\"\n                                         class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                    </mat-form-field>\n                                    <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                        <input matInput placeholder=\"Remarks\" type=\"text\" id=\"cardiac-vitals-bp-diastolic-remarks\"\n                                         class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                    </mat-form-field>\n                                    <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                        <input matInput placeholder=\"Remarks\" type=\"text\"  id=\"cardiac-vitals-pulse-remarks\"\n                                         class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                    </mat-form-field>\n                                    <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                        <input matInput placeholder=\"Remarks\" type=\"text\"  id=\"cardiac-vitals-rr-remarks\"\n                                         class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                    </mat-form-field>\n  \n                                    <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                        <input matInput placeholder=\"Remarks\" type=\"text\"  id=\"cardiac-vitals-spo2-remarks\"\n                                         class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                    </mat-form-field>\n                                    <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                        <input matInput placeholder=\"Remarks\" type=\"text\" id=\"cardiac-vitals-pain-score-remarks\" \n                                         class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                    </mat-form-field>\n                                    <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                        <input matInput placeholder=\"Remarks\" type=\"text\"  id=\"cardiac-vitals-pain-acuity-remarks\"\n                                         class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                    </mat-form-field>\n  \n                                </td>\n  \n                            </tr>\n                        </table></div>\n                    </div>\n                </div>\n  \n                <div id=\"pediatric-vitals\" class=\" card-details bg-info card-accent-colored\" style=\"display: none;\">\n                        <h4 style=\"color: #366e86;\">  Pediatric Vitals</h4> \n                        <hr style=\"background-color: #366e86;border: 0 none;color: #366e86;height: 1.3px;\"/><br/>\n                 \n                    \n                    <div class=\"card tb\">\n                            <div class=\"table-responsive\">\n                        <table class=\"table borderless\">\n                            <tr class=\"d-flex\">\n                                <td class=\"col-sm-3 col-md-3 col-lg-3\">\n  \n                                    <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                        <input matInput placeholder=\"Height (cm)\" type=\"number\" id=\"pediatric-vitals-height\"\n                                        class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                        </mat-form-field>\n                                <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                    <input matInput placeholder=\"Weight (kg)\" type=\"number\" id=\"pediatric-vitals-weight\"\n                                     class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                    </mat-form-field>\n                                    <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                      <input matInput placeholder=\"Temperature (F)\" type=\"number\" id=\"pediatric-vitals-temperature\"\n                                       class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                      </mat-form-field>\n                                      <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                        <input matInput placeholder=\"Systolic BP(mm Hg)\" type=\"number\" id=\"pediatric-vitals-bp-systolic\"\n                                         class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                        </mat-form-field>\n                                      <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                          <input matInput placeholder=\"Diastolic BP(mm Hg)\" type=\"number\"  id=\"pediatric-vitals-bp-diastolic\"\n                                           class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                          </mat-form-field>\n                                          <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                              <input matInput placeholder=\"Respiratory Rate \" type=\"number\" id=\"pediatric-vitals-rr\"\n                                               class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                          </mat-form-field>\n                                      <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                            <input matInput placeholder=\"SPO2 (%)\" type=\"number\"  id=\"pediatric-vitals-spo2\"\n                                             class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                         </mat-form-field>\n                                        <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                            <input matInput placeholder=\"Pain Score 1\" type=\"number\" id=\"pediatric-vitals-pain-score\"\n                                             class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                        </mat-form-field>\n                                        <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                            <input matInput placeholder=\"Abdominal Girth (cm)\" type=\"number\"  id=\"pediatric-vitals-abdominal-girth\"\n                                             class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                        </mat-form-field>\n                                           <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                        <input matInput placeholder=\"GRBS\" type=\"number\"  id=\"pediatric-vitals-grbs\"\n                                         class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                    </mat-form-field>\n                                    <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                      <input matInput placeholder=\"BMI (%)\" type=\"number\"  id=\"pediatric-vitals-bmi\"\n                                       class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                  </mat-form-field>\n  \n                                </td>\n  \n                                <!-- <td class=\"col-sm-1 col-md-1 col-lg-1\">\n                                    <div class=\"md-form form-sm\">\n                                        <input type=\"text\" class=\"hideThis form-control form-control-sm\">\n                                        <label class=\"badge-value-indic\"><i title=\"High\" class=\"fas fa-arrow-alt-circle-up\"></i></label>\n                                    </div>\n                                    <div class=\"md-form form-sm\">\n                                        <input type=\"text\" class=\"hideThis form-control form-control-sm\">\n                                        <label class=\"badge-value-indic\"><i title=\"Low\" class=\"fas fa-arrow-alt-circle-down\"></i></label>\n                                    </div>\n                                    <div class=\"md-form form-sm\">\n                                        <input type=\"text\" class=\"hideThis form-control form-control-sm\">\n                                        <label class=\"badge-value-indic\"><i title=\"High\" class=\"fas fa-arrow-alt-circle-up\"></i></label>\n                                    </div>\n                                    <div class=\"md-form form-sm\">\n                                        <input type=\"text\" class=\"hideThis form-control form-control-sm\">\n                                        <label class=\"badge-value-indic\"><i title=\"Low\" class=\"fas fa-arrow-alt-circle-down\"></i></label>\n                                    </div>\n                                    <div class=\"md-form form-sm\">\n                                        <input type=\"text\" class=\"hideThis form-control form-control-sm\">\n                                        <label class=\"badge-value-indic\"><i title=\"High\" class=\"fas fa-arrow-alt-circle-up\"></i></label>\n                                    </div>\n                                    <div class=\"md-form form-sm\">\n                                        <input type=\"text\" class=\"hideThis form-control form-control-sm\">\n                                        <label class=\"badge-value-indic\"><i title=\"High\" class=\"fas fa-arrow-alt-circle-up\"></i></label>\n                                    </div>\n                                    <div class=\"md-form form-sm\">\n                                        <input type=\"text\" class=\"hideThis form-control form-control-sm\">\n                                        <label class=\"badge-value-indic\"><i title=\"High\" class=\"fas fa-arrow-alt-circle-up\"></i></label>\n                                    </div>\n                                    <div class=\"md-form form-sm\">\n                                        <input type=\"text\" class=\"hideThis form-control form-control-sm\">\n                                        <label class=\"badge-value-indic\"><i title=\"High\" class=\"fas fa-arrow-alt-circle-up\"></i></label>\n                                    </div>\n                                    <div class=\"md-form form-sm\">\n                                        <input type=\"text\" class=\"hideThis form-control form-control-sm\">\n                                        <label class=\"badge-value-indic\"><i title=\"High\" class=\"fas fa-arrow-alt-circle-up\"></i></label>\n                                    </div>\n  \n                                </td> -->\n  \n                                <td class=\"col-sm-9 col-md-9 col-lg-9\">\n  \n                                    <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                        <input matInput placeholder=\"Remarks\" type=\"text\" id=\"pediatric-vitals-height-remarks\"\n                                         class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                    </mat-form-field>\n                                    <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                        <input matInput placeholder=\"Remarks\" type=\"text\" id=\"pediatric-vitals-weight-remarks\"\n                                         class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                    </mat-form-field>\n                                    <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                        <input matInput placeholder=\"Remarks\" type=\"text\"  id=\"pediatric-vitals-temperature-remarks\"\n                                         class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                    </mat-form-field>\n                                    <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                        <input matInput placeholder=\"Remarks\" type=\"text\"  id=\"pediatric-vitals-bp-diastolic-remarks\"\n                                         class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                    </mat-form-field>\n                                    <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                        <input matInput placeholder=\"Remarks\" type=\"text\" id=\"pediatric-vitals-pulse-remarks\"\n                                         class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                    </mat-form-field>\n                                    <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                        <input matInput placeholder=\"Remarks\" type=\"text\"  id=\"pediatric-vitals-rr-remarks\"\n                                         class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                    </mat-form-field>\n                                    <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                        <input matInput placeholder=\"Remarks\" type=\"text\"  id=\"pediatric-vitals-rr-remarks\"\n                                         class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                    </mat-form-field>\n  \n                                    <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                        <input matInput placeholder=\"Remarks\" type=\"text\"  id=\"pediatric-vitals-spo2-remarks\"\n                                         class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                    </mat-form-field>\n                                    <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                        <input matInput placeholder=\"Remarks\" type=\"text\" id=\"pediatric-vitals-pain-score-remarks\"\n                                         class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                    </mat-form-field>\n                                    <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                        <input matInput placeholder=\"Remarks\" type=\"text\"  id=\"pediatric-vitals-pain-acuity-remarks\"\n                                         class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                    </mat-form-field>\n                                    <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                        <input matInput placeholder=\"Remarks\" type=\"text\"  id=\"pediatric-vitals-bmi-remarks\"\n                                         class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                    </mat-form-field>\n  \n  \n                                </td>\n  \n                            </tr>\n                        </table>\n                    </div></div>\n                </div>\n  \n                <div id=\"er-vitals\" class=\" card-details bg-info card-accent-colored\" style=\"display: none;\">\n                        <h4 style=\"color: #366e86;\">     ER Vitals</h4> \n                        <hr style=\"background-color: #366e86;border: 0 none;color: #366e86;height: 1.3px;\"/><br/>\n                 \n                    \n                    <div class=\"card tb\">\n                            <div class=\"table-responsive\">\n                        <table class=\"table borderless\">\n                            <tr class=\"d-flex\">\n                                <td class=\"col-sm-3 col-md-3 col-lg-3\">\n  \n                                    <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                        <input matInput placeholder=\"Height (cm)\" type=\"number\" id=\"er-vitals-height\"\n                                        class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                        </mat-form-field>\n                                <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                    <input matInput placeholder=\"Weight (kg)\" type=\"number\" id=\"er-vitals-weight\"\n                                     class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                    </mat-form-field>\n                                    <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                      <input matInput placeholder=\"Temperature (F)\" type=\"number\" id=\"er-vitals-temperature\"\n                                       class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                      </mat-form-field>\n                                      <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                        <input matInput placeholder=\"Systolic BP(mm Hg)\" type=\"number\" id=\"er-vitals-bp-systolic\"\n                                         class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                        </mat-form-field>\n                                      <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                          <input matInput placeholder=\"Diastolic BP(mm Hg)\" type=\"number\"  id=\"er-vitals-bp-diastolic\"\n                                           class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                          </mat-form-field>\n                                          <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                              <input matInput placeholder=\"Pulse Rate \" type=\"number\" id=\"er-vitals-pulse\"\n                                               class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                          </mat-form-field>\n                                      <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                            <input matInput placeholder=\"Respiratory Rate \" type=\"number\"  id=\"er-vitals-rr\"\n                                             class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                         </mat-form-field>\n                                        <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                            <input matInput placeholder=\"SPO2 (%)\" type=\"number\" id=\"er-vitals-spo2\"\n                                             class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                        </mat-form-field>\n                                        <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                            <input matInput placeholder=\"Pain Score 1\" type=\"number\"  id=\"er-vitals-pain-score\"\n                                             class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                        </mat-form-field>\n                                           <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                        <input matInput placeholder=\"GRBS\" type=\"number\"  id=\"er-vitals-grbs\"\n                                         class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                    </mat-form-field>\n                                    <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                      <input matInput placeholder=\"BMI (%)\" type=\"number\"  id=\"er-vitals-bmi\"\n                                       class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                  </mat-form-field>\n  \n                                </td>\n  \n                                <!-- <td class=\"col-sm-1 col-md-1 col-lg-1\">\n                                    <div class=\"md-form form-sm\">\n                                        <input type=\"text\" class=\"hideThis form-control form-control-sm\">\n                                        <label class=\"badge-value-indic\"><i title=\"High\" class=\"fas fa-arrow-alt-circle-up\"></i></label>\n                                    </div>\n                                    <div class=\"md-form form-sm\">\n                                        <input type=\"text\" class=\"hideThis form-control form-control-sm\">\n                                        <label class=\"badge-value-indic\"><i title=\"Low\" class=\"fas fa-arrow-alt-circle-down\"></i></label>\n                                    </div>\n                                    <div class=\"md-form form-sm\">\n                                        <input type=\"text\" class=\"hideThis form-control form-control-sm\">\n                                        <label class=\"badge-value-indic\"><i title=\"High\" class=\"fas fa-arrow-alt-circle-up\"></i></label>\n                                    </div>\n                                    <div class=\"md-form form-sm\">\n                                        <input type=\"text\" class=\"hideThis form-control form-control-sm\">\n                                        <label class=\"badge-value-indic\"><i title=\"Low\" class=\"fas fa-arrow-alt-circle-down\"></i></label>\n                                    </div>\n                                    <div class=\"md-form form-sm\">\n                                        <input type=\"text\" class=\"hideThis form-control form-control-sm\">\n                                        <label class=\"badge-value-indic\"><i title=\"High\" class=\"fas fa-arrow-alt-circle-up\"></i></label>\n                                    </div>\n                                    <div class=\"md-form form-sm\">\n                                        <input type=\"text\" class=\"hideThis form-control form-control-sm\">\n                                        <label class=\"badge-value-indic\"><i title=\"High\" class=\"fas fa-arrow-alt-circle-up\"></i></label>\n                                    </div>\n                                    <div class=\"md-form form-sm\">\n                                        <input type=\"text\" class=\"hideThis form-control form-control-sm\">\n                                        <label class=\"badge-value-indic\"><i title=\"High\" class=\"fas fa-arrow-alt-circle-up\"></i></label>\n                                    </div>\n                                    <div class=\"md-form form-sm\">\n                                        <input type=\"text\" class=\"hideThis form-control form-control-sm\">\n                                        <label class=\"badge-value-indic\"><i title=\"High\" class=\"fas fa-arrow-alt-circle-up\"></i></label>\n                                    </div>\n                                    <div class=\"md-form form-sm\">\n                                        <input type=\"text\" class=\"hideThis form-control form-control-sm\">\n                                        <label class=\"badge-value-indic\"><i title=\"High\" class=\"fas fa-arrow-alt-circle-up\"></i></label>\n                                    </div>\n                                   \n  \n                                </td> -->\n  \n                                <td class=\"col-sm-9 col-md-9 col-lg-9\">\n  \n  \n                                    <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                        <input matInput placeholder=\"Remarks\" type=\"text\" id=\"er-vitals-height-remarks\"\n                                         class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                    </mat-form-field>\n                                    <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                        <input matInput placeholder=\"Remarks\" type=\"text\" id=\"er-vitals-weight-remarks\"\n                                         class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                    </mat-form-field>\n                                    <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                        <input matInput placeholder=\"Remarks\" type=\"text\"  id=\"er-vitals-temperature-remarks\"\n                                         class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                    </mat-form-field>\n                                    <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                        <input matInput placeholder=\"Remarks\" type=\"text\"  id=\"er-vitals-bp-systolic-remarks\"\n                                         class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                    </mat-form-field>\n                                    <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                        <input matInput placeholder=\"Remarks\" type=\"text\" id=\"er-vitals-bp-diastolic-remarks\"\n                                         class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                    </mat-form-field>\n                                    <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                        <input matInput placeholder=\"Remarks\" type=\"text\" id=\"er-vitals-pulse-remarks\"\n                                         class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                    </mat-form-field>\n                                    <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                        <input matInput placeholder=\"Remarks\" type=\"text\"  id=\"er-vitals-rr-remarks\"\n                                         class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                    </mat-form-field>\n  \n                                    <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                        <input matInput placeholder=\"Remarks\" type=\"text\"  id=\"er-vitals-spo2-remarks\"\n                                         class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                    </mat-form-field>\n                                    <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                        <input matInput placeholder=\"Remarks\" type=\"text\" id=\"er-vitals-pain-score-remarks\"\n                                         class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                    </mat-form-field>\n                                    <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                        <input matInput placeholder=\"Remarks\" type=\"text\"  id=\"er-vitals-pain-acuity-remarks\"\n                                         class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                    </mat-form-field>\n                                    <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                        <input matInput placeholder=\"Remarks\" type=\"text\"  id=\"er-vitals-bmi-remarks\"\n                                         class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                    </mat-form-field>\n                                </td>\n  \n                            </tr>\n                        </table>\n                    </div>\n                </div></div>\n  \n                <div id=\"ot-parameters\" class=\" card-details bg-info card-accent-colored\" style=\"display: none;\">\n                        <h4 style=\"color: #366e86;\">OT Parameters</h4> \n                        <hr style=\"background-color: #366e86;border: 0 none;color: #366e86;height: 1.3px;\"/><br/>\n                  \n                    \n                    <div class=\"card tb\">\n                            <div class=\"table-responsive\">\n                        <table class=\"table borderless\">\n                            <tr class=\"d-flex\">\n                                <td class=\"col-sm-3 col-md-3 col-lg-3\">\n                                    \n  \n  \n                                   \n                                <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                    <input matInput placeholder=\"Weight (kg)\" type=\"number\" id=\"ot-parameters-weight\"\n                                     class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                    </mat-form-field>\n                                    <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                      <input matInput placeholder=\"Pain Score\" type=\"number\" id=\"er-vitals-temperature\"\n                                       class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                      </mat-form-field>\n                                      <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                        <input matInput placeholder=\"Temperature (F)\" type=\"number\" id=\"ot-parameters-temperature\"\n                                         class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                        </mat-form-field>\n                                      <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                          <input matInput placeholder=\"Systolic BP(mm Hg)\" type=\"number\"  id=\"ot-parameters-bp-systolic\"\n                                           class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                          </mat-form-field>\n                                          <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                              <input matInput placeholder=\"Diastolic BP(mm Hg)\" type=\"number\" id=\"ot-parameters-bp-diastolic\"\n                                               class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                          </mat-form-field>\n                                          <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                              <input matInput placeholder=\"Pulse Rate \" type=\"number\" id=\"ot-parameters-pulse\"\n                                               class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                          </mat-form-field>\n                                      <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                            <input matInput placeholder=\"Respiratory Rate \" type=\"number\" id=\"ot-parameters-rr\"\n                                             class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                         </mat-form-field>\n                                        <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                            <input matInput placeholder=\"SPO2 (%)\" type=\"number\" id=\"ot-parameters-spo2\"\n                                             class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                        </mat-form-field>\n                                        <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                            <input matInput placeholder=\"Blood Transfusion\" type=\"number\"  id=\"ot-parameters-blood-transfusion\" \n                                             class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                        </mat-form-field>\n                                           <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                        <input matInput placeholder=\"Bowels\" type=\"number\"  id=\"ot-parameters-bowels\"\n                                         class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                    </mat-form-field>\n                                    <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                      <input matInput placeholder=\"Bladder\" type=\"number\"  id=\"ot-parameters-bladder\"\n                                       class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                  </mat-form-field>\n                                  <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                      <input matInput placeholder=\"Diet\" type=\"number\"  id=\"ot-parameters-diet\"\n                                       class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                  </mat-form-field>\n                                </td>\n  \n                                <!-- <td class=\"col-sm-1 col-md-1 col-lg-1\">\n                                    <div class=\"md-form form-sm\">\n                                        <input type=\"text\" class=\"hideThis form-control form-control-sm\">\n                                        <label class=\"badge-value-indic\"><i title=\"High\" class=\"fas fa-arrow-alt-circle-up\"></i></label>\n                                    </div>\n                                    <div class=\"md-form form-sm\">\n                                        <input type=\"text\" class=\"hideThis form-control form-control-sm\">\n                                        <label class=\"badge-value-indic\"><i title=\"Low\" class=\"fas fa-arrow-alt-circle-down\"></i></label>\n                                    </div>\n                                    <div class=\"md-form form-sm\">\n                                        <input type=\"text\" class=\"hideThis form-control form-control-sm\">\n                                        <label class=\"badge-value-indic\"><i title=\"High\" class=\"fas fa-arrow-alt-circle-up\"></i></label>\n                                    </div>\n                                    <div class=\"md-form form-sm\">\n                                        <input type=\"text\" class=\"hideThis form-control form-control-sm\">\n                                        <label class=\"badge-value-indic\"><i title=\"Low\" class=\"fas fa-arrow-alt-circle-down\"></i></label>\n                                    </div>\n                                    <div class=\"md-form form-sm\">\n                                        <input type=\"text\" class=\"hideThis form-control form-control-sm\">\n                                        <label class=\"badge-value-indic\"><i title=\"High\" class=\"fas fa-arrow-alt-circle-up\"></i></label>\n                                    </div>\n                                    <div class=\"md-form form-sm\">\n                                        <input type=\"text\" class=\"hideThis form-control form-control-sm\">\n                                        <label class=\"badge-value-indic\"><i title=\"High\" class=\"fas fa-arrow-alt-circle-up\"></i></label>\n                                    </div>\n                                    <div class=\"md-form form-sm\">\n                                        <input type=\"text\" class=\"hideThis form-control form-control-sm\">\n                                        <label class=\"badge-value-indic\"><i title=\"High\" class=\"fas fa-arrow-alt-circle-up\"></i></label>\n                                    </div>\n                                    <div class=\"md-form form-sm\">\n                                        <input type=\"text\" class=\"hideThis form-control form-control-sm\">\n                                        <label class=\"badge-value-indic\"><i title=\"High\" class=\"fas fa-arrow-alt-circle-up\"></i></label>\n                                    </div>\n                                    <div class=\"md-form form-sm\">\n                                        <input type=\"text\" class=\"hideThis form-control form-control-sm\">\n                                        <label class=\"badge-value-indic\"><i title=\"High\" class=\"fas fa-arrow-alt-circle-up\"></i></label>\n                                    </div>\n                                    <div class=\"md-form form-sm\">\n                                        <input type=\"text\" class=\"hideThis form-control form-control-sm\">\n                                        <label class=\"badge-value-indic\"><i title=\"High\" class=\"fas fa-arrow-alt-circle-up\"></i></label>\n                                    </div>\n                                  \n  \n                                </td> -->\n  \n                                <td class=\"col-sm-9 col-md-9 col-lg-9\">\n                                    <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                        <input matInput placeholder=\"Remarks\" type=\"text\" id=\"ot-parameters-height-remarks\"\n                                         class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                    </mat-form-field>\n                                    <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                        <input matInput placeholder=\"Remarks\" type=\"text\" id=\"ot-parameters-weight-remarks\"\n                                         class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                    </mat-form-field>\n                                    <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                        <input matInput placeholder=\"Remarks\" type=\"text\"  id=\"ot-parameters-temperature-remarks\"\n                                         class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                    </mat-form-field>\n                                    <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                        <input matInput placeholder=\"Remarks\" type=\"text\"  id=\"ot-parameters-bp-systolic-remarks\"\n                                         class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                    </mat-form-field>\n                                    <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                        <input matInput placeholder=\"Remarks\" type=\"text\" id=\"ot-parameters-bp-diastolic-remarks\"\n                                         class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                    </mat-form-field>\n                                    <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                        <input matInput placeholder=\"Remarks\" type=\"text\" id=\"ot-parameters-pulse-remarks\"\n                                         class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                    </mat-form-field>\n                                    <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                        <input matInput placeholder=\"Remarks\" type=\"text\"  id=\"ot-parameters-rr-remarks\"\n                                         class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                    </mat-form-field>\n  \n                                    <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                        <input matInput placeholder=\"Remarks\" type=\"text\"  id=\"ot-parameters-spo2-remarks\"\n                                         class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                    </mat-form-field>\n                                    <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                        <input matInput placeholder=\"Remarks\" type=\"text\"  id=\"ot-parameters-pain-score-remarks\"\n                                         class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                    </mat-form-field>\n                                    <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                        <input matInput placeholder=\"Remarks\" type=\"text\" id=\"ot-parameters-pain-acuity-remarks\"\n                                         class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                    </mat-form-field>\n                                    <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                        <input matInput placeholder=\"Remarks\" type=\"text\"  id=\"ot-parameters-pain-character-remarks\"\n                                         class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                    </mat-form-field>\n                                    <mat-form-field class=\"form-sm\" style=\"width: 100% !important;\">\n                                        <input matInput placeholder=\"Remarks\" type=\"text\"  id=\"ot-parameters-pain-location-remarks\"\n                                         class=\"form-control form-control-sm gen-vital\" data-min=\"0\" data-max=\"300\">\n                                    </mat-form-field>\n  \n  \n                                </td>\n  \n                            </tr>\n                        </table></div>\n                    </div>\n                </div>\n  \n  \n  \n            </div><!--Column ends here -->\n  \n            </div>\n  \n    </div>");
+
+/***/ }),
+
+/***/ "./node_modules/tslib/tslib.es6.js":
+/*!*****************************************!*\
+  !*** ./node_modules/tslib/tslib.es6.js ***!
+  \*****************************************/
+/*! exports provided: __extends, __assign, __rest, __decorate, __param, __metadata, __awaiter, __generator, __exportStar, __values, __read, __spread, __spreadArrays, __await, __asyncGenerator, __asyncDelegator, __asyncValues, __makeTemplateObject, __importStar, __importDefault */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "__extends", function() { return __extends; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "__assign", function() { return __assign; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "__rest", function() { return __rest; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "__decorate", function() { return __decorate; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "__param", function() { return __param; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "__metadata", function() { return __metadata; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "__awaiter", function() { return __awaiter; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "__generator", function() { return __generator; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "__exportStar", function() { return __exportStar; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "__values", function() { return __values; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "__read", function() { return __read; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "__spread", function() { return __spread; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "__spreadArrays", function() { return __spreadArrays; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "__await", function() { return __await; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "__asyncGenerator", function() { return __asyncGenerator; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "__asyncDelegator", function() { return __asyncDelegator; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "__asyncValues", function() { return __asyncValues; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "__makeTemplateObject", function() { return __makeTemplateObject; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "__importStar", function() { return __importStar; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "__importDefault", function() { return __importDefault; });
+/*! *****************************************************************************
+Copyright (c) Microsoft Corporation. All rights reserved.
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use
+this file except in compliance with the License. You may obtain a copy of the
+License at http://www.apache.org/licenses/LICENSE-2.0
+
+THIS CODE IS PROVIDED ON AN *AS IS* BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, EITHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION ANY IMPLIED
+WARRANTIES OR CONDITIONS OF TITLE, FITNESS FOR A PARTICULAR PURPOSE,
+MERCHANTABLITY OR NON-INFRINGEMENT.
+
+See the Apache Version 2.0 License for specific language governing permissions
+and limitations under the License.
+***************************************************************************** */
+/* global Reflect, Promise */
+
+var extendStatics = function(d, b) {
+    extendStatics = Object.setPrototypeOf ||
+        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+    return extendStatics(d, b);
+};
+
+function __extends(d, b) {
+    extendStatics(d, b);
+    function __() { this.constructor = d; }
+    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+}
+
+var __assign = function() {
+    __assign = Object.assign || function __assign(t) {
+        for (var s, i = 1, n = arguments.length; i < n; i++) {
+            s = arguments[i];
+            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p)) t[p] = s[p];
+        }
+        return t;
+    }
+    return __assign.apply(this, arguments);
+}
+
+function __rest(s, e) {
+    var t = {};
+    for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p) && e.indexOf(p) < 0)
+        t[p] = s[p];
+    if (s != null && typeof Object.getOwnPropertySymbols === "function")
+        for (var i = 0, p = Object.getOwnPropertySymbols(s); i < p.length; i++) {
+            if (e.indexOf(p[i]) < 0 && Object.prototype.propertyIsEnumerable.call(s, p[i]))
+                t[p[i]] = s[p[i]];
+        }
+    return t;
+}
+
+function __decorate(decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+}
+
+function __param(paramIndex, decorator) {
+    return function (target, key) { decorator(target, key, paramIndex); }
+}
+
+function __metadata(metadataKey, metadataValue) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(metadataKey, metadataValue);
+}
+
+function __awaiter(thisArg, _arguments, P, generator) {
+    return new (P || (P = Promise))(function (resolve, reject) {
+        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
+        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
+        function step(result) { result.done ? resolve(result.value) : new P(function (resolve) { resolve(result.value); }).then(fulfilled, rejected); }
+        step((generator = generator.apply(thisArg, _arguments || [])).next());
+    });
+}
+
+function __generator(thisArg, body) {
+    var _ = { label: 0, sent: function() { if (t[0] & 1) throw t[1]; return t[1]; }, trys: [], ops: [] }, f, y, t, g;
+    return g = { next: verb(0), "throw": verb(1), "return": verb(2) }, typeof Symbol === "function" && (g[Symbol.iterator] = function() { return this; }), g;
+    function verb(n) { return function (v) { return step([n, v]); }; }
+    function step(op) {
+        if (f) throw new TypeError("Generator is already executing.");
+        while (_) try {
+            if (f = 1, y && (t = op[0] & 2 ? y["return"] : op[0] ? y["throw"] || ((t = y["return"]) && t.call(y), 0) : y.next) && !(t = t.call(y, op[1])).done) return t;
+            if (y = 0, t) op = [op[0] & 2, t.value];
+            switch (op[0]) {
+                case 0: case 1: t = op; break;
+                case 4: _.label++; return { value: op[1], done: false };
+                case 5: _.label++; y = op[1]; op = [0]; continue;
+                case 7: op = _.ops.pop(); _.trys.pop(); continue;
+                default:
+                    if (!(t = _.trys, t = t.length > 0 && t[t.length - 1]) && (op[0] === 6 || op[0] === 2)) { _ = 0; continue; }
+                    if (op[0] === 3 && (!t || (op[1] > t[0] && op[1] < t[3]))) { _.label = op[1]; break; }
+                    if (op[0] === 6 && _.label < t[1]) { _.label = t[1]; t = op; break; }
+                    if (t && _.label < t[2]) { _.label = t[2]; _.ops.push(op); break; }
+                    if (t[2]) _.ops.pop();
+                    _.trys.pop(); continue;
+            }
+            op = body.call(thisArg, _);
+        } catch (e) { op = [6, e]; y = 0; } finally { f = t = 0; }
+        if (op[0] & 5) throw op[1]; return { value: op[0] ? op[1] : void 0, done: true };
+    }
+}
+
+function __exportStar(m, exports) {
+    for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
+}
+
+function __values(o) {
+    var m = typeof Symbol === "function" && o[Symbol.iterator], i = 0;
+    if (m) return m.call(o);
+    return {
+        next: function () {
+            if (o && i >= o.length) o = void 0;
+            return { value: o && o[i++], done: !o };
+        }
+    };
+}
+
+function __read(o, n) {
+    var m = typeof Symbol === "function" && o[Symbol.iterator];
+    if (!m) return o;
+    var i = m.call(o), r, ar = [], e;
+    try {
+        while ((n === void 0 || n-- > 0) && !(r = i.next()).done) ar.push(r.value);
+    }
+    catch (error) { e = { error: error }; }
+    finally {
+        try {
+            if (r && !r.done && (m = i["return"])) m.call(i);
+        }
+        finally { if (e) throw e.error; }
+    }
+    return ar;
+}
+
+function __spread() {
+    for (var ar = [], i = 0; i < arguments.length; i++)
+        ar = ar.concat(__read(arguments[i]));
+    return ar;
+}
+
+function __spreadArrays() {
+    for (var s = 0, i = 0, il = arguments.length; i < il; i++) s += arguments[i].length;
+    for (var r = Array(s), k = 0, i = 0; i < il; i++)
+        for (var a = arguments[i], j = 0, jl = a.length; j < jl; j++, k++)
+            r[k] = a[j];
+    return r;
+};
+
+function __await(v) {
+    return this instanceof __await ? (this.v = v, this) : new __await(v);
+}
+
+function __asyncGenerator(thisArg, _arguments, generator) {
+    if (!Symbol.asyncIterator) throw new TypeError("Symbol.asyncIterator is not defined.");
+    var g = generator.apply(thisArg, _arguments || []), i, q = [];
+    return i = {}, verb("next"), verb("throw"), verb("return"), i[Symbol.asyncIterator] = function () { return this; }, i;
+    function verb(n) { if (g[n]) i[n] = function (v) { return new Promise(function (a, b) { q.push([n, v, a, b]) > 1 || resume(n, v); }); }; }
+    function resume(n, v) { try { step(g[n](v)); } catch (e) { settle(q[0][3], e); } }
+    function step(r) { r.value instanceof __await ? Promise.resolve(r.value.v).then(fulfill, reject) : settle(q[0][2], r); }
+    function fulfill(value) { resume("next", value); }
+    function reject(value) { resume("throw", value); }
+    function settle(f, v) { if (f(v), q.shift(), q.length) resume(q[0][0], q[0][1]); }
+}
+
+function __asyncDelegator(o) {
+    var i, p;
+    return i = {}, verb("next"), verb("throw", function (e) { throw e; }), verb("return"), i[Symbol.iterator] = function () { return this; }, i;
+    function verb(n, f) { i[n] = o[n] ? function (v) { return (p = !p) ? { value: __await(o[n](v)), done: n === "return" } : f ? f(v) : v; } : f; }
+}
+
+function __asyncValues(o) {
+    if (!Symbol.asyncIterator) throw new TypeError("Symbol.asyncIterator is not defined.");
+    var m = o[Symbol.asyncIterator], i;
+    return m ? m.call(o) : (o = typeof __values === "function" ? __values(o) : o[Symbol.iterator](), i = {}, verb("next"), verb("throw"), verb("return"), i[Symbol.asyncIterator] = function () { return this; }, i);
+    function verb(n) { i[n] = o[n] && function (v) { return new Promise(function (resolve, reject) { v = o[n](v), settle(resolve, reject, v.done, v.value); }); }; }
+    function settle(resolve, reject, d, v) { Promise.resolve(v).then(function(v) { resolve({ value: v, done: d }); }, reject); }
+}
+
+function __makeTemplateObject(cooked, raw) {
+    if (Object.defineProperty) { Object.defineProperty(cooked, "raw", { value: raw }); } else { cooked.raw = raw; }
+    return cooked;
+};
+
+function __importStar(mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (Object.hasOwnProperty.call(mod, k)) result[k] = mod[k];
+    result.default = mod;
+    return result;
+}
+
+function __importDefault(mod) {
+    return (mod && mod.__esModule) ? mod : { default: mod };
+}
+
+
+/***/ }),
+
+/***/ "./src/app/allergy/allergy.component.css":
+/*!***********************************************!*\
+  !*** ./src/app/allergy/allergy.component.css ***!
+  \***********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\r\n            @media only screen and (max-width: 600px){\r\n                \r\n                table th{\r\n\r\n                    font-size :13px !important;\r\n                }\r\n            h3{\r\n                font-size: 23px;\r\n                margin-top: 7px !important;\r\n            }\r\n\r\n            h3.tp{\r\n\r\n                margin-top: -14px !important;    \r\n            }\r\n                button.button.glass.blue-a {\r\n                    padding: 0px 5px;\r\n                    position: absolute;\r\n                    top: -41px;\r\n                    right: 23px;\r\n                }\r\n            #allergy-section{\r\n                margin-left: 4px;\r\n            }\r\n            .card-body{\r\n                max-height: 10rem !important; \r\n                overflow: auto;\r\n                color: white;\r\n            }\r\n            .hero-message::before {\r\n                min-width: 91% !important;\r\n                content: \"\" !important;\r\n                display: block !important;\r\n                position: absolute !important;\r\n                margin-left: 0px;\r\n                border-radius: 4px;\r\n                height: 13rem !important;\r\n                z-index: -1 !important;\r\n                opacity: 0.5;\r\n                background-color: #006894;\r\n                }\r\n\r\n            }\r\n\r\n            mat-form-field{\r\n                width: 100% !important;\r\n                margin-bottom: -6px;\r\n                margin-left: 5px;\r\n                margin-right: 5px !important;\r\n            }\r\n\r\n            #allergydtl{\r\n                padding-top: -18px !important;\r\n                padding-right: 10px\r\n            }\r\n\r\n            .card.tb{\r\n                opacity: 0.6;\r\n                background:linear-gradient(160deg,#006894,#006894)!important;\r\n            }\r\n\r\n            .hero-message::before {\r\n                content: \"\";\r\n                display: block;\r\n                position: absolute;\r\n                margin-left: 0px;\r\n                min-width: 91.1%;\r\n                border-radius: 4px;\r\n                height: 25.2rem;\r\n                z-index: -1;\r\n                opacity: 0.5;\r\n                background-color: #006894;\r\n                }\r\n\r\n            .card-body{\r\n                max-height: 21.3rem; \r\n                overflow: auto;\r\n                color: white;\r\n            }\r\n\r\n            .mat-select-value{\r\n                color: white !important;\r\n            }\r\n\r\n            ::-webkit-scrollbar { \r\n                display: none; \r\n                }\r\n\r\n            h4{\r\n                    padding-top: 10px;\r\n                \r\n                    padding-left: 16px;\r\n                }\r\n\r\n            .button {\r\n                color:rgba(183, 245, 245, 0.84);\r\n                text-shadow: 0px 1px #000;\r\n                font-size: 15px;\r\n                margin-top: 7px;\r\n                text-decoration:none;\r\n                padding: 0.1em 0.6em;\r\n                cursor: pointer;\r\n                overflow: visible;\r\n                border-radius: 3px;\r\n                -webkit-border-radius: 3px;\r\n                -moz-border-radius: 3px;\r\n                transition: all 0.1s ease-in-out;\r\n                outline: 0;\r\n            }\r\n\r\n            .glass {\r\n            background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzYwNjc2OCIgc3RvcC1vcGFjaXR5PSIwLjMiLz4KICAgIDxzdG9wIG9mZnNldD0iMyUiIHN0b3AtY29sb3I9IiNiYmJiYmIiIHN0b3Atb3BhY2l0eT0iMC4zIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjI3JSIgc3RvcC1jb2xvcj0iI2JiYmJiYiIgc3RvcC1vcGFjaXR5PSIwLjMiLz4KICAgIDxzdG9wIG9mZnNldD0iMjglIiBzdG9wLWNvbG9yPSIjMDAwMDAwIiBzdG9wLW9wYWNpdHk9IjAuMyIvPgogICAgPHN0b3Agb2Zmc2V0PSI3MyUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMC4zIi8+CiAgICA8c3RvcCBvZmZzZXQ9Ijg4JSIgc3RvcC1jb2xvcj0iIzRiNTA1MSIgc3RvcC1vcGFjaXR5PSIwLjMiLz4KICAgIDxzdG9wIG9mZnNldD0iOTclIiBzdG9wLWNvbG9yPSIjMDAwMDAwIiBzdG9wLW9wYWNpdHk9IjAuMyIvPgogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMDAwMDAwIiBzdG9wLW9wYWNpdHk9IjAuMyIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+); /* Chrome10+,Safari5.1+ */ /* Opera 11.10+ */ /* IE10+ */\r\n                background: linear-gradient(to bottom,  rgba(96,103,104,0.3) 0%,rgba(187,187,187,0.3) 3%,rgba(187,187,187,0.3) 27%,rgba(0,0,0,0.3) 28%,rgba(0,0,0,0.3) 60%,rgba(0,0,0,0.3) 73%,rgba(75,80,81,0.3) 88%,rgba(0,0,0,0.3) 97%,rgba(0,0,0,0.3) 100%); /* W3C */\r\n                border-color: rgba(0, 0, 0, 0.6);\r\n                -o-border-image: none;\r\n                   border-image: none;\r\n                border-style: solid;\r\n                border-width: 1px;\r\n            \r\n                box-shadow:\r\n                0 1px 0 0 rgba(255, 255, 255, 0.4) inset,\r\n                0 2px 6px rgba(0, 0, 0, 0.5),\r\n                0 10px rgba(0, 0, 0, 0.05) inset;\r\n            }\r\n\r\n            button:active {\r\n                margin-left: 2px;\r\n                margin-right: -2px;\r\n            }\r\n\r\n            button:active.blue-a {\r\n                transition: none !important; \r\n            \r\n            }\r\n\r\n            .blue-a {\r\n                color: rgb(67, 195, 199);\r\n                background-color: rgba(67, 195, 199, 0.28);\r\n            }\r\n\r\n            button:hover.blue-a {\r\n                color: rgba(230, 240, 255, 0.99);\r\n                /* text-shadow: 0px 0px 2px rgba(230, 240, 255, 0.99), 0px 0px 4px rgba(200, 230, 255, 0.99); */\r\n                border-color: rgba(120, 200, 255, 0.4);\r\n                box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.4) inset, 0 2px 6px rgba(0, 0, 0, 0.5), 0 10px rgba(0, 0, 0, 0.05) inset, 0 0px 5px 2px rgba(79, 216, 220, 0.83), 0 0px 10px 2px rgba(67, 195, 199, 0.74) inset;\r\n\r\n            }\r\n\r\n            button:active.blue-a {\r\n                color: rgba(230, 240, 255, 0.99);\r\n\r\n                border-color: rgba(120, 200, 255, 0.6) !important;\r\n                -o-border-image: none;\r\n                   border-image: none;\r\n                border-style: solid;\r\n                border-width: 1px;\r\n\r\n                box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.4) inset, 0 2px 6px rgba(0, 0, 0, 0.5), 0 10px rgba(0, 0, 0, 0.05) inset, 0 0px 5px 2px rgba(79, 216, 220, 0.83), 0 0px 10px 2px rgba(67, 195, 199, 0.74) inset;\r\n\r\n                background:  url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPHJhZGlhbEdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY3g9IjUwJSIgY3k9IjUwJSIgcj0iNzUlIj4KICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiM3OGM4ZmYiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjNzhjOGZmIiBzdG9wLW9wYWNpdHk9IjAiLz4KICA8L3JhZGlhbEdyYWRpZW50PgogIDxyZWN0IHg9Ii01MCIgeT0iLTUwIiB3aWR0aD0iMTAxIiBoZWlnaHQ9IjEwMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+); /* FF3.6+ */ /* Chrome,Safari4+ */ /* Chrome10+,Safari5.1+ */ /* Opera 12+ */ /* IE10+ */\r\n                background: radial-gradient(ellipse at center,  rgba(120, 200, 255,1) 0%,rgba(120, 200, 255,0) 100%); /* W3C */\r\n            }\r\n\r\n            .container-fluid{\r\n                -webkit-animation: scale-down-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;\r\n                animation: scale-down-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;\r\n            }\r\n\r\n            @-webkit-keyframes scale-up-center{0%{transform:scale(.5)}100%{transform:scale(1)}}\r\n\r\n            @keyframes scale-up-center{0%{transform:scale(.5)}100%{transform:scale(1)}}\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYWxsZXJneS9hbGxlcmd5LmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IjtZQUNZOztnQkFFSTs7b0JBRUksMEJBQTBCO2dCQUM5QjtZQUNKO2dCQUNJLGVBQWU7Z0JBQ2YsMEJBQTBCO1lBQzlCOztZQUVBOztnQkFFSSw0QkFBNEI7WUFDaEM7Z0JBQ0k7b0JBQ0ksZ0JBQWdCO29CQUNoQixrQkFBa0I7b0JBQ2xCLFVBQVU7b0JBQ1YsV0FBVztnQkFDZjtZQUNKO2dCQUNJLGdCQUFnQjtZQUNwQjtZQUNBO2dCQUNJLDRCQUE0QjtnQkFDNUIsY0FBYztnQkFDZCxZQUFZO1lBQ2hCO1lBQ0E7Z0JBQ0kseUJBQXlCO2dCQUN6QixzQkFBc0I7Z0JBQ3RCLHlCQUF5QjtnQkFDekIsNkJBQTZCO2dCQUM3QixnQkFBZ0I7Z0JBQ2hCLGtCQUFrQjtnQkFDbEIsd0JBQXdCO2dCQUN4QixzQkFBc0I7Z0JBQ3RCLFlBQVk7Z0JBQ1oseUJBQXlCO2dCQUN6Qjs7WUFFSjs7WUFFQTtnQkFDSSxzQkFBc0I7Z0JBQ3RCLG1CQUFtQjtnQkFDbkIsZ0JBQWdCO2dCQUNoQiw0QkFBNEI7WUFDaEM7O1lBQ0E7Z0JBQ0ksNkJBQTZCO2dCQUM3QjtZQUNKOztZQUNBO2dCQUNJLFlBQVk7Z0JBQ1osNERBQTREO1lBQ2hFOztZQUNBO2dCQUNJLFdBQVc7Z0JBQ1gsY0FBYztnQkFDZCxrQkFBa0I7Z0JBQ2xCLGdCQUFnQjtnQkFDaEIsZ0JBQWdCO2dCQUNoQixrQkFBa0I7Z0JBQ2xCLGVBQWU7Z0JBQ2YsV0FBVztnQkFDWCxZQUFZO2dCQUNaLHlCQUF5QjtnQkFDekI7O1lBQ0o7Z0JBQ0ksbUJBQW1CO2dCQUNuQixjQUFjO2dCQUNkLFlBQVk7WUFDaEI7O1lBQ0E7Z0JBQ0ksdUJBQXVCO1lBQzNCOztZQUNBO2dCQUNJLGFBQWE7Z0JBQ2I7O1lBQ0E7b0JBQ0ksaUJBQWlCOztvQkFFakIsa0JBQWtCO2dCQUN0Qjs7WUFFSjtnQkFDSSwrQkFBK0I7Z0JBQy9CLHlCQUF5QjtnQkFDekIsZUFBZTtnQkFDZixlQUFlO2dCQUNmLG9CQUFvQjtnQkFDcEIsb0JBQW9CO2dCQUNwQixlQUFlO2dCQUNmLGlCQUFpQjtnQkFDakIsa0JBQWtCO2dCQUNsQiwwQkFBMEI7Z0JBQzFCLHVCQUF1QjtnQkFJdkIsZ0NBQWdDO2dCQUNoQyxVQUFVO1lBQ2Q7O1lBRUE7WUFDQSwrcUNBQStxQyxFQXFCeDdCLHlCQUF5QixFQUM5QixpQkFBaUIsRUFDaEIsVUFBVTtnQkFDelAsK09BQStPLEVBQUUsUUFBUTtnQkFDelAsZ0NBQWdDO2dCQUNoQyxxQkFBa0I7bUJBQWxCLGtCQUFrQjtnQkFDbEIsbUJBQW1CO2dCQUNuQixpQkFBaUI7O2dCQUVqQjs7O2dEQUdnQztZQUNwQzs7WUFFQTtnQkFDSSxnQkFBZ0I7Z0JBQ2hCLGtCQUFrQjtZQUN0Qjs7WUFDQTtnQkFLSSwyQkFBMkI7O1lBRS9COztZQUNBO2dCQUNJLHdCQUF3QjtnQkFDeEIsMENBQTBDO1lBQzlDOztZQUVBO2dCQUNJLGdDQUFnQztnQkFDaEMsK0ZBQStGO2dCQUMvRixzQ0FBc0M7Z0JBQ3RDLDJNQUEyTTs7WUFFL007O1lBRUE7Z0JBQ0ksZ0NBQWdDOztnQkFFaEMsaURBQWlEO2dCQUNqRCxxQkFBa0I7bUJBQWxCLGtCQUFrQjtnQkFDbEIsbUJBQW1CO2dCQUNuQixpQkFBaUI7O2dCQUVqQiwyTUFBMk07O2dCQUUzTSxvcUJBQW9xQixFQUN2akIsV0FBVyxFQUN3QyxvQkFBb0IsRUFDdEUseUJBQXlCLEVBQzlCLGNBQWMsRUFDVCxVQUFVO2dCQUN4SCxvR0FBb0csRUFBRSxRQUFRO1lBQ2xIOztZQUNBO2dCQUNJLHVGQUF1RjtnQkFDdkYsK0VBQStFO1lBQ25GOztZQUVBLG1DQUFtQyxHQUErQixtQkFBbUIsQ0FBQyxLQUFnQyxrQkFBa0IsQ0FBQzs7WUFBQywyQkFBMkIsR0FBK0IsbUJBQW1CLENBQUMsS0FBZ0Msa0JBQWtCLENBQUMiLCJmaWxlIjoic3JjL2FwcC9hbGxlcmd5L2FsbGVyZ3kuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIlxyXG4gICAgICAgICAgICBAbWVkaWEgb25seSBzY3JlZW4gYW5kIChtYXgtd2lkdGg6IDYwMHB4KXtcclxuICAgICAgICAgICAgICAgIFxyXG4gICAgICAgICAgICAgICAgdGFibGUgdGh7XHJcblxyXG4gICAgICAgICAgICAgICAgICAgIGZvbnQtc2l6ZSA6MTNweCAhaW1wb3J0YW50O1xyXG4gICAgICAgICAgICAgICAgfVxyXG4gICAgICAgICAgICBoM3tcclxuICAgICAgICAgICAgICAgIGZvbnQtc2l6ZTogMjNweDtcclxuICAgICAgICAgICAgICAgIG1hcmdpbi10b3A6IDdweCAhaW1wb3J0YW50O1xyXG4gICAgICAgICAgICB9XHJcblxyXG4gICAgICAgICAgICBoMy50cHtcclxuXHJcbiAgICAgICAgICAgICAgICBtYXJnaW4tdG9wOiAtMTRweCAhaW1wb3J0YW50OyAgICBcclxuICAgICAgICAgICAgfVxyXG4gICAgICAgICAgICAgICAgYnV0dG9uLmJ1dHRvbi5nbGFzcy5ibHVlLWEge1xyXG4gICAgICAgICAgICAgICAgICAgIHBhZGRpbmc6IDBweCA1cHg7XHJcbiAgICAgICAgICAgICAgICAgICAgcG9zaXRpb246IGFic29sdXRlO1xyXG4gICAgICAgICAgICAgICAgICAgIHRvcDogLTQxcHg7XHJcbiAgICAgICAgICAgICAgICAgICAgcmlnaHQ6IDIzcHg7XHJcbiAgICAgICAgICAgICAgICB9XHJcbiAgICAgICAgICAgICNhbGxlcmd5LXNlY3Rpb257XHJcbiAgICAgICAgICAgICAgICBtYXJnaW4tbGVmdDogNHB4O1xyXG4gICAgICAgICAgICB9XHJcbiAgICAgICAgICAgIC5jYXJkLWJvZHl7XHJcbiAgICAgICAgICAgICAgICBtYXgtaGVpZ2h0OiAxMHJlbSAhaW1wb3J0YW50OyBcclxuICAgICAgICAgICAgICAgIG92ZXJmbG93OiBhdXRvO1xyXG4gICAgICAgICAgICAgICAgY29sb3I6IHdoaXRlO1xyXG4gICAgICAgICAgICB9XHJcbiAgICAgICAgICAgIC5oZXJvLW1lc3NhZ2U6OmJlZm9yZSB7XHJcbiAgICAgICAgICAgICAgICBtaW4td2lkdGg6IDkxJSAhaW1wb3J0YW50O1xyXG4gICAgICAgICAgICAgICAgY29udGVudDogXCJcIiAhaW1wb3J0YW50O1xyXG4gICAgICAgICAgICAgICAgZGlzcGxheTogYmxvY2sgIWltcG9ydGFudDtcclxuICAgICAgICAgICAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZSAhaW1wb3J0YW50O1xyXG4gICAgICAgICAgICAgICAgbWFyZ2luLWxlZnQ6IDBweDtcclxuICAgICAgICAgICAgICAgIGJvcmRlci1yYWRpdXM6IDRweDtcclxuICAgICAgICAgICAgICAgIGhlaWdodDogMTNyZW0gIWltcG9ydGFudDtcclxuICAgICAgICAgICAgICAgIHotaW5kZXg6IC0xICFpbXBvcnRhbnQ7XHJcbiAgICAgICAgICAgICAgICBvcGFjaXR5OiAwLjU7XHJcbiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjMDA2ODk0O1xyXG4gICAgICAgICAgICAgICAgfVxyXG5cclxuICAgICAgICAgICAgfVxyXG5cclxuICAgICAgICAgICAgbWF0LWZvcm0tZmllbGR7XHJcbiAgICAgICAgICAgICAgICB3aWR0aDogMTAwJSAhaW1wb3J0YW50O1xyXG4gICAgICAgICAgICAgICAgbWFyZ2luLWJvdHRvbTogLTZweDtcclxuICAgICAgICAgICAgICAgIG1hcmdpbi1sZWZ0OiA1cHg7XHJcbiAgICAgICAgICAgICAgICBtYXJnaW4tcmlnaHQ6IDVweCAhaW1wb3J0YW50O1xyXG4gICAgICAgICAgICB9XHJcbiAgICAgICAgICAgICNhbGxlcmd5ZHRse1xyXG4gICAgICAgICAgICAgICAgcGFkZGluZy10b3A6IC0xOHB4ICFpbXBvcnRhbnQ7XHJcbiAgICAgICAgICAgICAgICBwYWRkaW5nLXJpZ2h0OiAxMHB4XHJcbiAgICAgICAgICAgIH1cclxuICAgICAgICAgICAgLmNhcmQudGJ7XHJcbiAgICAgICAgICAgICAgICBvcGFjaXR5OiAwLjY7XHJcbiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kOmxpbmVhci1ncmFkaWVudCgxNjBkZWcsIzAwNjg5NCwjMDA2ODk0KSFpbXBvcnRhbnQ7XHJcbiAgICAgICAgICAgIH1cclxuICAgICAgICAgICAgLmhlcm8tbWVzc2FnZTo6YmVmb3JlIHtcclxuICAgICAgICAgICAgICAgIGNvbnRlbnQ6IFwiXCI7XHJcbiAgICAgICAgICAgICAgICBkaXNwbGF5OiBibG9jaztcclxuICAgICAgICAgICAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuICAgICAgICAgICAgICAgIG1hcmdpbi1sZWZ0OiAwcHg7XHJcbiAgICAgICAgICAgICAgICBtaW4td2lkdGg6IDkxLjElO1xyXG4gICAgICAgICAgICAgICAgYm9yZGVyLXJhZGl1czogNHB4O1xyXG4gICAgICAgICAgICAgICAgaGVpZ2h0OiAyNS4ycmVtO1xyXG4gICAgICAgICAgICAgICAgei1pbmRleDogLTE7XHJcbiAgICAgICAgICAgICAgICBvcGFjaXR5OiAwLjU7XHJcbiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjMDA2ODk0O1xyXG4gICAgICAgICAgICAgICAgfVxyXG4gICAgICAgICAgICAuY2FyZC1ib2R5e1xyXG4gICAgICAgICAgICAgICAgbWF4LWhlaWdodDogMjEuM3JlbTsgXHJcbiAgICAgICAgICAgICAgICBvdmVyZmxvdzogYXV0bztcclxuICAgICAgICAgICAgICAgIGNvbG9yOiB3aGl0ZTtcclxuICAgICAgICAgICAgfVxyXG4gICAgICAgICAgICAubWF0LXNlbGVjdC12YWx1ZXtcclxuICAgICAgICAgICAgICAgIGNvbG9yOiB3aGl0ZSAhaW1wb3J0YW50O1xyXG4gICAgICAgICAgICB9XHJcbiAgICAgICAgICAgIDo6LXdlYmtpdC1zY3JvbGxiYXIgeyBcclxuICAgICAgICAgICAgICAgIGRpc3BsYXk6IG5vbmU7IFxyXG4gICAgICAgICAgICAgICAgfVxyXG4gICAgICAgICAgICAgICAgaDR7XHJcbiAgICAgICAgICAgICAgICAgICAgcGFkZGluZy10b3A6IDEwcHg7XHJcbiAgICAgICAgICAgICAgICBcclxuICAgICAgICAgICAgICAgICAgICBwYWRkaW5nLWxlZnQ6IDE2cHg7XHJcbiAgICAgICAgICAgICAgICB9XHJcbiAgICAgICAgICAgICAgICBcclxuICAgICAgICAgICAgLmJ1dHRvbiB7XHJcbiAgICAgICAgICAgICAgICBjb2xvcjpyZ2JhKDE4MywgMjQ1LCAyNDUsIDAuODQpO1xyXG4gICAgICAgICAgICAgICAgdGV4dC1zaGFkb3c6IDBweCAxcHggIzAwMDtcclxuICAgICAgICAgICAgICAgIGZvbnQtc2l6ZTogMTVweDtcclxuICAgICAgICAgICAgICAgIG1hcmdpbi10b3A6IDdweDtcclxuICAgICAgICAgICAgICAgIHRleHQtZGVjb3JhdGlvbjpub25lO1xyXG4gICAgICAgICAgICAgICAgcGFkZGluZzogMC4xZW0gMC42ZW07XHJcbiAgICAgICAgICAgICAgICBjdXJzb3I6IHBvaW50ZXI7XHJcbiAgICAgICAgICAgICAgICBvdmVyZmxvdzogdmlzaWJsZTtcclxuICAgICAgICAgICAgICAgIGJvcmRlci1yYWRpdXM6IDNweDtcclxuICAgICAgICAgICAgICAgIC13ZWJraXQtYm9yZGVyLXJhZGl1czogM3B4O1xyXG4gICAgICAgICAgICAgICAgLW1vei1ib3JkZXItcmFkaXVzOiAzcHg7XHJcbiAgICAgICAgICAgICAgICAtd2Via2l0LXRyYW5zaXRpb246IGFsbCAwLjFzIGVhc2UtaW4tb3V0O1xyXG4gICAgICAgICAgICAgICAgLW1vei10cmFuc2l0aW9uOiBhbGwgMC4xcyBlYXNlLWluLW91dDtcclxuICAgICAgICAgICAgICAgIC1vLXRyYW5zaXRpb246IGFsbCAwLjFzIGVhc2UtaW4tb3V0O1xyXG4gICAgICAgICAgICAgICAgdHJhbnNpdGlvbjogYWxsIDAuMXMgZWFzZS1pbi1vdXQ7XHJcbiAgICAgICAgICAgICAgICBvdXRsaW5lOiAwO1xyXG4gICAgICAgICAgICB9XHJcblxyXG4gICAgICAgICAgICAuZ2xhc3Mge1xyXG4gICAgICAgICAgICBiYWNrZ3JvdW5kOiB1cmwoZGF0YTppbWFnZS9zdmcreG1sO2Jhc2U2NCxQRDk0Yld3Z2RtVnljMmx2YmowaU1TNHdJaUEvUGdvOGMzWm5JSGh0Ykc1elBTSm9kSFJ3T2k4dmQzZDNMbmN6TG05eVp5OHlNREF3TDNOMlp5SWdkMmxrZEdnOUlqRXdNQ1VpSUdobGFXZG9kRDBpTVRBd0pTSWdkbWxsZDBKdmVEMGlNQ0F3SURFZ01TSWdjSEpsYzJWeWRtVkJjM0JsWTNSU1lYUnBiejBpYm05dVpTSStDaUFnUEd4cGJtVmhja2R5WVdScFpXNTBJR2xrUFNKbmNtRmtMWFZqWjJjdFoyVnVaWEpoZEdWa0lpQm5jbUZrYVdWdWRGVnVhWFJ6UFNKMWMyVnlVM0JoWTJWUGJsVnpaU0lnZURFOUlqQWxJaUI1TVQwaU1DVWlJSGd5UFNJd0pTSWdlVEk5SWpFd01DVWlQZ29nSUNBZ1BITjBiM0FnYjJabWMyVjBQU0l3SlNJZ2MzUnZjQzFqYjJ4dmNqMGlJell3TmpjMk9DSWdjM1J2Y0MxdmNHRmphWFI1UFNJd0xqTWlMejRLSUNBZ0lEeHpkRzl3SUc5bVpuTmxkRDBpTXlVaUlITjBiM0F0WTI5c2IzSTlJaU5pWW1KaVltSWlJSE4wYjNBdGIzQmhZMmwwZVQwaU1DNHpJaTgrQ2lBZ0lDQThjM1J2Y0NCdlptWnpaWFE5SWpJM0pTSWdjM1J2Y0MxamIyeHZjajBpSTJKaVltSmlZaUlnYzNSdmNDMXZjR0ZqYVhSNVBTSXdMak1pTHo0S0lDQWdJRHh6ZEc5d0lHOW1abk5sZEQwaU1qZ2xJaUJ6ZEc5d0xXTnZiRzl5UFNJak1EQXdNREF3SWlCemRHOXdMVzl3WVdOcGRIazlJakF1TXlJdlBnb2dJQ0FnUEhOMGIzQWdiMlptYzJWMFBTSTNNeVVpSUhOMGIzQXRZMjlzYjNJOUlpTXdNREF3TURBaUlITjBiM0F0YjNCaFkybDBlVDBpTUM0eklpOCtDaUFnSUNBOGMzUnZjQ0J2Wm1aelpYUTlJamc0SlNJZ2MzUnZjQzFqYjJ4dmNqMGlJelJpTlRBMU1TSWdjM1J2Y0MxdmNHRmphWFI1UFNJd0xqTWlMejRLSUNBZ0lEeHpkRzl3SUc5bVpuTmxkRDBpT1RjbElpQnpkRzl3TFdOdmJHOXlQU0lqTURBd01EQXdJaUJ6ZEc5d0xXOXdZV05wZEhrOUlqQXVNeUl2UGdvZ0lDQWdQSE4wYjNBZ2IyWm1jMlYwUFNJeE1EQWxJaUJ6ZEc5d0xXTnZiRzl5UFNJak1EQXdNREF3SWlCemRHOXdMVzl3WVdOcGRIazlJakF1TXlJdlBnb2dJRHd2YkdsdVpXRnlSM0poWkdsbGJuUStDaUFnUEhKbFkzUWdlRDBpTUNJZ2VUMGlNQ0lnZDJsa2RHZzlJakVpSUdobGFXZG9kRDBpTVNJZ1ptbHNiRDBpZFhKc0tDTm5jbUZrTFhWaloyY3RaMlZ1WlhKaGRHVmtLU0lnTHo0S1BDOXpkbWMrKTtcclxuICAgICAgICAgICAgICAgIGJhY2tncm91bmQ6IC1tb3otbGluZWFyLWdyYWRpZW50KHRvcCxcclxuICAgICAgICAgICAgICAgIHJnYmEoOTYsMTAzLDEwNCwwLjMpIDAlLFxyXG4gICAgICAgICAgICAgICAgcmdiYSgxODcsMTg3LDE4NywwLjMpIDMlLFxyXG4gICAgICAgICAgICAgICAgcmdiYSgxODcsMTg3LDE4NywwLjMpIDI3JSxcclxuICAgICAgICAgICAgICAgIHJnYmEoMCwwLDAsMC4zKSAyOCUsXHJcbiAgICAgICAgICAgICAgICByZ2JhKDAsMCwwLDAuMykgNjAlLFxyXG4gICAgICAgICAgICAgICAgcmdiYSgwLDAsMCwwLjMpIDczJSxcclxuICAgICAgICAgICAgICAgIHJnYmEoNzUsODAsODEsMC4zKSA4OCUsXHJcbiAgICAgICAgICAgICAgICByZ2JhKDAsMCwwLDAuMykgOTclLFxyXG4gICAgICAgICAgICAgICAgcmdiYSgwLDAsMCwwLjMpIDEwMCUpO1xyXG4gICAgICAgICAgICAgICAgYmFja2dyb3VuZDogLXdlYmtpdC1ncmFkaWVudChsaW5lYXIsIGxlZnQgdG9wLCBsZWZ0IGJvdHRvbSxcclxuICAgICAgICAgICAgICAgIGNvbG9yLXN0b3AoMCUscmdiYSg5NiwxMDMsMTA0LDAuMykpLFxyXG4gICAgICAgICAgICAgICAgY29sb3Itc3RvcCgzJSxyZ2JhKDE4NywxODcsMTg3LDAuMykpLFxyXG4gICAgICAgICAgICAgICAgY29sb3Itc3RvcCgyNyUscmdiYSgxODcsMTg3LDE4NywwLjMpKSxcclxuICAgICAgICAgICAgICAgIGNvbG9yLXN0b3AoMjglLHJnYmEoMCwwLDAsMC4zKSksXHJcbiAgICAgICAgICAgICAgICBjb2xvci1zdG9wKDYwJSxyZ2JhKDAsMCwwLDAuMykpLFxyXG4gICAgICAgICAgICAgICAgY29sb3Itc3RvcCg3MyUscmdiYSgwLDAsMCwwLjMpKSxcclxuICAgICAgICAgICAgICAgIGNvbG9yLXN0b3AoODglLHJnYmEoNzUsODAsODEsMC4zKSksXHJcbiAgICAgICAgICAgICAgICBjb2xvci1zdG9wKDk3JSxyZ2JhKDAsMCwwLDAuMykpLFxyXG4gICAgICAgICAgICAgICAgY29sb3Itc3RvcCgxMDAlLHJnYmEoMCwwLDAsMC4zKSkpOyBcclxuICAgICAgICAgICAgICAgIGJhY2tncm91bmQ6IC13ZWJraXQtbGluZWFyLWdyYWRpZW50KHRvcCwgIHJnYmEoOTYsMTAzLDEwNCwwLjMpIDAlLHJnYmEoMTg3LDE4NywxODcsMC4zKSAzJSxyZ2JhKDE4NywxODcsMTg3LDAuMykgMjclLHJnYmEoMCwwLDAsMC4zKSAyOCUscmdiYSgwLDAsMCwwLjMpIDYwJSxyZ2JhKDAsMCwwLDAuMykgNzMlLHJnYmEoNzUsODAsODEsMC4zKSA4OCUscmdiYSgwLDAsMCwwLjMpIDk3JSxyZ2JhKDAsMCwwLDAuMykgMTAwJSk7IC8qIENocm9tZTEwKyxTYWZhcmk1LjErICovXHJcbiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kOiAtby1saW5lYXItZ3JhZGllbnQodG9wLCAgcmdiYSg5NiwxMDMsMTA0LDAuMykgMCUscmdiYSgxODcsMTg3LDE4NywwLjMpIDMlLHJnYmEoMTg3LDE4NywxODcsMC4zKSAyNyUscmdiYSgwLDAsMCwwLjMpIDI4JSxyZ2JhKDAsMCwwLDAuMykgNjAlLHJnYmEoMCwwLDAsMC4zKSA3MyUscmdiYSg3NSw4MCw4MSwwLjMpIDg4JSxyZ2JhKDAsMCwwLDAuMykgOTclLHJnYmEoMCwwLDAsMC4zKSAxMDAlKTsgLyogT3BlcmEgMTEuMTArICovXHJcbiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kOiAtbXMtbGluZWFyLWdyYWRpZW50KHRvcCwgIHJnYmEoOTYsMTAzLDEwNCwwLjMpIDAlLHJnYmEoMTg3LDE4NywxODcsMC4zKSAzJSxyZ2JhKDE4NywxODcsMTg3LDAuMykgMjclLHJnYmEoMCwwLDAsMC4zKSAyOCUscmdiYSgwLDAsMCwwLjMpIDYwJSxyZ2JhKDAsMCwwLDAuMykgNzMlLHJnYmEoNzUsODAsODEsMC4zKSA4OCUscmdiYSgwLDAsMCwwLjMpIDk3JSxyZ2JhKDAsMCwwLDAuMykgMTAwJSk7IC8qIElFMTArICovXHJcbiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kOiBsaW5lYXItZ3JhZGllbnQodG8gYm90dG9tLCAgcmdiYSg5NiwxMDMsMTA0LDAuMykgMCUscmdiYSgxODcsMTg3LDE4NywwLjMpIDMlLHJnYmEoMTg3LDE4NywxODcsMC4zKSAyNyUscmdiYSgwLDAsMCwwLjMpIDI4JSxyZ2JhKDAsMCwwLDAuMykgNjAlLHJnYmEoMCwwLDAsMC4zKSA3MyUscmdiYSg3NSw4MCw4MSwwLjMpIDg4JSxyZ2JhKDAsMCwwLDAuMykgOTclLHJnYmEoMCwwLDAsMC4zKSAxMDAlKTsgLyogVzNDICovXHJcbiAgICAgICAgICAgICAgICBib3JkZXItY29sb3I6IHJnYmEoMCwgMCwgMCwgMC42KTtcclxuICAgICAgICAgICAgICAgIGJvcmRlci1pbWFnZTogbm9uZTtcclxuICAgICAgICAgICAgICAgIGJvcmRlci1zdHlsZTogc29saWQ7XHJcbiAgICAgICAgICAgICAgICBib3JkZXItd2lkdGg6IDFweDtcclxuICAgICAgICAgICAgXHJcbiAgICAgICAgICAgICAgICBib3gtc2hhZG93OlxyXG4gICAgICAgICAgICAgICAgMCAxcHggMCAwIHJnYmEoMjU1LCAyNTUsIDI1NSwgMC40KSBpbnNldCxcclxuICAgICAgICAgICAgICAgIDAgMnB4IDZweCByZ2JhKDAsIDAsIDAsIDAuNSksXHJcbiAgICAgICAgICAgICAgICAwIDEwcHggcmdiYSgwLCAwLCAwLCAwLjA1KSBpbnNldDtcclxuICAgICAgICAgICAgfVxyXG5cclxuICAgICAgICAgICAgYnV0dG9uOmFjdGl2ZSB7XHJcbiAgICAgICAgICAgICAgICBtYXJnaW4tbGVmdDogMnB4O1xyXG4gICAgICAgICAgICAgICAgbWFyZ2luLXJpZ2h0OiAtMnB4O1xyXG4gICAgICAgICAgICB9XHJcbiAgICAgICAgICAgIGJ1dHRvbjphY3RpdmUuYmx1ZS1hIHtcclxuICAgICAgICAgICAgXHJcbiAgICAgICAgICAgICAgICAtd2Via2l0LXRyYW5zaXRpb246IG5vbmUgIWltcG9ydGFudDtcclxuICAgICAgICAgICAgICAgIC1tb3otdHJhbnNpdGlvbjogbm9uZSAhaW1wb3J0YW50O1xyXG4gICAgICAgICAgICAgICAgLW8tdHJhbnNpdGlvbjogbm9uZSAhaW1wb3J0YW50O1xyXG4gICAgICAgICAgICAgICAgdHJhbnNpdGlvbjogbm9uZSAhaW1wb3J0YW50OyBcclxuICAgICAgICAgICAgXHJcbiAgICAgICAgICAgIH1cclxuICAgICAgICAgICAgLmJsdWUtYSB7XHJcbiAgICAgICAgICAgICAgICBjb2xvcjogcmdiKDY3LCAxOTUsIDE5OSk7XHJcbiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiByZ2JhKDY3LCAxOTUsIDE5OSwgMC4yOCk7XHJcbiAgICAgICAgICAgIH1cclxuXHJcbiAgICAgICAgICAgIGJ1dHRvbjpob3Zlci5ibHVlLWEge1xyXG4gICAgICAgICAgICAgICAgY29sb3I6IHJnYmEoMjMwLCAyNDAsIDI1NSwgMC45OSk7XHJcbiAgICAgICAgICAgICAgICAvKiB0ZXh0LXNoYWRvdzogMHB4IDBweCAycHggcmdiYSgyMzAsIDI0MCwgMjU1LCAwLjk5KSwgMHB4IDBweCA0cHggcmdiYSgyMDAsIDIzMCwgMjU1LCAwLjk5KTsgKi9cclxuICAgICAgICAgICAgICAgIGJvcmRlci1jb2xvcjogcmdiYSgxMjAsIDIwMCwgMjU1LCAwLjQpO1xyXG4gICAgICAgICAgICAgICAgYm94LXNoYWRvdzogMCAxcHggMCAwIHJnYmEoMjU1LCAyNTUsIDI1NSwgMC40KSBpbnNldCwgMCAycHggNnB4IHJnYmEoMCwgMCwgMCwgMC41KSwgMCAxMHB4IHJnYmEoMCwgMCwgMCwgMC4wNSkgaW5zZXQsIDAgMHB4IDVweCAycHggcmdiYSg3OSwgMjE2LCAyMjAsIDAuODMpLCAwIDBweCAxMHB4IDJweCByZ2JhKDY3LCAxOTUsIDE5OSwgMC43NCkgaW5zZXQ7XHJcblxyXG4gICAgICAgICAgICB9XHJcblxyXG4gICAgICAgICAgICBidXR0b246YWN0aXZlLmJsdWUtYSB7XHJcbiAgICAgICAgICAgICAgICBjb2xvcjogcmdiYSgyMzAsIDI0MCwgMjU1LCAwLjk5KTtcclxuXHJcbiAgICAgICAgICAgICAgICBib3JkZXItY29sb3I6IHJnYmEoMTIwLCAyMDAsIDI1NSwgMC42KSAhaW1wb3J0YW50O1xyXG4gICAgICAgICAgICAgICAgYm9yZGVyLWltYWdlOiBub25lO1xyXG4gICAgICAgICAgICAgICAgYm9yZGVyLXN0eWxlOiBzb2xpZDtcclxuICAgICAgICAgICAgICAgIGJvcmRlci13aWR0aDogMXB4O1xyXG5cclxuICAgICAgICAgICAgICAgIGJveC1zaGFkb3c6IDAgMXB4IDAgMCByZ2JhKDI1NSwgMjU1LCAyNTUsIDAuNCkgaW5zZXQsIDAgMnB4IDZweCByZ2JhKDAsIDAsIDAsIDAuNSksIDAgMTBweCByZ2JhKDAsIDAsIDAsIDAuMDUpIGluc2V0LCAwIDBweCA1cHggMnB4IHJnYmEoNzksIDIxNiwgMjIwLCAwLjgzKSwgMCAwcHggMTBweCAycHggcmdiYSg2NywgMTk1LCAxOTksIDAuNzQpIGluc2V0O1xyXG5cclxuICAgICAgICAgICAgICAgIGJhY2tncm91bmQ6ICB1cmwoZGF0YTppbWFnZS9zdmcreG1sO2Jhc2U2NCxQRDk0Yld3Z2RtVnljMmx2YmowaU1TNHdJaUEvUGdvOGMzWm5JSGh0Ykc1elBTSm9kSFJ3T2k4dmQzZDNMbmN6TG05eVp5OHlNREF3TDNOMlp5SWdkMmxrZEdnOUlqRXdNQ1VpSUdobGFXZG9kRDBpTVRBd0pTSWdkbWxsZDBKdmVEMGlNQ0F3SURFZ01TSWdjSEpsYzJWeWRtVkJjM0JsWTNSU1lYUnBiejBpYm05dVpTSStDaUFnUEhKaFpHbGhiRWR5WVdScFpXNTBJR2xrUFNKbmNtRmtMWFZqWjJjdFoyVnVaWEpoZEdWa0lpQm5jbUZrYVdWdWRGVnVhWFJ6UFNKMWMyVnlVM0JoWTJWUGJsVnpaU0lnWTNnOUlqVXdKU0lnWTNrOUlqVXdKU0lnY2owaU56VWxJajRLSUNBZ0lEeHpkRzl3SUc5bVpuTmxkRDBpTUNVaUlITjBiM0F0WTI5c2IzSTlJaU0zT0dNNFptWWlJSE4wYjNBdGIzQmhZMmwwZVQwaU1TSXZQZ29nSUNBZ1BITjBiM0FnYjJabWMyVjBQU0l4TURBbElpQnpkRzl3TFdOdmJHOXlQU0lqTnpoak9HWm1JaUJ6ZEc5d0xXOXdZV05wZEhrOUlqQWlMejRLSUNBOEwzSmhaR2xoYkVkeVlXUnBaVzUwUGdvZ0lEeHlaV04wSUhnOUlpMDFNQ0lnZVQwaUxUVXdJaUIzYVdSMGFEMGlNVEF4SWlCb1pXbG5hSFE5SWpFd01TSWdabWxzYkQwaWRYSnNLQ05uY21Ga0xYVmpaMmN0WjJWdVpYSmhkR1ZrS1NJZ0x6NEtQQzl6ZG1jKyk7XHJcbiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kOiAtbW96LXJhZGlhbC1ncmFkaWVudChjZW50ZXIsIGVsbGlwc2UgY292ZXIsICByZ2IoMTI0LCAyMTMsIDI0MCkgMCUsIHJnYmEoMTIwLCAyMDAsIDI1NSwwKSAxMDAlKTsgLyogRkYzLjYrICovXHJcbiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kOiAtd2Via2l0LWdyYWRpZW50KHJhZGlhbCwgY2VudGVyIGNlbnRlciwgMHB4LCBjZW50ZXIgY2VudGVyLCAxMDAlLCBjb2xvci1zdG9wKDAlLHJnYmEoNzksIDIxNiwgMjIwLCAwLjgzKSksIGNvbG9yLXN0b3AoMTAwJSxyZ2JhKDEyMCwgMjAwLCAyNTUsMCkpKTsgLyogQ2hyb21lLFNhZmFyaTQrICovXHJcbiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kOiAtd2Via2l0LXJhZGlhbC1ncmFkaWVudChjZW50ZXIsIGVsbGlwc2UgY292ZXIsICByZ2IoNzgsIDIwNCwgMjI2KSAwJSxyZ2JhKDEyMCwgMjAwLCAyNTUsMCkgMTAwJSk7IC8qIENocm9tZTEwKyxTYWZhcmk1LjErICovXHJcbiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kOiAtby1yYWRpYWwtZ3JhZGllbnQoY2VudGVyLCBlbGxpcHNlIGNvdmVyLCAgcmdiKDc4LCAyMDQsIDIyNikgMCUscmdiYSgxMjAsIDIwMCwgMjU1LDApIDEwMCUpOyAvKiBPcGVyYSAxMisgKi9cclxuICAgICAgICAgICAgICAgIGJhY2tncm91bmQ6IC1tcy1yYWRpYWwtZ3JhZGllbnQoY2VudGVyLCBlbGxpcHNlIGNvdmVyLCAgcmdiYSgxMjAsIDIwMCwgMjU1LDEpIDAlLHJnYmEoMTIwLCAyMDAsIDI1NSwwKSAxMDAlKTsgLyogSUUxMCsgKi9cclxuICAgICAgICAgICAgICAgIGJhY2tncm91bmQ6IHJhZGlhbC1ncmFkaWVudChlbGxpcHNlIGF0IGNlbnRlciwgIHJnYmEoMTIwLCAyMDAsIDI1NSwxKSAwJSxyZ2JhKDEyMCwgMjAwLCAyNTUsMCkgMTAwJSk7IC8qIFczQyAqL1xyXG4gICAgICAgICAgICB9XHJcbiAgICAgICAgICAgIC5jb250YWluZXItZmx1aWR7XHJcbiAgICAgICAgICAgICAgICAtd2Via2l0LWFuaW1hdGlvbjogc2NhbGUtZG93bi1jZW50ZXIgMC40cyBjdWJpYy1iZXppZXIoMC4yNTAsIDAuNDYwLCAwLjQ1MCwgMC45NDApIGJvdGg7XHJcbiAgICAgICAgICAgICAgICBhbmltYXRpb246IHNjYWxlLWRvd24tY2VudGVyIDAuNHMgY3ViaWMtYmV6aWVyKDAuMjUwLCAwLjQ2MCwgMC40NTAsIDAuOTQwKSBib3RoO1xyXG4gICAgICAgICAgICB9XHJcblxyXG4gICAgICAgICAgICBALXdlYmtpdC1rZXlmcmFtZXMgc2NhbGUtdXAtY2VudGVyezAley13ZWJraXQtdHJhbnNmb3JtOnNjYWxlKC41KTt0cmFuc2Zvcm06c2NhbGUoLjUpfTEwMCV7LXdlYmtpdC10cmFuc2Zvcm06c2NhbGUoMSk7dHJhbnNmb3JtOnNjYWxlKDEpfX1Aa2V5ZnJhbWVzIHNjYWxlLXVwLWNlbnRlcnswJXstd2Via2l0LXRyYW5zZm9ybTpzY2FsZSguNSk7dHJhbnNmb3JtOnNjYWxlKC41KX0xMDAley13ZWJraXQtdHJhbnNmb3JtOnNjYWxlKDEpO3RyYW5zZm9ybTpzY2FsZSgxKX19XHJcbiJdfQ== */");
+
+/***/ }),
+
+/***/ "./src/app/allergy/allergy.component.ts":
+/*!**********************************************!*\
+  !*** ./src/app/allergy/allergy.component.ts ***!
+  \**********************************************/
+/*! exports provided: AllergyComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AllergyComponent", function() { return AllergyComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm2015/forms.js");
+
+
+
+let AllergyComponent = class AllergyComponent {
+    constructor() {
+        this.toppings = new _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormControl"]();
+        this.toppingList = ['Fever', 'Cough', 'Deramatographism', 'Diarrhea', 'Head Ache', 'Nausea', 'Running Nose', 'Sneezing', 'Swelling Of Tissues', 'Unconsiousness', 'Vomiting', 'Wheezing'];
+        this.disabled = false;
+    }
+    ngOnInit() {
+        $(document).ready(() => {
+            $('.datepicker').pickadate();
+            $(".card-details").hide();
+            $("#general-vitals").show();
+            $("#vitals").addClass("active");
+            $("#vitals-section").show();
+            $('#no-known-allergies').change(function () {
+                if (this.checked) {
+                    $(".allergy-wrapper").addClass("disable-events");
+                }
+                else {
+                    $(".allergy-wrapper").removeClass("disable-events");
+                }
+            });
+        });
+    }
+};
+AllergyComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-allergy',
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./allergy.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/allergy/allergy.component.html")).default,
+        providers: [],
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./allergy.component.css */ "./src/app/allergy/allergy.component.css")).default]
+    })
+], AllergyComponent);
+
+
+
+/***/ }),
+
+/***/ "./src/app/app-routing.module.ts":
+/*!***************************************!*\
+  !*** ./src/app/app-routing.module.ts ***!
+  \***************************************/
+/*! exports provided: AppRoutingModule */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppRoutingModule", function() { return AppRoutingModule; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
+/* harmony import */ var _allergy_allergy_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./allergy/allergy.component */ "./src/app/allergy/allergy.component.ts");
+/* harmony import */ var _vitals_vitals_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./vitals/vitals.component */ "./src/app/vitals/vitals.component.ts");
+/* harmony import */ var _orders1_orders1_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./orders1/orders1.component */ "./src/app/orders1/orders1.component.ts");
+/* harmony import */ var _hist_hist_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./hist/hist.component */ "./src/app/hist/hist.component.ts");
+/* harmony import */ var _diagnosis_diagnosis_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./diagnosis/diagnosis.component */ "./src/app/diagnosis/diagnosis.component.ts");
+
+
+
+
+
+
+
+
+const routes = [
+    { path: '', component: _vitals_vitals_component__WEBPACK_IMPORTED_MODULE_4__["VitalsComponent"] },
+    { path: 'vitals', component: _vitals_vitals_component__WEBPACK_IMPORTED_MODULE_4__["VitalsComponent"] },
+    { path: 'allergy', component: _allergy_allergy_component__WEBPACK_IMPORTED_MODULE_3__["AllergyComponent"] },
+    { path: 'orders1', component: _orders1_orders1_component__WEBPACK_IMPORTED_MODULE_5__["Orders1Component"] },
+    { path: 'hist', component: _hist_hist_component__WEBPACK_IMPORTED_MODULE_6__["HistComponent"] },
+    { path: 'diagnosis', component: _diagnosis_diagnosis_component__WEBPACK_IMPORTED_MODULE_7__["DiagnosisComponent"] }
+];
+let AppRoutingModule = class AppRoutingModule {
+};
+AppRoutingModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"])({
+        imports: [_angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterModule"].forRoot(routes)],
+        exports: [_angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterModule"]]
+    })
+], AppRoutingModule);
+
+
+
+/***/ }),
+
+/***/ "./src/app/app.component.css":
+/*!***********************************!*\
+  !*** ./src/app/app.component.css ***!
+  \***********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2FwcC5jb21wb25lbnQuY3NzIn0= */");
+
+/***/ }),
+
+/***/ "./src/app/app.component.ts":
+/*!**********************************!*\
+  !*** ./src/app/app.component.ts ***!
+  \**********************************/
+/*! exports provided: AppComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppComponent", function() { return AppComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+
+
+let AppComponent = class AppComponent {
+};
+AppComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-root',
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./app.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/app.component.html")).default,
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./app.component.css */ "./src/app/app.component.css")).default]
+    })
+], AppComponent);
+
+
+
+/***/ }),
+
+/***/ "./src/app/app.module.ts":
+/*!*******************************!*\
+  !*** ./src/app/app.module.ts ***!
+  \*******************************/
+/*! exports provided: setupTranslateFactory, AppModule */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "setupTranslateFactory", function() { return setupTranslateFactory; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppModule", function() { return AppModule; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/platform-browser */ "./node_modules/@angular/platform-browser/fesm2015/platform-browser.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _app_routing_module__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./app-routing.module */ "./src/app/app-routing.module.ts");
+/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
+/* harmony import */ var _vitals_vitals_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./vitals/vitals.component */ "./src/app/vitals/vitals.component.ts");
+/* harmony import */ var _allergy_allergy_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./allergy/allergy.component */ "./src/app/allergy/allergy.component.ts");
+/* harmony import */ var _angular_material_input__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @angular/material/input */ "./node_modules/@angular/material/esm2015/input.js");
+/* harmony import */ var _angular_material_form_field__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @angular/material/form-field */ "./node_modules/@angular/material/esm2015/form-field.js");
+/* harmony import */ var _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @angular/platform-browser/animations */ "./node_modules/@angular/platform-browser/fesm2015/animations.js");
+/* harmony import */ var _hist_hist_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./hist/hist.component */ "./src/app/hist/hist.component.ts");
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm2015/http.js");
+/* harmony import */ var _translate_service__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./translate.service */ "./src/app/translate.service.ts");
+/* harmony import */ var _translate_pipe__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./translate.pipe */ "./src/app/translate.pipe.ts");
+/* harmony import */ var _angular_material__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! @angular/material */ "./node_modules/@angular/material/esm2015/material.js");
+/* harmony import */ var _angular_material_autocomplete__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! @angular/material/autocomplete */ "./node_modules/@angular/material/esm2015/autocomplete.js");
+/* harmony import */ var _orders1_orders1_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./orders1/orders1.component */ "./src/app/orders1/orders1.component.ts");
+/* harmony import */ var _diagnosis_diagnosis_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./diagnosis/diagnosis.component */ "./src/app/diagnosis/diagnosis.component.ts");
+/* harmony import */ var _angular_material_expansion__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! @angular/material/expansion */ "./node_modules/@angular/material/esm2015/expansion.js");
+/* harmony import */ var _angular_material_select__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! @angular/material/select */ "./node_modules/@angular/material/esm2015/select.js");
+/* harmony import */ var _angular_material_list__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! @angular/material/list */ "./node_modules/@angular/material/esm2015/list.js");
+/* harmony import */ var _angular_material_datepicker__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! @angular/material/datepicker */ "./node_modules/@angular/material/esm2015/datepicker.js");
+/* harmony import */ var ngx_mat_select_search__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ngx-mat-select-search */ "./node_modules/ngx-mat-select-search/fesm2015/ngx-mat-select-search.js");
+/* harmony import */ var _angular_material_checkbox__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! @angular/material/checkbox */ "./node_modules/@angular/material/esm2015/checkbox.js");
+/* harmony import */ var _angular_material_button__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! @angular/material/button */ "./node_modules/@angular/material/esm2015/button.js");
+/* harmony import */ var _angular_material_icon__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! @angular/material/icon */ "./node_modules/@angular/material/esm2015/icon.js");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/fesm2015/common.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm2015/forms.js");
+/* harmony import */ var _angular_cdk_stepper__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! @angular/cdk/stepper */ "./node_modules/@angular/cdk/esm2015/stepper.js");
+/* harmony import */ var _angular_cdk_table__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! @angular/cdk/table */ "./node_modules/@angular/cdk/esm2015/table.js");
+/* harmony import */ var _home_home_component__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ./home/home.component */ "./src/app/home/home.component.ts");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function setupTranslateFactory(service) {
+    return () => service.use('en');
+}
+let AppModule = class AppModule {
+};
+AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["NgModule"])({
+        declarations: [
+            _app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"],
+            _vitals_vitals_component__WEBPACK_IMPORTED_MODULE_5__["VitalsComponent"],
+            _allergy_allergy_component__WEBPACK_IMPORTED_MODULE_6__["AllergyComponent"],
+            _hist_hist_component__WEBPACK_IMPORTED_MODULE_10__["HistComponent"],
+            _translate_pipe__WEBPACK_IMPORTED_MODULE_13__["TranslatePipe"],
+            _orders1_orders1_component__WEBPACK_IMPORTED_MODULE_16__["Orders1Component"],
+            _diagnosis_diagnosis_component__WEBPACK_IMPORTED_MODULE_17__["DiagnosisComponent"],
+            _home_home_component__WEBPACK_IMPORTED_MODULE_30__["HomeComponent"]
+        ],
+        imports: [
+            _angular_material_button__WEBPACK_IMPORTED_MODULE_24__["MatButtonModule"],
+            _angular_forms__WEBPACK_IMPORTED_MODULE_27__["ReactiveFormsModule"],
+            _angular_cdk_stepper__WEBPACK_IMPORTED_MODULE_28__["CdkStepperModule"],
+            _angular_forms__WEBPACK_IMPORTED_MODULE_27__["FormsModule"],
+            _angular_cdk_table__WEBPACK_IMPORTED_MODULE_29__["CdkTableModule"],
+            _angular_material_icon__WEBPACK_IMPORTED_MODULE_25__["MatIconModule"],
+            _angular_material__WEBPACK_IMPORTED_MODULE_14__["MatStepperModule"],
+            _angular_material_datepicker__WEBPACK_IMPORTED_MODULE_21__["MatDatepickerModule"],
+            _angular_material__WEBPACK_IMPORTED_MODULE_14__["MatTableModule"],
+            _angular_material_checkbox__WEBPACK_IMPORTED_MODULE_23__["MatCheckboxModule"],
+            _angular_material__WEBPACK_IMPORTED_MODULE_14__["MatDialogModule"],
+            ngx_mat_select_search__WEBPACK_IMPORTED_MODULE_22__["NgxMatSelectSearchModule"],
+            _angular_material__WEBPACK_IMPORTED_MODULE_14__["MatNativeDateModule"],
+            _angular_material_list__WEBPACK_IMPORTED_MODULE_20__["MatListModule"],
+            _angular_material_select__WEBPACK_IMPORTED_MODULE_19__["MatSelectModule"],
+            _angular_material_expansion__WEBPACK_IMPORTED_MODULE_18__["MatExpansionModule"],
+            _angular_material_autocomplete__WEBPACK_IMPORTED_MODULE_15__["MatAutocompleteModule"],
+            _angular_material_form_field__WEBPACK_IMPORTED_MODULE_8__["MatFormFieldModule"],
+            _angular_material__WEBPACK_IMPORTED_MODULE_14__["MatRadioModule"],
+            _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
+            _app_routing_module__WEBPACK_IMPORTED_MODULE_3__["AppRoutingModule"],
+            _angular_material_input__WEBPACK_IMPORTED_MODULE_7__["MatInputModule"],
+            _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_9__["BrowserAnimationsModule"],
+            _angular_common_http__WEBPACK_IMPORTED_MODULE_11__["HttpClientModule"]
+        ],
+        providers: [
+            _translate_service__WEBPACK_IMPORTED_MODULE_12__["TranslateService"],
+            { provide: _angular_common__WEBPACK_IMPORTED_MODULE_26__["LocationStrategy"], useClass: _angular_common__WEBPACK_IMPORTED_MODULE_26__["HashLocationStrategy"] },
+            {
+                provide: _angular_core__WEBPACK_IMPORTED_MODULE_2__["APP_INITIALIZER"],
+                useFactory: setupTranslateFactory,
+                deps: [_translate_service__WEBPACK_IMPORTED_MODULE_12__["TranslateService"]],
+                multi: true
+            }
+        ],
+        bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"]]
+    })
+], AppModule);
+
+
+
+/***/ }),
+
+/***/ "./src/app/diagnosis/diagnosis.component.css":
+/*!***************************************************!*\
+  !*** ./src/app/diagnosis/diagnosis.component.css ***!
+  \***************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\r\n@media only screen and (max-width: 600px) {\r\n    i{\r\n        font-size: 10.5px !important;\r\n          padding: 2.8px 3px !important;\r\n    \r\n      }\r\n      .hero-message::before {\r\n                  \r\n        min-width: 91.7% !important;\r\n      \r\n        \r\n    }\r\n    .card.sc{\r\n      background-color: #62a6c2 !important;\r\n      position: absolute;\r\n      z-index: 1;\r\n      width: 92% !important;\r\n      left: 0.97rem !important;\r\n    }\r\n    #scan.card.sc{\r\n    \r\n      top: 10rem !important;\r\n    \r\n    }\r\n    #scan2.card.sc{\r\n    \r\n      top: 7.3rem !important;\r\n    \r\n    }\r\n    #scan1.card.sc{\r\n    \r\n      top: 12.8rem !important;\r\n    \r\n    }\r\n      table th{\r\n    \r\n        font-size :13px !important;\r\n      }\r\n      h3{\r\n        font-size: 20.5px !important;\r\n      }\r\n      .col-md-4.bt{\r\n        margin-bottom: -41px;\r\n      }\r\n      h1{\r\n        font-size: 31px;\r\n      }\r\n      h2{\r\n        font-size: 22px;\r\n        margin-top: 10px;\r\n      }\r\n    .card.tb{\r\n      margin-top:10px;  \r\n    }\r\n\r\nh4{\r\n    font-size: 20.2px;\r\n}\r\n\r\n  \r\n}\r\n\r\n.ab{\r\n    border-color: #1795ac !important;\r\n}\r\n\r\n.card-header23{\r\n    /* padding: 4px !important; */\r\n    border-top-right-radius: 15px !important;\r\n    border-top-left-radius: 15px !important ;\r\n\r\n}\r\n\r\ntable.table tbody td{\r\n    padding-top: 5px;\r\n    padding-bottom: 5px;\r\n}\r\n\r\n.mat-radio-button.mat-accent.mat-radio-checked .mat-radio-outer-circle {\r\n    border-color: #3cbad0 !important;\r\n}\r\n\r\n.icontop1:hover{\r\n    box-shadow: 0px 0px 5px 5px #fff;\r\n}\r\n\r\n.card-header1{\r\n    z-index: 2;\r\n    top: 20px;\r\n}\r\n\r\n/* .card{\r\n    padding-right: 0px;3\r\n\r\n} */\r\n\r\n.shadow-textarea textarea.form-control::-webkit-input-placeholder {\r\n    font-weight: 300;\r\n}\r\n\r\n.shadow-textarea textarea.form-control::-moz-placeholder {\r\n    font-weight: 300;\r\n}\r\n\r\n.shadow-textarea textarea.form-control::-ms-input-placeholder {\r\n    font-weight: 300;\r\n}\r\n\r\n.shadow-textarea textarea.form-control::placeholder {\r\n    font-weight: 300;\r\n}\r\n\r\n.shadow-textarea textarea.form-control {\r\n    padding-left: 0.8rem;\r\n}\r\n\r\n.ca{\r\n    z-index: 2;\r\n    top:0px;\r\n    border-radius:0px !important;\r\n    border-width:0px ;\r\n    box-shadow: 1px 1px rgb(10, 10, 10);\r\n    bottom: 10px;\r\n    width: 15%;\r\n    background-color: rgb(255, 255, 255);\r\n    align-items: center;\r\n\r\n}\r\n\r\n#regbutton {\r\n    z-index: 2;\r\n    top: 3rem;\r\n    width: 140px;\r\n    padding-bottom: 10px;\r\n    background: linear-gradient(0deg, rgb(36, 64, 70) 15%, rgb(36, 64, 70) 15%, rgb(10, 89, 134) 61%, rgb(10, 89, 134) 61%) !important;\r\n    font-size: 16px;\r\n    align-items: center;\r\n    border-radius: 40px;\r\n}\r\n\r\n.card{\r\n    border-radius: 0px !important;\r\n    box-shadow: 5px;\r\n\r\n}\r\n\r\n.shadow-textarea{\r\n    box-shadow: 3px;\r\n}\r\n\r\n/* #user_input, #user_input1 {\r\n    display: block !important;\r\n} */\r\n\r\n.example-form1 {\r\n    min-width: 400px;\r\n    max-width: 500px;\r\n    width: 100%;\r\n  }\r\n\r\nmat-radio-button .radio1 .mat-off{\r\n      border-color: rgb(45, 177, 253);\r\n      color: rgb(46, 164, 201);\r\n      border-inline-color: rgb(46, 164, 201);\r\n  }\r\n\r\nmat-form-field{\r\n    width: 100% !important;\r\n    margin-top:0px;\r\n    margin-bottom: -14px;\r\n}\r\n\r\n#dia {\r\n    background-color: rgb(61, 174, 240);\r\n    /* padding: 8px; */\r\n    border-radius: 5px;\r\n    color: #000;\r\n}\r\n\r\n.card.tb{\r\n\r\n    margin-top: 11px !important;\r\n    border-radius: 4px !important;\r\n    opacity: 0.6;\r\n\r\n  background:linear-gradient(160deg,#006894,#006894)!important;\r\n  }\r\n\r\n.mat-expansion-panel{\r\n    background-color: #fff;\r\n      \r\n  }\r\n\r\n.mat-expansion-panel-header-title,.mat-expansion-panel{\r\n\r\n        color: #000;\r\n    }\r\n\r\n::-webkit-scrollbar { \r\n        display: none; \r\n        }\r\n\r\nh4{\r\n            padding-top: 10px !important;\r\n          \r\n            padding-left: 9px !important;\r\n          }\r\n\r\n.mat-expansion-panel-header.ht{\r\n            height: 40px !important;\r\n            }\r\n\r\n.mat-accordion .mat-expansion-panel:first-of-type,.mat-accordion .mat-expansion-panel:not(.mat-expanded), .mat-accordion .mat-expansion-panel:not(.mat-expansion-panel-spacing){\r\n                border-radius: 4px !important;\r\n            }\r\n\r\n.mat-form-field-label-wrapper.autocomplete-items{\r\n                color: black !important;\r\n            }\r\n\r\n.hero-message::before {\r\n                content: \"\";\r\n                display: block;\r\n                position: absolute;\r\n                border-radius: 4px;\r\n                margin-left: 0px;\r\n                min-width: 91%;\r\n                border-radius: 4px;\r\n                height: 2.5rem;\r\n                z-index: -1;\r\n                opacity: 0.5;\r\n                background-color: #006894;\r\n                }\r\n\r\ni {\r\n                  display: inline-block;\r\n                  text-align: center;\r\n                  color: #f6f8f9cc;\r\n                  font-size: 12px;\r\n                  border: 1.5px solid #f6f8f9cc;\r\n                  border-radius: 50% !important;\r\n                  padding: 3px 4px;\r\n                  float: right;\r\n                \r\n                  }\r\n\r\n#chn{\r\n                cursor: pointer;\r\n              }\r\n\r\n.inputTextClass{\r\n                outline: none;\r\n                border: none;\r\n                caret-color: white !important;\r\n                color: white !important;\r\n                background-color: transparent;\r\n                width: 100%;\r\n                border-bottom: 1.3px solid #dad3d3;\r\n                box-shadow: none !important;\r\n            }\r\n\r\n.list-group-item{\r\n                background-color: transparent;\r\n                color: white;\r\n                border-top: none;\r\n                border: none;\r\n                 margin-top: 4px;\r\n                 font-weight: 400;\r\n                padding: 9px;\r\n                font-size: 15px;\r\n              }\r\n\r\n::-webkit-input-placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */\r\n                color: white;\r\n              }\r\n\r\n::-moz-placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */\r\n                color: white;\r\n              }\r\n\r\n::-ms-input-placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */\r\n                color: white;\r\n              }\r\n\r\n::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */\r\n                color: white;\r\n              }\r\n\r\n.card.sc{\r\n                padding: 6.4px !important;\r\n               \r\n                position: absolute;\r\n              \r\n                z-index: 8;\r\n                width: 19%;\r\n                left: 19.97rem;\r\n                background-color: #4193b7;\r\n               border-radius:.25rem !important;\r\n              }\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvZGlhZ25vc2lzL2RpYWdub3Npcy5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7QUFDQTtJQUNJO1FBQ0ksNEJBQTRCO1VBQzFCLDZCQUE2Qjs7TUFFakM7TUFDQTs7UUFFRSwyQkFBMkI7OztJQUcvQjtJQUNBO01BQ0Usb0NBQW9DO01BQ3BDLGtCQUFrQjtNQUNsQixVQUFVO01BQ1YscUJBQXFCO01BQ3JCLHdCQUF3QjtJQUMxQjtJQUNBOztNQUVFLHFCQUFxQjs7SUFFdkI7SUFDQTs7TUFFRSxzQkFBc0I7O0lBRXhCO0lBQ0E7O01BRUUsdUJBQXVCOztJQUV6QjtNQUNFOztRQUVFLDBCQUEwQjtNQUM1QjtNQUNBO1FBQ0UsNEJBQTRCO01BQzlCO01BQ0E7UUFDRSxvQkFBb0I7TUFDdEI7TUFDQTtRQUNFLGVBQWU7TUFDakI7TUFDQTtRQUNFLGVBQWU7UUFDZixnQkFBZ0I7TUFDbEI7SUFDRjtNQUNFLGVBQWU7SUFDakI7O0FBRUo7SUFDSSxpQkFBaUI7QUFDckI7OztBQUdBOztBQUVBO0lBQ0ksZ0NBQWdDO0FBQ3BDOztBQUNBO0lBQ0ksNkJBQTZCO0lBQzdCLHdDQUF3QztJQUN4Qyx3Q0FBd0M7O0FBRTVDOztBQUVBO0lBQ0ksZ0JBQWdCO0lBQ2hCLG1CQUFtQjtBQUN2Qjs7QUFDQTtJQUNJLGdDQUFnQztBQUNwQzs7QUFDQTtJQUNJLGdDQUFnQztBQUNwQzs7QUFHQTtJQUNJLFVBQVU7SUFDVixTQUFTO0FBQ2I7O0FBQ0E7OztHQUdHOztBQUNIO0lBQ0ksZ0JBQWdCO0FBQ3BCOztBQUZBO0lBQ0ksZ0JBQWdCO0FBQ3BCOztBQUZBO0lBQ0ksZ0JBQWdCO0FBQ3BCOztBQUZBO0lBQ0ksZ0JBQWdCO0FBQ3BCOztBQUNBO0lBQ0ksb0JBQW9CO0FBQ3hCOztBQUNBO0lBQ0ksVUFBVTtJQUNWLE9BQU87SUFDUCw0QkFBNEI7SUFDNUIsaUJBQWlCO0lBQ2pCLG1DQUFtQztJQUNuQyxZQUFZO0lBQ1osVUFBVTtJQUNWLG9DQUFvQztJQUNwQyxtQkFBbUI7O0FBRXZCOztBQUNBO0lBQ0ksVUFBVTtJQUNWLFNBQVM7SUFDVCxZQUFZO0lBQ1osb0JBQW9CO0lBQ3BCLGtJQUFrSTtJQUNsSSxlQUFlO0lBQ2YsbUJBQW1CO0lBQ25CLG1CQUFtQjtBQUN2Qjs7QUFDQTtJQUNJLDZCQUE2QjtJQUM3QixlQUFlOztBQUVuQjs7QUFDQTtJQUNJLGVBQWU7QUFDbkI7O0FBRUE7O0dBRUc7O0FBR0g7SUFDSSxnQkFBZ0I7SUFDaEIsZ0JBQWdCO0lBQ2hCLFdBQVc7RUFDYjs7QUFFQTtNQUNJLCtCQUErQjtNQUMvQix3QkFBd0I7TUFDeEIsc0NBQXNDO0VBQzFDOztBQUVBO0lBQ0Usc0JBQXNCO0lBQ3RCLGNBQWM7SUFDZCxvQkFBb0I7QUFDeEI7O0FBR0E7SUFDSSxtQ0FBbUM7SUFDbkMsa0JBQWtCO0lBQ2xCLGtCQUFrQjtJQUNsQixXQUFXO0FBQ2Y7O0FBQ0E7O0lBRUksMkJBQTJCO0lBQzNCLDZCQUE2QjtJQUM3QixZQUFZOztFQUVkLDREQUE0RDtFQUM1RDs7QUFDQTtJQUNFLHNCQUFzQjs7RUFFeEI7O0FBR0U7O1FBRUksV0FBVztJQUNmOztBQUNBO1FBQ0ksYUFBYTtRQUNiOztBQUVBO1lBQ0ksNEJBQTRCOztZQUU1Qiw0QkFBNEI7VUFDOUI7O0FBQ0E7WUFDRSx1QkFBdUI7WUFDdkI7O0FBQ0E7Z0JBQ0ksNkJBQTZCO1lBQ2pDOztBQUVBO2dCQUNJLHVCQUF1QjtZQUMzQjs7QUFDQTtnQkFDSSxXQUFXO2dCQUNYLGNBQWM7Z0JBQ2Qsa0JBQWtCO2dCQUNsQixrQkFBa0I7Z0JBQ2xCLGdCQUFnQjtnQkFDaEIsY0FBYztnQkFDZCxrQkFBa0I7Z0JBQ2xCLGNBQWM7Z0JBQ2QsV0FBVztnQkFDWCxZQUFZO2dCQUNaLHlCQUF5QjtnQkFDekI7O0FBRUE7a0JBQ0UscUJBQXFCO2tCQUNyQixrQkFBa0I7a0JBQ2xCLGdCQUFnQjtrQkFDaEIsZUFBZTtrQkFDZiw2QkFBNkI7a0JBQzdCLDZCQUE2QjtrQkFDN0IsZ0JBQWdCO2tCQUNoQixZQUFZOztrQkFFWjs7QUFHSjtnQkFDRSxlQUFlO2NBQ2pCOztBQUNBO2dCQUNFLGFBQWE7Z0JBQ2IsWUFBWTtnQkFDWiw2QkFBNkI7Z0JBQzdCLHVCQUF1QjtnQkFDdkIsNkJBQTZCO2dCQUM3QixXQUFXO2dCQUNYLGtDQUFrQztnQkFDbEMsMkJBQTJCO1lBQy9COztBQUNFO2dCQUNFLDZCQUE2QjtnQkFDN0IsWUFBWTtnQkFDWixnQkFBZ0I7Z0JBQ2hCLFlBQVk7aUJBQ1gsZUFBZTtpQkFDZixnQkFBZ0I7Z0JBQ2pCLFlBQVk7Z0JBQ1osZUFBZTtjQUNqQjs7QUFDQSw4QkFBZ0IseUNBQXlDO2dCQUN2RCxZQUFZO2NBQ2Q7O0FBRkEscUJBQWdCLHlDQUF5QztnQkFDdkQsWUFBWTtjQUNkOztBQUZBLDBCQUFnQix5Q0FBeUM7Z0JBQ3ZELFlBQVk7Y0FDZDs7QUFGQSxnQkFBZ0IseUNBQXlDO2dCQUN2RCxZQUFZO2NBQ2Q7O0FBRUE7Z0JBQ0UseUJBQXlCOztnQkFFekIsa0JBQWtCOztnQkFFbEIsVUFBVTtnQkFDVixVQUFVO2dCQUNWLGNBQWM7Z0JBQ2QseUJBQXlCO2VBQzFCLCtCQUErQjtjQUNoQyIsImZpbGUiOiJzcmMvYXBwL2RpYWdub3Npcy9kaWFnbm9zaXMuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIlxyXG5AbWVkaWEgb25seSBzY3JlZW4gYW5kIChtYXgtd2lkdGg6IDYwMHB4KSB7XHJcbiAgICBpe1xyXG4gICAgICAgIGZvbnQtc2l6ZTogMTAuNXB4ICFpbXBvcnRhbnQ7XHJcbiAgICAgICAgICBwYWRkaW5nOiAyLjhweCAzcHggIWltcG9ydGFudDtcclxuICAgIFxyXG4gICAgICB9XHJcbiAgICAgIC5oZXJvLW1lc3NhZ2U6OmJlZm9yZSB7XHJcbiAgICAgICAgICAgICAgICAgIFxyXG4gICAgICAgIG1pbi13aWR0aDogOTEuNyUgIWltcG9ydGFudDtcclxuICAgICAgXHJcbiAgICAgICAgXHJcbiAgICB9XHJcbiAgICAuY2FyZC5zY3tcclxuICAgICAgYmFja2dyb3VuZC1jb2xvcjogIzYyYTZjMiAhaW1wb3J0YW50O1xyXG4gICAgICBwb3NpdGlvbjogYWJzb2x1dGU7XHJcbiAgICAgIHotaW5kZXg6IDE7XHJcbiAgICAgIHdpZHRoOiA5MiUgIWltcG9ydGFudDtcclxuICAgICAgbGVmdDogMC45N3JlbSAhaW1wb3J0YW50O1xyXG4gICAgfVxyXG4gICAgI3NjYW4uY2FyZC5zY3tcclxuICAgIFxyXG4gICAgICB0b3A6IDEwcmVtICFpbXBvcnRhbnQ7XHJcbiAgICBcclxuICAgIH1cclxuICAgICNzY2FuMi5jYXJkLnNje1xyXG4gICAgXHJcbiAgICAgIHRvcDogNy4zcmVtICFpbXBvcnRhbnQ7XHJcbiAgICBcclxuICAgIH1cclxuICAgICNzY2FuMS5jYXJkLnNje1xyXG4gICAgXHJcbiAgICAgIHRvcDogMTIuOHJlbSAhaW1wb3J0YW50O1xyXG4gICAgXHJcbiAgICB9XHJcbiAgICAgIHRhYmxlIHRoe1xyXG4gICAgXHJcbiAgICAgICAgZm9udC1zaXplIDoxM3B4ICFpbXBvcnRhbnQ7XHJcbiAgICAgIH1cclxuICAgICAgaDN7XHJcbiAgICAgICAgZm9udC1zaXplOiAyMC41cHggIWltcG9ydGFudDtcclxuICAgICAgfVxyXG4gICAgICAuY29sLW1kLTQuYnR7XHJcbiAgICAgICAgbWFyZ2luLWJvdHRvbTogLTQxcHg7XHJcbiAgICAgIH1cclxuICAgICAgaDF7XHJcbiAgICAgICAgZm9udC1zaXplOiAzMXB4O1xyXG4gICAgICB9XHJcbiAgICAgIGgye1xyXG4gICAgICAgIGZvbnQtc2l6ZTogMjJweDtcclxuICAgICAgICBtYXJnaW4tdG9wOiAxMHB4O1xyXG4gICAgICB9XHJcbiAgICAuY2FyZC50YntcclxuICAgICAgbWFyZ2luLXRvcDoxMHB4OyAgXHJcbiAgICB9XHJcblxyXG5oNHtcclxuICAgIGZvbnQtc2l6ZTogMjAuMnB4O1xyXG59XHJcblxyXG4gIFxyXG59XHJcblxyXG4uYWJ7XHJcbiAgICBib3JkZXItY29sb3I6ICMxNzk1YWMgIWltcG9ydGFudDtcclxufVxyXG4uY2FyZC1oZWFkZXIyM3tcclxuICAgIC8qIHBhZGRpbmc6IDRweCAhaW1wb3J0YW50OyAqL1xyXG4gICAgYm9yZGVyLXRvcC1yaWdodC1yYWRpdXM6IDE1cHggIWltcG9ydGFudDtcclxuICAgIGJvcmRlci10b3AtbGVmdC1yYWRpdXM6IDE1cHggIWltcG9ydGFudCA7XHJcblxyXG59XHJcblxyXG50YWJsZS50YWJsZSB0Ym9keSB0ZHtcclxuICAgIHBhZGRpbmctdG9wOiA1cHg7XHJcbiAgICBwYWRkaW5nLWJvdHRvbTogNXB4O1xyXG59XHJcbi5tYXQtcmFkaW8tYnV0dG9uLm1hdC1hY2NlbnQubWF0LXJhZGlvLWNoZWNrZWQgLm1hdC1yYWRpby1vdXRlci1jaXJjbGUge1xyXG4gICAgYm9yZGVyLWNvbG9yOiAjM2NiYWQwICFpbXBvcnRhbnQ7XHJcbn1cclxuLmljb250b3AxOmhvdmVye1xyXG4gICAgYm94LXNoYWRvdzogMHB4IDBweCA1cHggNXB4ICNmZmY7XHJcbn1cclxuXHJcblxyXG4uY2FyZC1oZWFkZXIxe1xyXG4gICAgei1pbmRleDogMjtcclxuICAgIHRvcDogMjBweDtcclxufVxyXG4vKiAuY2FyZHtcclxuICAgIHBhZGRpbmctcmlnaHQ6IDBweDszXHJcblxyXG59ICovXHJcbi5zaGFkb3ctdGV4dGFyZWEgdGV4dGFyZWEuZm9ybS1jb250cm9sOjpwbGFjZWhvbGRlciB7XHJcbiAgICBmb250LXdlaWdodDogMzAwO1xyXG59XHJcbi5zaGFkb3ctdGV4dGFyZWEgdGV4dGFyZWEuZm9ybS1jb250cm9sIHtcclxuICAgIHBhZGRpbmctbGVmdDogMC44cmVtO1xyXG59XHJcbi5jYXtcclxuICAgIHotaW5kZXg6IDI7XHJcbiAgICB0b3A6MHB4O1xyXG4gICAgYm9yZGVyLXJhZGl1czowcHggIWltcG9ydGFudDtcclxuICAgIGJvcmRlci13aWR0aDowcHggO1xyXG4gICAgYm94LXNoYWRvdzogMXB4IDFweCByZ2IoMTAsIDEwLCAxMCk7XHJcbiAgICBib3R0b206IDEwcHg7XHJcbiAgICB3aWR0aDogMTUlO1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogcmdiKDI1NSwgMjU1LCAyNTUpO1xyXG4gICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcclxuXHJcbn1cclxuI3JlZ2J1dHRvbiB7XHJcbiAgICB6LWluZGV4OiAyO1xyXG4gICAgdG9wOiAzcmVtO1xyXG4gICAgd2lkdGg6IDE0MHB4O1xyXG4gICAgcGFkZGluZy1ib3R0b206IDEwcHg7XHJcbiAgICBiYWNrZ3JvdW5kOiBsaW5lYXItZ3JhZGllbnQoMGRlZywgcmdiKDM2LCA2NCwgNzApIDE1JSwgcmdiKDM2LCA2NCwgNzApIDE1JSwgcmdiKDEwLCA4OSwgMTM0KSA2MSUsIHJnYigxMCwgODksIDEzNCkgNjElKSAhaW1wb3J0YW50O1xyXG4gICAgZm9udC1zaXplOiAxNnB4O1xyXG4gICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcclxuICAgIGJvcmRlci1yYWRpdXM6IDQwcHg7XHJcbn1cclxuLmNhcmR7XHJcbiAgICBib3JkZXItcmFkaXVzOiAwcHggIWltcG9ydGFudDtcclxuICAgIGJveC1zaGFkb3c6IDVweDtcclxuXHJcbn1cclxuLnNoYWRvdy10ZXh0YXJlYXtcclxuICAgIGJveC1zaGFkb3c6IDNweDtcclxufVxyXG5cclxuLyogI3VzZXJfaW5wdXQsICN1c2VyX2lucHV0MSB7XHJcbiAgICBkaXNwbGF5OiBibG9jayAhaW1wb3J0YW50O1xyXG59ICovXHJcblxyXG5cclxuLmV4YW1wbGUtZm9ybTEge1xyXG4gICAgbWluLXdpZHRoOiA0MDBweDtcclxuICAgIG1heC13aWR0aDogNTAwcHg7XHJcbiAgICB3aWR0aDogMTAwJTtcclxuICB9XHJcblxyXG4gIG1hdC1yYWRpby1idXR0b24gLnJhZGlvMSAubWF0LW9mZntcclxuICAgICAgYm9yZGVyLWNvbG9yOiByZ2IoNDUsIDE3NywgMjUzKTtcclxuICAgICAgY29sb3I6IHJnYig0NiwgMTY0LCAyMDEpO1xyXG4gICAgICBib3JkZXItaW5saW5lLWNvbG9yOiByZ2IoNDYsIDE2NCwgMjAxKTtcclxuICB9XHJcblxyXG4gIG1hdC1mb3JtLWZpZWxke1xyXG4gICAgd2lkdGg6IDEwMCUgIWltcG9ydGFudDtcclxuICAgIG1hcmdpbi10b3A6MHB4O1xyXG4gICAgbWFyZ2luLWJvdHRvbTogLTE0cHg7XHJcbn1cclxuXHJcblxyXG4jZGlhIHtcclxuICAgIGJhY2tncm91bmQtY29sb3I6IHJnYig2MSwgMTc0LCAyNDApO1xyXG4gICAgLyogcGFkZGluZzogOHB4OyAqL1xyXG4gICAgYm9yZGVyLXJhZGl1czogNXB4O1xyXG4gICAgY29sb3I6ICMwMDA7XHJcbn1cclxuLmNhcmQudGJ7XHJcblxyXG4gICAgbWFyZ2luLXRvcDogMTFweCAhaW1wb3J0YW50O1xyXG4gICAgYm9yZGVyLXJhZGl1czogNHB4ICFpbXBvcnRhbnQ7XHJcbiAgICBvcGFjaXR5OiAwLjY7XHJcblxyXG4gIGJhY2tncm91bmQ6bGluZWFyLWdyYWRpZW50KDE2MGRlZywjMDA2ODk0LCMwMDY4OTQpIWltcG9ydGFudDtcclxuICB9XHJcbiAgLm1hdC1leHBhbnNpb24tcGFuZWx7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjZmZmO1xyXG4gICAgICBcclxuICB9XHJcbiAgXHJcbiAgXHJcbiAgICAubWF0LWV4cGFuc2lvbi1wYW5lbC1oZWFkZXItdGl0bGUsLm1hdC1leHBhbnNpb24tcGFuZWx7XHJcblxyXG4gICAgICAgIGNvbG9yOiAjMDAwO1xyXG4gICAgfVxyXG4gICAgOjotd2Via2l0LXNjcm9sbGJhciB7IFxyXG4gICAgICAgIGRpc3BsYXk6IG5vbmU7IFxyXG4gICAgICAgIH1cclxuICBcclxuICAgICAgICBoNHtcclxuICAgICAgICAgICAgcGFkZGluZy10b3A6IDEwcHggIWltcG9ydGFudDtcclxuICAgICAgICAgIFxyXG4gICAgICAgICAgICBwYWRkaW5nLWxlZnQ6IDlweCAhaW1wb3J0YW50O1xyXG4gICAgICAgICAgfVxyXG4gICAgICAgICAgLm1hdC1leHBhbnNpb24tcGFuZWwtaGVhZGVyLmh0e1xyXG4gICAgICAgICAgICBoZWlnaHQ6IDQwcHggIWltcG9ydGFudDtcclxuICAgICAgICAgICAgfVxyXG4gICAgICAgICAgICAubWF0LWFjY29yZGlvbiAubWF0LWV4cGFuc2lvbi1wYW5lbDpmaXJzdC1vZi10eXBlLC5tYXQtYWNjb3JkaW9uIC5tYXQtZXhwYW5zaW9uLXBhbmVsOm5vdCgubWF0LWV4cGFuZGVkKSwgLm1hdC1hY2NvcmRpb24gLm1hdC1leHBhbnNpb24tcGFuZWw6bm90KC5tYXQtZXhwYW5zaW9uLXBhbmVsLXNwYWNpbmcpe1xyXG4gICAgICAgICAgICAgICAgYm9yZGVyLXJhZGl1czogNHB4ICFpbXBvcnRhbnQ7XHJcbiAgICAgICAgICAgIH1cclxuICAgICAgICAgICBcclxuICAgICAgICAgICAgLm1hdC1mb3JtLWZpZWxkLWxhYmVsLXdyYXBwZXIuYXV0b2NvbXBsZXRlLWl0ZW1ze1xyXG4gICAgICAgICAgICAgICAgY29sb3I6IGJsYWNrICFpbXBvcnRhbnQ7XHJcbiAgICAgICAgICAgIH1cclxuICAgICAgICAgICAgLmhlcm8tbWVzc2FnZTo6YmVmb3JlIHtcclxuICAgICAgICAgICAgICAgIGNvbnRlbnQ6IFwiXCI7XHJcbiAgICAgICAgICAgICAgICBkaXNwbGF5OiBibG9jaztcclxuICAgICAgICAgICAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuICAgICAgICAgICAgICAgIGJvcmRlci1yYWRpdXM6IDRweDtcclxuICAgICAgICAgICAgICAgIG1hcmdpbi1sZWZ0OiAwcHg7XHJcbiAgICAgICAgICAgICAgICBtaW4td2lkdGg6IDkxJTtcclxuICAgICAgICAgICAgICAgIGJvcmRlci1yYWRpdXM6IDRweDtcclxuICAgICAgICAgICAgICAgIGhlaWdodDogMi41cmVtO1xyXG4gICAgICAgICAgICAgICAgei1pbmRleDogLTE7XHJcbiAgICAgICAgICAgICAgICBvcGFjaXR5OiAwLjU7XHJcbiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjMDA2ODk0O1xyXG4gICAgICAgICAgICAgICAgfVxyXG4gICAgICAgICAgICAgICBcclxuICAgICAgICAgICAgICAgIGkge1xyXG4gICAgICAgICAgICAgICAgICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XHJcbiAgICAgICAgICAgICAgICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICAgICAgICAgICAgICAgICAgY29sb3I6ICNmNmY4ZjljYztcclxuICAgICAgICAgICAgICAgICAgZm9udC1zaXplOiAxMnB4O1xyXG4gICAgICAgICAgICAgICAgICBib3JkZXI6IDEuNXB4IHNvbGlkICNmNmY4ZjljYztcclxuICAgICAgICAgICAgICAgICAgYm9yZGVyLXJhZGl1czogNTAlICFpbXBvcnRhbnQ7XHJcbiAgICAgICAgICAgICAgICAgIHBhZGRpbmc6IDNweCA0cHg7XHJcbiAgICAgICAgICAgICAgICAgIGZsb2F0OiByaWdodDtcclxuICAgICAgICAgICAgICAgIFxyXG4gICAgICAgICAgICAgICAgICB9XHJcbiAgICAgICAgICAgICAgXHJcbiAgICAgICAgICAgICAgXHJcbiAgICAgICAgICAgICAgI2NobntcclxuICAgICAgICAgICAgICAgIGN1cnNvcjogcG9pbnRlcjtcclxuICAgICAgICAgICAgICB9XHJcbiAgICAgICAgICAgICAgLmlucHV0VGV4dENsYXNze1xyXG4gICAgICAgICAgICAgICAgb3V0bGluZTogbm9uZTtcclxuICAgICAgICAgICAgICAgIGJvcmRlcjogbm9uZTtcclxuICAgICAgICAgICAgICAgIGNhcmV0LWNvbG9yOiB3aGl0ZSAhaW1wb3J0YW50O1xyXG4gICAgICAgICAgICAgICAgY29sb3I6IHdoaXRlICFpbXBvcnRhbnQ7XHJcbiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiB0cmFuc3BhcmVudDtcclxuICAgICAgICAgICAgICAgIHdpZHRoOiAxMDAlO1xyXG4gICAgICAgICAgICAgICAgYm9yZGVyLWJvdHRvbTogMS4zcHggc29saWQgI2RhZDNkMztcclxuICAgICAgICAgICAgICAgIGJveC1zaGFkb3c6IG5vbmUgIWltcG9ydGFudDtcclxuICAgICAgICAgICAgfSBcclxuICAgICAgICAgICAgICAubGlzdC1ncm91cC1pdGVte1xyXG4gICAgICAgICAgICAgICAgYmFja2dyb3VuZC1jb2xvcjogdHJhbnNwYXJlbnQ7XHJcbiAgICAgICAgICAgICAgICBjb2xvcjogd2hpdGU7XHJcbiAgICAgICAgICAgICAgICBib3JkZXItdG9wOiBub25lO1xyXG4gICAgICAgICAgICAgICAgYm9yZGVyOiBub25lO1xyXG4gICAgICAgICAgICAgICAgIG1hcmdpbi10b3A6IDRweDtcclxuICAgICAgICAgICAgICAgICBmb250LXdlaWdodDogNDAwO1xyXG4gICAgICAgICAgICAgICAgcGFkZGluZzogOXB4O1xyXG4gICAgICAgICAgICAgICAgZm9udC1zaXplOiAxNXB4O1xyXG4gICAgICAgICAgICAgIH1cclxuICAgICAgICAgICAgICA6OnBsYWNlaG9sZGVyIHsgLyogQ2hyb21lLCBGaXJlZm94LCBPcGVyYSwgU2FmYXJpIDEwLjErICovXHJcbiAgICAgICAgICAgICAgICBjb2xvcjogd2hpdGU7XHJcbiAgICAgICAgICAgICAgfVxyXG4gICAgICAgICAgICBcclxuICAgICAgICAgICAgICAuY2FyZC5zY3tcclxuICAgICAgICAgICAgICAgIHBhZGRpbmc6IDYuNHB4ICFpbXBvcnRhbnQ7XHJcbiAgICAgICAgICAgICAgIFxyXG4gICAgICAgICAgICAgICAgcG9zaXRpb246IGFic29sdXRlO1xyXG4gICAgICAgICAgICAgIFxyXG4gICAgICAgICAgICAgICAgei1pbmRleDogODtcclxuICAgICAgICAgICAgICAgIHdpZHRoOiAxOSU7XHJcbiAgICAgICAgICAgICAgICBsZWZ0OiAxOS45N3JlbTtcclxuICAgICAgICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6ICM0MTkzYjc7XHJcbiAgICAgICAgICAgICAgIGJvcmRlci1yYWRpdXM6LjI1cmVtICFpbXBvcnRhbnQ7XHJcbiAgICAgICAgICAgICAgfSJdfQ== */");
+
+/***/ }),
+
+/***/ "./src/app/diagnosis/diagnosis.component.ts":
+/*!**************************************************!*\
+  !*** ./src/app/diagnosis/diagnosis.component.ts ***!
+  \**************************************************/
+/*! exports provided: DiagnosisComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DiagnosisComponent", function() { return DiagnosisComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js");
+/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_2__);
+
+
+
+let DiagnosisComponent = class DiagnosisComponent {
+    constructor() {
+        this.foods = [
+            { value: 'steak-0', viewValue: 'Present' },
+            { value: 'pizza-1', viewValue: 'Not Present' }
+        ];
+    }
+    ngOnInit() {
+        var eid;
+        jquery__WEBPACK_IMPORTED_MODULE_2__(".mat-expansion-panel ").click(function () {
+            var newVal = jquery__WEBPACK_IMPORTED_MODULE_2__(this).attr('id');
+            eid = newVal;
+            console.log(newVal);
+        });
+        var Val1;
+        jquery__WEBPACK_IMPORTED_MODULE_2__(function ($) {
+            var pr;
+            var se;
+            $('#arrow').click(function () {
+                $('#exp').show(450);
+                var $item = $('<tr><td>' + $('#dig').val() + '</td></tr>').hide();
+                $('#tab').append($item).show();
+                $item.show('slow');
+            });
+            $('#arrow1').click(function () {
+                $('#exp1').show(450);
+                pr = $('#service1').val();
+                $("#newValueDisease").html(pr);
+                var $item1 = $('<tr><td>' + '</td><td>' + '</td></tr>').hide();
+                $('#tab1').append($item1).show();
+                $item1.show('slow');
+            });
+            $('#arrow2').click(function () {
+                $('#exp2').show(450);
+                se = $('#service2').val();
+                $("#newValueDisease1").html(se);
+                var $item2 = $('<tr><td>' + '</td><td>' + '</td></tr>').hide();
+                $('#tab2').append($item2).show();
+                $item2.show('slow');
+            });
+        });
+        jquery__WEBPACK_IMPORTED_MODULE_2__(function ($) {
+            $('#chn').click(function () {
+                if ($("#chn").hasClass('fa fa-times')) {
+                    $("#chn").removeClass('fa fa-times').addClass('fa fa-plus');
+                    $('#scan').slideUp();
+                }
+                else {
+                    $("#chn").removeClass('fa fa-plus').addClass('fa fa-times');
+                    Val1 = $(this).attr('id');
+                    console.log(Val1);
+                    $('#scan').slideToggle();
+                    $("#chn1").removeClass('fa fa-times').addClass('fa fa-plus');
+                    $("#chn2").removeClass('fa fa-times').addClass('fa fa-plus');
+                    $('#scan1').slideUp();
+                    $('#scan2').slideUp();
+                }
+            });
+            $('#chn1').click(function () {
+                if ($("#chn1").hasClass('fa fa-times')) {
+                    $("#chn1").removeClass('fa fa-times').addClass('fa fa-plus');
+                    $('#scan1').slideUp();
+                }
+                else {
+                    $("#chn1").removeClass('fa fa-plus').addClass('fa fa-times');
+                    Val1 = $(this).attr('id');
+                    console.log(Val1);
+                    $('#scan1').slideToggle();
+                    $("#chn").removeClass('fa fa-times').addClass('fa fa-plus');
+                    $("#chn2").removeClass('fa fa-times').addClass('fa fa-plus');
+                    $('#scan').slideUp();
+                    $('#scan2').slideUp();
+                }
+            });
+            $('#chn2').click(function () {
+                if ($("#chn2").hasClass('fa fa-times')) {
+                    $("#chn2").removeClass('fa fa-times').addClass('fa fa-plus');
+                    $('#scan2').slideUp();
+                }
+                else {
+                    $("#chn2").removeClass('fa fa-plus').addClass('fa fa-times');
+                    Val1 = $(this).attr('id');
+                    console.log(Val1);
+                    $('#scan2').slideToggle();
+                    $("#chn1").removeClass('fa fa-times').addClass('fa fa-plus');
+                    $("#chn").removeClass('fa fa-times').addClass('fa fa-plus');
+                    $('#scan').slideUp();
+                    $('#scan1').slideUp();
+                }
+            });
+        });
+        jquery__WEBPACK_IMPORTED_MODULE_2__(function ($) {
+            $(".inputTextClass").click(function () {
+                $('input[type="text"]').val('');
+            });
+        });
+        function autocomplete(inp, arr) {
+            var nameid;
+            /*the autocomplete function takes two arguments,
+            the text field element and an array of possible autocompleted values:*/
+            var currentFocus;
+            /*execute a function when someone writes in the text field:*/
+            inp.addEventListener("input", function (e) {
+                var a, b, i, val = this.value;
+                /*close any already open lists of autocompleted values*/
+                if (!val) {
+                    return false;
+                }
+                currentFocus = -1;
+                /*create a DIV element that will contain the items (values):*/
+                a = document.createElement("DIV");
+                a.setAttribute("id", this.id + "autocomplete-list");
+                a.setAttribute("class", "autocomplete-items");
+                /*append the DIV element as a child of the autocomplete container:*/
+                this.parentNode.appendChild(a);
+                /*for each item in the array...*/
+                for (i = 0; i < arr.length; i++) {
+                    /*check if the item starts with the same letters as the text field value:*/
+                    if (arr[i].substr(0, val.length).toUpperCase() == val.toUpperCase()) {
+                        /*create a DIV element for each matching element:*/
+                        b = document.createElement("DIV");
+                        /*make the matching letters bold:*/
+                        b.innerHTML = "<strong>" + arr[i].substr(0, val.length) + "</strong>";
+                        b.innerHTML += arr[i].substr(val.length);
+                        /*insert a input field that will hold the current array item's value:*/
+                        b.innerHTML += "<input type='hidden' value='" + arr[i] + "'>";
+                        /*execute a function when someone clicks on the item value (DIV element):*/
+                        b.addEventListener("click", function (e) {
+                            /*insert the value for the autocomplete text field:*/
+                            // inp.value = this.getElementsByTagName("input")[0].value;
+                            //   var selValue = this.getElementsByTagName("input")[0].value;
+                            //   inp.value = selValue;
+                            //   console.log(selValue);
+                            //  if(eid == "new"){
+                            //   $("#tab1").append('<tr><td>'+selValue+'</td><td>'+""+'</td></tr>').show(300);
+                            //   $("#tab2").hide();
+                            //  }
+                            //  else if(eid == "new1")
+                            //  {
+                            //   $("#tab2").append('<tr><td>'+selValue+'</td><td>'+""+'</td></tr>').show(300);
+                            //   $("#tab1").hide();
+                            //  }
+                            var selValue = this.getElementsByTagName("input")[0].value;
+                            inp.value = selValue;
+                            // console.log(selValue);
+                            if (Val1 == "chn") {
+                                jquery__WEBPACK_IMPORTED_MODULE_2__("#newValueDisease").html(selValue);
+                                jquery__WEBPACK_IMPORTED_MODULE_2__("#tab1").append('<tr><td>' + '</td><td>' + '</td></tr>').show();
+                                jquery__WEBPACK_IMPORTED_MODULE_2__("#exp1").show(300);
+                            }
+                            else if (Val1 == "chn1") {
+                                jquery__WEBPACK_IMPORTED_MODULE_2__("#newValueDisease1").html(selValue);
+                                jquery__WEBPACK_IMPORTED_MODULE_2__("#tab2").append('<tr><td>' + '</td><td>' + '</td></tr>').show();
+                                jquery__WEBPACK_IMPORTED_MODULE_2__("#exp2").show(300);
+                            }
+                            /*close the list of autocompleted values,
+                            (or any other open lists of autocompleted values:*/
+                        });
+                        a.appendChild(b);
+                    }
+                }
+            });
+            /*execute a function presses a key on the keyboard:*/
+            inp.addEventListener("keydown", function (e) {
+                var x = document.getElementById(this.id + "autocomplete-list");
+                // if (x) x = x.getElementsByTagName("div");
+                if (e.keyCode == 40) {
+                    /*If the arrow DOWN key is pressed,
+                    increase the currentFocus variable:*/
+                    currentFocus++;
+                    /*and and make the current item more visible:*/
+                    addActive(x);
+                }
+                else if (e.keyCode == 38) { //up
+                    /*If the arrow UP key is pressed,
+                    decrease the currentFocus variable:*/
+                    currentFocus--;
+                    /*and and make the current item more visible:*/
+                    addActive(x);
+                }
+                else if (e.keyCode == 13) {
+                    /*If the ENTER key is pressed, prevent the form from being submitted,*/
+                    e.preventDefault();
+                    if (currentFocus > -1) {
+                        /*and simulate a click on the "active" item:*/
+                        if (x)
+                            x[currentFocus].click();
+                    }
+                }
+            });
+            function addActive(x) {
+                /*a function to classify an item as "active":*/
+                if (!x)
+                    return false;
+                /*start by removing the "active" class on all items:*/
+                removeActive(x);
+                if (currentFocus >= x.length)
+                    currentFocus = 0;
+                if (currentFocus < 0)
+                    currentFocus = (x.length - 1);
+                /*add class "autocomplete-active":*/
+                x[currentFocus].classList.add("autocomplete-active");
+            }
+            function removeActive(x) {
+                /*a function to remove the "active" class from all autocomplete items:*/
+                for (var i = 0; i < x.length; i++) {
+                    x[i].classList.remove("autocomplete-active");
+                }
+            }
+            function closeAllLists(elmnt) {
+                /*close all autocomplete lists in the document,
+                except the one passed as an argument:*/
+                var x = document.getElementsByClassName("autocomplete-items");
+                for (var i = 0; i < x.length; i++) {
+                    if (elmnt != x[i] && elmnt != inp) {
+                        x[i].parentNode.removeChild(x[i]);
+                    }
+                }
+            }
+            /*execute a function when someone clicks in the document:*/
+            document.addEventListener("click", function (e) {
+                closeAllLists(e.target);
+            });
+        }
+        /*An array containing all the country names in the world:*/
+        var sevices = ["stuff", "AMINOLEVULINIC ACID (RANDOM)-URINE", "AMINOLEVULINIC ACID", "ALPHA-HYDROXYPROGESTERONE, DRIED BLOOD SPOT", "A-HYDROXYPROGESTERONE-SERUM", "HYDROXY", "KETOSTEROIDS, URINE", "asthma",
+            "multiple sclerosis",
+            "cancers",
+            "ciliopathies",
+            "cleft palate",
+            "diabetes",
+            "heart disease",
+            "hypertension",
+            "inflammatory bowel disease",
+            "intellectual disability",
+            "mood disorder",
+            "obesity",
+            "refractive error",
+            "infertility"];
+        /*initiate the autocomplete function on the "service" element, and pass along the sevices array as possible autocomplete values:*/
+        autocomplete(document.getElementById("service1"), sevices);
+        autocomplete(document.getElementById("service2"), sevices);
+    }
+};
+DiagnosisComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-diagnosis',
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./diagnosis.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/diagnosis/diagnosis.component.html")).default,
+        providers: [],
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./diagnosis.component.css */ "./src/app/diagnosis/diagnosis.component.css")).default]
+    })
+], DiagnosisComponent);
+
+
+
+/***/ }),
+
+/***/ "./src/app/hist/hist.component.css":
+/*!*****************************************!*\
+  !*** ./src/app/hist/hist.component.css ***!
+  \*****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("    @media only screen and (max-width: 600px) {\r\n\r\n      #auto1.card.sc{\r\n        top: 6rem !important;\r\n      }\r\n      #auto2.card.sc{\r\n        top: 8.7rem !important;\r\n      }\r\n      #auto3.card.sc{\r\n        top: 11.38rem !important;\r\n      }\r\n      #auto4.card.sc{ \r\n        top: 14rem !important;\r\n      }\r\n      i{\r\n        font-size: 10.5px !important;\r\n          padding: 2.8px 3px !important;\r\n      }\r\n      .hero-message::before {\r\n        min-width: 92% !important;\r\n        }\r\n      .col-md-4.bt{\r\n        margin-bottom: -71px !important;\r\n      }\r\n      table th{\r\n        font-size :13px !important;\r\n      }\r\n      h2{\r\n        font-size: 22px;\r\n        margin-top: 10px;\r\n      }\r\n      h1{\r\n        font-size: 31px;\r\n      }\r\n      h3{\r\n        font-size: 20.5px !important;\r\n      }\r\n      .card.tb {\r\n        margin-top: -2rem;\r\n        max-height: 152px !important;\r\n        overflow: auto !important ;\r\n        background-color: transparent;\r\n    }\r\n      .card.left{\r\n        margin-left: 21px !important;\r\n      }\r\n      .dropdown{\r\n        cursor: pointer;\r\n        margin-top: 12px;\r\n        width: 88%;\r\n        margin-top: 3px;\r\n      }\r\n      button#dropdownMenu5.btn.btn-primary.dropdown-toggle{\r\n        font-size: 15px !important;\r\n      }\r\n      .card.sc{\r\n        background-color: #62a6c2 !important;\r\n        position: absolute;\r\n        z-index: 1;\r\n        width: 92% !important;\r\n        left: 0.97rem !important;\r\n      }\r\n\r\n        #options.dropdown-menu.show{\r\n          transform: translate3d(-13px, 26px, 0px);\r\n      }\r\n      }\r\n      .card.sc{\r\n        padding: 6.4px !important;\r\n        position: absolute;\r\n        z-index: 8;\r\n        width: 19%;\r\n        left: 19.97rem;\r\n        background-color: #4193b7;\r\n      }\r\n      .mat-expansion-panel{\r\n        background-color: #0e07073b;    \r\n      }\r\n      .mat-expansion-panel-header-title,.mat-expansion-panel{\r\n        color: white;\r\n        }\r\n      .hero-message::before {\r\n        content: \"\";\r\n        display: block;\r\n        position: absolute;\r\n        border-radius: 4px;\r\n        margin-left: 0px;\r\n        min-width: 91%;\r\n        border-radius: 4px;\r\n        height: 2.5rem;\r\n        z-index: -1;\r\n        opacity: 0.5;\r\n        background-color: #006894;\r\n        }\r\n      .list-group-item{\r\n          background-color: transparent;\r\n          color: white;\r\n          border-top: none;\r\n          margin-top: 4px;\r\n          border: none;\r\n          padding: 9px;\r\n          font-size: 14px;\r\n        }\r\n      .inputTextClass{\r\n          outline: none;\r\n          border: none;\r\n          caret-color: white !important;\r\n          color: white !important;\r\n          background-color: transparent;\r\n          width: 100%;\r\n          border-bottom: 1.3px solid #dad3d3;\r\n          box-shadow: none !important;\r\n      }\r\n      .card-header.head{\r\n            padding-top: 10px;\r\n            background-color: transparent;\r\n            color: #716e6e !important;\r\n            border:none;\r\n        }\r\n      .card-body.six{\r\n            cursor: pointer;\r\n            height: 13rem;;\r\n        }\r\n      ::-webkit-scrollbar { \r\n            display: none; \r\n            }\r\n      .btn.btn-primary.btn-rounded.waves-effect.waves-light{\r\n\r\n            background-color: #27959a !important;\r\n              }\r\n      .dropdown .dropdown-menu .dropdown-item:hover{\r\n                background-color:   #27959a;\r\n\r\n              }\r\n      .dropdown-toggle::after{\r\n                float: right;\r\n                margin-top: 9px;\r\n              }\r\n      button#dropdownMenu5.btn.btn-primary.dropdown-toggle{\r\n                font-size: 17px;\r\n            box-shadow: none;\r\n\r\n              }\r\n      #dropdownMenu5.btn.btn-primary.dropdown-toggle.waves-effect.waves-light{\r\n                background-color: #fff !important;\r\n                width:100%;\r\n                margin-left: 0px;\r\n                text-align: left;\r\n                color:#716e6e;\r\n                font-size: 14px !important;\r\n                padding: 10.8px;\r\n                \r\n              }\r\n      .dropdown-item:hover{\r\n                background-color:   #27959a;\r\n                box-shadow: 0 5px 11px 0 rgba(0,0,0,.18), 0 4px 15px 0 rgba(0,0,0,.15);\r\n                color:white;\r\n                border-radius: .125rem;\r\n                transition: all .1s linear;\r\n              }\r\n      .dropdown-menu{\r\n              width:100%;\r\n              }\r\n      .dropdown .dropdown-menu .dropdown-item{\r\n                padding: 0.4rem;\r\n                width: 89%;\r\n                text-align: left;\r\n                font-size: .9rem;\r\n              }\r\n      .btn{\r\n                  padding: 0 !important;\r\n                  /* margin: 0 !important; */\r\n              }\r\n      .btn-primary.dropdown-toggle {\r\n                background-color: transparent !important;\r\n                color: #716e6e;\r\n                box-shadow: none;\r\n                text-align: left;\r\n              }\r\n      .btn-primary.dropdown-toggle:focus{\r\n                background-color: transparent !important;\r\n                color :#716e6e;\r\n              }\r\n      .btn-primary.dropdown-toggle:hover {\r\n                background-color: transparent !important;\r\n                color :#716e6e;\r\n                \r\n              }\r\n      .dropdown-item:hover{\r\n              color:white !important;\r\n              }\r\n      #options.dropdown-menu.show{\r\n                transform: translate3d(-45px, 33px, 0px);\r\n              }\r\n      .btn{\r\n              text-transform:capitalize !important;\r\n              padding: 0.38rem 0.5rem;\r\n              }\r\n      i {\r\n                display: inline-block;\r\n                text-align: center;\r\n                color: #f6f8f9cc;\r\n                font-size: 12px;\r\n                border: 1.5px solid #f6f8f9cc;\r\n                border-radius: 50% !important;\r\n                padding: 3px 4px;\r\n                float: right;\r\n              \r\n                }\r\n      .dropdown {\r\n                position: inherit !important;\r\n                padding: 21px;\r\n\r\n            }\r\n      #chn{\r\n              cursor: pointer;\r\n            }\r\n      table{\r\n\r\n              color: white !important;\r\n            }\r\n      table th{\r\n\r\n              font-size :13.7px;\r\n            }\r\n      .card.tb{\r\n              margin-top: 11px !important;\r\n              max-height:260px; \r\n              overflow: auto ;\r\n              opacity: 0.6;\r\n            background:linear-gradient(160deg,#006894,#006894)!important;\r\n            }\r\n      h4{\r\n              padding-top: 10px !important;\r\n              padding-left: 9px !important;\r\n            }\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvaGlzdC9oaXN0LmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IklBQUk7O01BRUU7UUFDRSxvQkFBb0I7TUFDdEI7TUFDQTtRQUNFLHNCQUFzQjtNQUN4QjtNQUNBO1FBQ0Usd0JBQXdCO01BQzFCO01BQ0E7UUFDRSxxQkFBcUI7TUFDdkI7TUFDQTtRQUNFLDRCQUE0QjtVQUMxQiw2QkFBNkI7TUFDakM7TUFDQTtRQUNFLHlCQUF5QjtRQUN6QjtNQUNGO1FBQ0UsK0JBQStCO01BQ2pDO01BQ0E7UUFDRSwwQkFBMEI7TUFDNUI7TUFDQTtRQUNFLGVBQWU7UUFDZixnQkFBZ0I7TUFDbEI7TUFDQTtRQUNFLGVBQWU7TUFDakI7TUFDQTtRQUNFLDRCQUE0QjtNQUM5QjtNQUNBO1FBQ0UsaUJBQWlCO1FBQ2pCLDRCQUE0QjtRQUM1QiwwQkFBMEI7UUFDMUIsNkJBQTZCO0lBQ2pDO01BQ0U7UUFDRSw0QkFBNEI7TUFDOUI7TUFDQTtRQUNFLGVBQWU7UUFDZixnQkFBZ0I7UUFDaEIsVUFBVTtRQUNWLGVBQWU7TUFDakI7TUFDQTtRQUNFLDBCQUEwQjtNQUM1QjtNQUNBO1FBQ0Usb0NBQW9DO1FBQ3BDLGtCQUFrQjtRQUNsQixVQUFVO1FBQ1YscUJBQXFCO1FBQ3JCLHdCQUF3QjtNQUMxQjs7UUFFRTtVQUNFLHdDQUF3QztNQUM1QztNQUNBO01BQ0E7UUFDRSx5QkFBeUI7UUFDekIsa0JBQWtCO1FBQ2xCLFVBQVU7UUFDVixVQUFVO1FBQ1YsY0FBYztRQUNkLHlCQUF5QjtNQUMzQjtNQUNBO1FBQ0UsMkJBQTJCO01BQzdCO01BQ0E7UUFDRSxZQUFZO1FBQ1o7TUFDRjtRQUNFLFdBQVc7UUFDWCxjQUFjO1FBQ2Qsa0JBQWtCO1FBQ2xCLGtCQUFrQjtRQUNsQixnQkFBZ0I7UUFDaEIsY0FBYztRQUNkLGtCQUFrQjtRQUNsQixjQUFjO1FBQ2QsV0FBVztRQUNYLFlBQVk7UUFDWix5QkFBeUI7UUFDekI7TUFFQTtVQUNFLDZCQUE2QjtVQUM3QixZQUFZO1VBQ1osZ0JBQWdCO1VBQ2hCLGVBQWU7VUFDZixZQUFZO1VBQ1osWUFBWTtVQUNaLGVBQWU7UUFDakI7TUFDQTtVQUNFLGFBQWE7VUFDYixZQUFZO1VBQ1osNkJBQTZCO1VBQzdCLHVCQUF1QjtVQUN2Qiw2QkFBNkI7VUFDN0IsV0FBVztVQUNYLGtDQUFrQztVQUNsQywyQkFBMkI7TUFDL0I7TUFDRTtZQUNJLGlCQUFpQjtZQUNqQiw2QkFBNkI7WUFDN0IseUJBQXlCO1lBQ3pCLFdBQVc7UUFDZjtNQUNBO1lBQ0ksZUFBZTtZQUNmLGFBQWE7UUFDakI7TUFDQTtZQUNJLGFBQWE7WUFDYjtNQUVBOztZQUVBLG9DQUFvQztjQUNsQztNQUNBO2dCQUNFLDJCQUEyQjs7Y0FFN0I7TUFDQTtnQkFDRSxZQUFZO2dCQUNaLGVBQWU7Y0FDakI7TUFDQTtnQkFDRSxlQUFlO1lBQ25CLGdCQUFnQjs7Y0FFZDtNQUNBO2dCQUNFLGlDQUFpQztnQkFDakMsVUFBVTtnQkFDVixnQkFBZ0I7Z0JBQ2hCLGdCQUFnQjtnQkFDaEIsYUFBYTtnQkFDYiwwQkFBMEI7Z0JBQzFCLGVBQWU7O2NBRWpCO01BQ0E7Z0JBQ0UsMkJBQTJCO2dCQUMzQixzRUFBc0U7Z0JBQ3RFLFdBQVc7Z0JBQ1gsc0JBQXNCO2dCQUN0QiwwQkFBMEI7Y0FDNUI7TUFDQTtjQUNBLFVBQVU7Y0FDVjtNQUNBO2dCQUNFLGVBQWU7Z0JBQ2YsVUFBVTtnQkFDVixnQkFBZ0I7Z0JBQ2hCLGdCQUFnQjtjQUNsQjtNQUNBO2tCQUNJLHFCQUFxQjtrQkFDckIsMEJBQTBCO2NBQzlCO01BRUE7Z0JBQ0Usd0NBQXdDO2dCQUN4QyxjQUFjO2dCQUNkLGdCQUFnQjtnQkFDaEIsZ0JBQWdCO2NBQ2xCO01BQ0E7Z0JBQ0Usd0NBQXdDO2dCQUN4QyxjQUFjO2NBQ2hCO01BQ0E7Z0JBQ0Usd0NBQXdDO2dCQUN4QyxjQUFjOztjQUVoQjtNQUNBO2NBQ0Esc0JBQXNCO2NBQ3RCO01BRUE7Z0JBQ0Usd0NBQXdDO2NBQzFDO01BRUY7Y0FDRSxvQ0FBb0M7Y0FDcEMsdUJBQXVCO2NBQ3ZCO01BRUE7Z0JBQ0UscUJBQXFCO2dCQUNyQixrQkFBa0I7Z0JBQ2xCLGdCQUFnQjtnQkFDaEIsZUFBZTtnQkFDZiw2QkFBNkI7Z0JBQzdCLDZCQUE2QjtnQkFDN0IsZ0JBQWdCO2dCQUNoQixZQUFZOztnQkFFWjtNQUNIO2dCQUNHLDRCQUE0QjtnQkFDNUIsYUFBYTs7WUFFakI7TUFDQTtjQUNFLGVBQWU7WUFDakI7TUFDQTs7Y0FFRSx1QkFBdUI7WUFDekI7TUFDQTs7Y0FFRSxpQkFBaUI7WUFDbkI7TUFDQTtjQUNFLDJCQUEyQjtjQUMzQixnQkFBZ0I7Y0FDaEIsZUFBZTtjQUNmLFlBQVk7WUFDZCw0REFBNEQ7WUFDNUQ7TUFDQTtjQUNFLDRCQUE0QjtjQUM1Qiw0QkFBNEI7WUFDOUIiLCJmaWxlIjoic3JjL2FwcC9oaXN0L2hpc3QuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIiAgICBAbWVkaWEgb25seSBzY3JlZW4gYW5kIChtYXgtd2lkdGg6IDYwMHB4KSB7XHJcblxyXG4gICAgICAjYXV0bzEuY2FyZC5zY3tcclxuICAgICAgICB0b3A6IDZyZW0gIWltcG9ydGFudDtcclxuICAgICAgfVxyXG4gICAgICAjYXV0bzIuY2FyZC5zY3tcclxuICAgICAgICB0b3A6IDguN3JlbSAhaW1wb3J0YW50O1xyXG4gICAgICB9XHJcbiAgICAgICNhdXRvMy5jYXJkLnNje1xyXG4gICAgICAgIHRvcDogMTEuMzhyZW0gIWltcG9ydGFudDtcclxuICAgICAgfVxyXG4gICAgICAjYXV0bzQuY2FyZC5zY3sgXHJcbiAgICAgICAgdG9wOiAxNHJlbSAhaW1wb3J0YW50O1xyXG4gICAgICB9XHJcbiAgICAgIGl7XHJcbiAgICAgICAgZm9udC1zaXplOiAxMC41cHggIWltcG9ydGFudDtcclxuICAgICAgICAgIHBhZGRpbmc6IDIuOHB4IDNweCAhaW1wb3J0YW50O1xyXG4gICAgICB9XHJcbiAgICAgIC5oZXJvLW1lc3NhZ2U6OmJlZm9yZSB7XHJcbiAgICAgICAgbWluLXdpZHRoOiA5MiUgIWltcG9ydGFudDtcclxuICAgICAgICB9XHJcbiAgICAgIC5jb2wtbWQtNC5idHtcclxuICAgICAgICBtYXJnaW4tYm90dG9tOiAtNzFweCAhaW1wb3J0YW50O1xyXG4gICAgICB9XHJcbiAgICAgIHRhYmxlIHRoe1xyXG4gICAgICAgIGZvbnQtc2l6ZSA6MTNweCAhaW1wb3J0YW50O1xyXG4gICAgICB9XHJcbiAgICAgIGgye1xyXG4gICAgICAgIGZvbnQtc2l6ZTogMjJweDtcclxuICAgICAgICBtYXJnaW4tdG9wOiAxMHB4O1xyXG4gICAgICB9XHJcbiAgICAgIGgxe1xyXG4gICAgICAgIGZvbnQtc2l6ZTogMzFweDtcclxuICAgICAgfVxyXG4gICAgICBoM3tcclxuICAgICAgICBmb250LXNpemU6IDIwLjVweCAhaW1wb3J0YW50O1xyXG4gICAgICB9XHJcbiAgICAgIC5jYXJkLnRiIHtcclxuICAgICAgICBtYXJnaW4tdG9wOiAtMnJlbTtcclxuICAgICAgICBtYXgtaGVpZ2h0OiAxNTJweCAhaW1wb3J0YW50O1xyXG4gICAgICAgIG92ZXJmbG93OiBhdXRvICFpbXBvcnRhbnQgO1xyXG4gICAgICAgIGJhY2tncm91bmQtY29sb3I6IHRyYW5zcGFyZW50O1xyXG4gICAgfVxyXG4gICAgICAuY2FyZC5sZWZ0e1xyXG4gICAgICAgIG1hcmdpbi1sZWZ0OiAyMXB4ICFpbXBvcnRhbnQ7XHJcbiAgICAgIH1cclxuICAgICAgLmRyb3Bkb3due1xyXG4gICAgICAgIGN1cnNvcjogcG9pbnRlcjtcclxuICAgICAgICBtYXJnaW4tdG9wOiAxMnB4O1xyXG4gICAgICAgIHdpZHRoOiA4OCU7XHJcbiAgICAgICAgbWFyZ2luLXRvcDogM3B4O1xyXG4gICAgICB9XHJcbiAgICAgIGJ1dHRvbiNkcm9wZG93bk1lbnU1LmJ0bi5idG4tcHJpbWFyeS5kcm9wZG93bi10b2dnbGV7XHJcbiAgICAgICAgZm9udC1zaXplOiAxNXB4ICFpbXBvcnRhbnQ7XHJcbiAgICAgIH1cclxuICAgICAgLmNhcmQuc2N7XHJcbiAgICAgICAgYmFja2dyb3VuZC1jb2xvcjogIzYyYTZjMiAhaW1wb3J0YW50O1xyXG4gICAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuICAgICAgICB6LWluZGV4OiAxO1xyXG4gICAgICAgIHdpZHRoOiA5MiUgIWltcG9ydGFudDtcclxuICAgICAgICBsZWZ0OiAwLjk3cmVtICFpbXBvcnRhbnQ7XHJcbiAgICAgIH1cclxuXHJcbiAgICAgICAgI29wdGlvbnMuZHJvcGRvd24tbWVudS5zaG93e1xyXG4gICAgICAgICAgdHJhbnNmb3JtOiB0cmFuc2xhdGUzZCgtMTNweCwgMjZweCwgMHB4KTtcclxuICAgICAgfVxyXG4gICAgICB9XHJcbiAgICAgIC5jYXJkLnNje1xyXG4gICAgICAgIHBhZGRpbmc6IDYuNHB4ICFpbXBvcnRhbnQ7XHJcbiAgICAgICAgcG9zaXRpb246IGFic29sdXRlO1xyXG4gICAgICAgIHotaW5kZXg6IDg7XHJcbiAgICAgICAgd2lkdGg6IDE5JTtcclxuICAgICAgICBsZWZ0OiAxOS45N3JlbTtcclxuICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjNDE5M2I3O1xyXG4gICAgICB9XHJcbiAgICAgIC5tYXQtZXhwYW5zaW9uLXBhbmVse1xyXG4gICAgICAgIGJhY2tncm91bmQtY29sb3I6ICMwZTA3MDczYjsgICAgXHJcbiAgICAgIH1cclxuICAgICAgLm1hdC1leHBhbnNpb24tcGFuZWwtaGVhZGVyLXRpdGxlLC5tYXQtZXhwYW5zaW9uLXBhbmVse1xyXG4gICAgICAgIGNvbG9yOiB3aGl0ZTtcclxuICAgICAgICB9XHJcbiAgICAgIC5oZXJvLW1lc3NhZ2U6OmJlZm9yZSB7XHJcbiAgICAgICAgY29udGVudDogXCJcIjtcclxuICAgICAgICBkaXNwbGF5OiBibG9jaztcclxuICAgICAgICBwb3NpdGlvbjogYWJzb2x1dGU7XHJcbiAgICAgICAgYm9yZGVyLXJhZGl1czogNHB4O1xyXG4gICAgICAgIG1hcmdpbi1sZWZ0OiAwcHg7XHJcbiAgICAgICAgbWluLXdpZHRoOiA5MSU7XHJcbiAgICAgICAgYm9yZGVyLXJhZGl1czogNHB4O1xyXG4gICAgICAgIGhlaWdodDogMi41cmVtO1xyXG4gICAgICAgIHotaW5kZXg6IC0xO1xyXG4gICAgICAgIG9wYWNpdHk6IDAuNTtcclxuICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjMDA2ODk0O1xyXG4gICAgICAgIH1cclxuICAgICAgICAgICAgICAgICAgICBcclxuICAgICAgICAubGlzdC1ncm91cC1pdGVte1xyXG4gICAgICAgICAgYmFja2dyb3VuZC1jb2xvcjogdHJhbnNwYXJlbnQ7XHJcbiAgICAgICAgICBjb2xvcjogd2hpdGU7XHJcbiAgICAgICAgICBib3JkZXItdG9wOiBub25lO1xyXG4gICAgICAgICAgbWFyZ2luLXRvcDogNHB4O1xyXG4gICAgICAgICAgYm9yZGVyOiBub25lO1xyXG4gICAgICAgICAgcGFkZGluZzogOXB4O1xyXG4gICAgICAgICAgZm9udC1zaXplOiAxNHB4O1xyXG4gICAgICAgIH1cclxuICAgICAgICAuaW5wdXRUZXh0Q2xhc3N7XHJcbiAgICAgICAgICBvdXRsaW5lOiBub25lO1xyXG4gICAgICAgICAgYm9yZGVyOiBub25lO1xyXG4gICAgICAgICAgY2FyZXQtY29sb3I6IHdoaXRlICFpbXBvcnRhbnQ7XHJcbiAgICAgICAgICBjb2xvcjogd2hpdGUgIWltcG9ydGFudDtcclxuICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6IHRyYW5zcGFyZW50O1xyXG4gICAgICAgICAgd2lkdGg6IDEwMCU7XHJcbiAgICAgICAgICBib3JkZXItYm90dG9tOiAxLjNweCBzb2xpZCAjZGFkM2QzO1xyXG4gICAgICAgICAgYm94LXNoYWRvdzogbm9uZSAhaW1wb3J0YW50O1xyXG4gICAgICB9IFxyXG4gICAgICAgIC5jYXJkLWhlYWRlci5oZWFke1xyXG4gICAgICAgICAgICBwYWRkaW5nLXRvcDogMTBweDtcclxuICAgICAgICAgICAgYmFja2dyb3VuZC1jb2xvcjogdHJhbnNwYXJlbnQ7XHJcbiAgICAgICAgICAgIGNvbG9yOiAjNzE2ZTZlICFpbXBvcnRhbnQ7XHJcbiAgICAgICAgICAgIGJvcmRlcjpub25lO1xyXG4gICAgICAgIH1cclxuICAgICAgICAuY2FyZC1ib2R5LnNpeHtcclxuICAgICAgICAgICAgY3Vyc29yOiBwb2ludGVyO1xyXG4gICAgICAgICAgICBoZWlnaHQ6IDEzcmVtOztcclxuICAgICAgICB9XHJcbiAgICAgICAgOjotd2Via2l0LXNjcm9sbGJhciB7IFxyXG4gICAgICAgICAgICBkaXNwbGF5OiBub25lOyBcclxuICAgICAgICAgICAgfVxyXG4gICAgICAgICAgICBcclxuICAgICAgICAgICAgLmJ0bi5idG4tcHJpbWFyeS5idG4tcm91bmRlZC53YXZlcy1lZmZlY3Qud2F2ZXMtbGlnaHR7XHJcblxyXG4gICAgICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjMjc5NTlhICFpbXBvcnRhbnQ7XHJcbiAgICAgICAgICAgICAgfVxyXG4gICAgICAgICAgICAgIC5kcm9wZG93biAuZHJvcGRvd24tbWVudSAuZHJvcGRvd24taXRlbTpob3ZlcntcclxuICAgICAgICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6ICAgIzI3OTU5YTtcclxuXHJcbiAgICAgICAgICAgICAgfVxyXG4gICAgICAgICAgICAgIC5kcm9wZG93bi10b2dnbGU6OmFmdGVye1xyXG4gICAgICAgICAgICAgICAgZmxvYXQ6IHJpZ2h0O1xyXG4gICAgICAgICAgICAgICAgbWFyZ2luLXRvcDogOXB4O1xyXG4gICAgICAgICAgICAgIH1cclxuICAgICAgICAgICAgICBidXR0b24jZHJvcGRvd25NZW51NS5idG4uYnRuLXByaW1hcnkuZHJvcGRvd24tdG9nZ2xle1xyXG4gICAgICAgICAgICAgICAgZm9udC1zaXplOiAxN3B4O1xyXG4gICAgICAgICAgICBib3gtc2hhZG93OiBub25lO1xyXG5cclxuICAgICAgICAgICAgICB9XHJcbiAgICAgICAgICAgICAgI2Ryb3Bkb3duTWVudTUuYnRuLmJ0bi1wcmltYXJ5LmRyb3Bkb3duLXRvZ2dsZS53YXZlcy1lZmZlY3Qud2F2ZXMtbGlnaHR7XHJcbiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjZmZmICFpbXBvcnRhbnQ7XHJcbiAgICAgICAgICAgICAgICB3aWR0aDoxMDAlO1xyXG4gICAgICAgICAgICAgICAgbWFyZ2luLWxlZnQ6IDBweDtcclxuICAgICAgICAgICAgICAgIHRleHQtYWxpZ246IGxlZnQ7XHJcbiAgICAgICAgICAgICAgICBjb2xvcjojNzE2ZTZlO1xyXG4gICAgICAgICAgICAgICAgZm9udC1zaXplOiAxNHB4ICFpbXBvcnRhbnQ7XHJcbiAgICAgICAgICAgICAgICBwYWRkaW5nOiAxMC44cHg7XHJcbiAgICAgICAgICAgICAgICBcclxuICAgICAgICAgICAgICB9XHJcbiAgICAgICAgICAgICAgLmRyb3Bkb3duLWl0ZW06aG92ZXJ7XHJcbiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiAgICMyNzk1OWE7XHJcbiAgICAgICAgICAgICAgICBib3gtc2hhZG93OiAwIDVweCAxMXB4IDAgcmdiYSgwLDAsMCwuMTgpLCAwIDRweCAxNXB4IDAgcmdiYSgwLDAsMCwuMTUpO1xyXG4gICAgICAgICAgICAgICAgY29sb3I6d2hpdGU7XHJcbiAgICAgICAgICAgICAgICBib3JkZXItcmFkaXVzOiAuMTI1cmVtO1xyXG4gICAgICAgICAgICAgICAgdHJhbnNpdGlvbjogYWxsIC4xcyBsaW5lYXI7XHJcbiAgICAgICAgICAgICAgfVxyXG4gICAgICAgICAgICAgIC5kcm9wZG93bi1tZW51e1xyXG4gICAgICAgICAgICAgIHdpZHRoOjEwMCU7XHJcbiAgICAgICAgICAgICAgfVxyXG4gICAgICAgICAgICAgIC5kcm9wZG93biAuZHJvcGRvd24tbWVudSAuZHJvcGRvd24taXRlbXtcclxuICAgICAgICAgICAgICAgIHBhZGRpbmc6IDAuNHJlbTtcclxuICAgICAgICAgICAgICAgIHdpZHRoOiA4OSU7XHJcbiAgICAgICAgICAgICAgICB0ZXh0LWFsaWduOiBsZWZ0O1xyXG4gICAgICAgICAgICAgICAgZm9udC1zaXplOiAuOXJlbTtcclxuICAgICAgICAgICAgICB9XHJcbiAgICAgICAgICAgICAgLmJ0bntcclxuICAgICAgICAgICAgICAgICAgcGFkZGluZzogMCAhaW1wb3J0YW50O1xyXG4gICAgICAgICAgICAgICAgICAvKiBtYXJnaW46IDAgIWltcG9ydGFudDsgKi9cclxuICAgICAgICAgICAgICB9XHJcblxyXG4gICAgICAgICAgICAgIC5idG4tcHJpbWFyeS5kcm9wZG93bi10b2dnbGUge1xyXG4gICAgICAgICAgICAgICAgYmFja2dyb3VuZC1jb2xvcjogdHJhbnNwYXJlbnQgIWltcG9ydGFudDtcclxuICAgICAgICAgICAgICAgIGNvbG9yOiAjNzE2ZTZlO1xyXG4gICAgICAgICAgICAgICAgYm94LXNoYWRvdzogbm9uZTtcclxuICAgICAgICAgICAgICAgIHRleHQtYWxpZ246IGxlZnQ7XHJcbiAgICAgICAgICAgICAgfVxyXG4gICAgICAgICAgICAgIC5idG4tcHJpbWFyeS5kcm9wZG93bi10b2dnbGU6Zm9jdXN7XHJcbiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiB0cmFuc3BhcmVudCAhaW1wb3J0YW50O1xyXG4gICAgICAgICAgICAgICAgY29sb3IgOiM3MTZlNmU7XHJcbiAgICAgICAgICAgICAgfVxyXG4gICAgICAgICAgICAgIC5idG4tcHJpbWFyeS5kcm9wZG93bi10b2dnbGU6aG92ZXIge1xyXG4gICAgICAgICAgICAgICAgYmFja2dyb3VuZC1jb2xvcjogdHJhbnNwYXJlbnQgIWltcG9ydGFudDtcclxuICAgICAgICAgICAgICAgIGNvbG9yIDojNzE2ZTZlO1xyXG4gICAgICAgICAgICAgICAgXHJcbiAgICAgICAgICAgICAgfVxyXG4gICAgICAgICAgICAgIC5kcm9wZG93bi1pdGVtOmhvdmVye1xyXG4gICAgICAgICAgICAgIGNvbG9yOndoaXRlICFpbXBvcnRhbnQ7XHJcbiAgICAgICAgICAgICAgfVxyXG4gICAgICAgICAgICBcclxuICAgICAgICAgICAgICAjb3B0aW9ucy5kcm9wZG93bi1tZW51LnNob3d7XHJcbiAgICAgICAgICAgICAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZTNkKC00NXB4LCAzM3B4LCAwcHgpO1xyXG4gICAgICAgICAgICAgIH1cclxuICAgICAgICAgICAgICBcclxuICAgICAgICAgICAgLmJ0bntcclxuICAgICAgICAgICAgICB0ZXh0LXRyYW5zZm9ybTpjYXBpdGFsaXplICFpbXBvcnRhbnQ7XHJcbiAgICAgICAgICAgICAgcGFkZGluZzogMC4zOHJlbSAwLjVyZW07XHJcbiAgICAgICAgICAgICAgfVxyXG4gICAgICAgICAgICAgIFxyXG4gICAgICAgICAgICAgIGkge1xyXG4gICAgICAgICAgICAgICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xyXG4gICAgICAgICAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gICAgICAgICAgICAgICAgY29sb3I6ICNmNmY4ZjljYztcclxuICAgICAgICAgICAgICAgIGZvbnQtc2l6ZTogMTJweDtcclxuICAgICAgICAgICAgICAgIGJvcmRlcjogMS41cHggc29saWQgI2Y2ZjhmOWNjO1xyXG4gICAgICAgICAgICAgICAgYm9yZGVyLXJhZGl1czogNTAlICFpbXBvcnRhbnQ7XHJcbiAgICAgICAgICAgICAgICBwYWRkaW5nOiAzcHggNHB4O1xyXG4gICAgICAgICAgICAgICAgZmxvYXQ6IHJpZ2h0O1xyXG4gICAgICAgICAgICAgIFxyXG4gICAgICAgICAgICAgICAgfVxyXG4gICAgICAgICAgICAgLmRyb3Bkb3duIHtcclxuICAgICAgICAgICAgICAgIHBvc2l0aW9uOiBpbmhlcml0ICFpbXBvcnRhbnQ7XHJcbiAgICAgICAgICAgICAgICBwYWRkaW5nOiAyMXB4O1xyXG5cclxuICAgICAgICAgICAgfVxyXG4gICAgICAgICAgICAjY2hue1xyXG4gICAgICAgICAgICAgIGN1cnNvcjogcG9pbnRlcjtcclxuICAgICAgICAgICAgfVxyXG4gICAgICAgICAgICB0YWJsZXtcclxuXHJcbiAgICAgICAgICAgICAgY29sb3I6IHdoaXRlICFpbXBvcnRhbnQ7XHJcbiAgICAgICAgICAgIH1cclxuICAgICAgICAgICAgdGFibGUgdGh7XHJcblxyXG4gICAgICAgICAgICAgIGZvbnQtc2l6ZSA6MTMuN3B4O1xyXG4gICAgICAgICAgICB9XHJcbiAgICAgICAgICAgIC5jYXJkLnRie1xyXG4gICAgICAgICAgICAgIG1hcmdpbi10b3A6IDExcHggIWltcG9ydGFudDtcclxuICAgICAgICAgICAgICBtYXgtaGVpZ2h0OjI2MHB4OyBcclxuICAgICAgICAgICAgICBvdmVyZmxvdzogYXV0byA7XHJcbiAgICAgICAgICAgICAgb3BhY2l0eTogMC42O1xyXG4gICAgICAgICAgICBiYWNrZ3JvdW5kOmxpbmVhci1ncmFkaWVudCgxNjBkZWcsIzAwNjg5NCwjMDA2ODk0KSFpbXBvcnRhbnQ7XHJcbiAgICAgICAgICAgIH1cclxuICAgICAgICAgICAgaDR7XHJcbiAgICAgICAgICAgICAgcGFkZGluZy10b3A6IDEwcHggIWltcG9ydGFudDtcclxuICAgICAgICAgICAgICBwYWRkaW5nLWxlZnQ6IDlweCAhaW1wb3J0YW50O1xyXG4gICAgICAgICAgICB9XHJcbiJdfQ== */");
+
+/***/ }),
+
+/***/ "./src/app/hist/hist.component.ts":
+/*!****************************************!*\
+  !*** ./src/app/hist/hist.component.ts ***!
+  \****************************************/
+/*! exports provided: HistComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HistComponent", function() { return HistComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+
+
+let HistComponent = class HistComponent {
+    constructor() { }
+    ngOnInit() {
+        var nameid;
+        var Val1;
+        $('#arrow1').click(function () {
+            $('#exp1').show(450);
+            var $item2 = $('<tr><td>' + $('#chief1').val() + '</td></tr>').hide();
+            $('#chiefTable').append($item2).show();
+            $item2.show('slow');
+        });
+        $('#arrow2').click(function () {
+            $('#exp2').show(450);
+            var $item1 = $('<tr><td>' + $('#hist1').val() + '</td></tr>').hide();
+            $('#historyofIllness').append($item1).show();
+            $item1.show('slow');
+        });
+        $('#arrow3').click(function () {
+            $('#exp3').show(450);
+            var $item3 = $('<tr><td>' + $('#com1').val() + '</td></tr>').hide();
+            $('#comoriditiesTable').append($item3).show();
+            $item3.show('slow');
+        });
+        $('#arrow4').click(function () {
+            $('#exp4').show(450);
+            var $item4 = $('<tr><td>' + $('#asso1').val() + '</td></tr>').hide();
+            $('#assosymTable').append($item4).show();
+            $item4.show('slow');
+        });
+        $(function ($) {
+            $('#chn').click(function () {
+                if ($("#chn").hasClass('fa fa-times')) {
+                    $("#chn").removeClass('fa fa-times').addClass('fa fa-plus');
+                    $('#auto1').slideUp();
+                }
+                else {
+                    $("#chn").removeClass('fa fa-plus').addClass('fa fa-times');
+                    Val1 = $(this).attr('id');
+                    $('#auto1').slideToggle();
+                    $("#chn1").removeClass('fa fa-times').addClass('fa fa-plus');
+                    $("#chn2").removeClass('fa fa-times').addClass('fa fa-plus');
+                    $("#chn3").removeClass('fa fa-times').addClass('fa fa-plus');
+                    $('#auto2').slideUp();
+                    $('#auto3').slideUp();
+                    $('#auto4').slideUp();
+                }
+            });
+            $('#chn1').click(function () {
+                if ($("#chn1").hasClass('fa fa-times')) {
+                    $("#chn1").removeClass('fa fa-times').addClass('fa fa-plus');
+                    $('#auto2').slideUp();
+                }
+                else {
+                    $("#chn1").removeClass('fa fa-plus').addClass('fa fa-times');
+                    Val1 = $(this).attr('id');
+                    $('#auto2').slideToggle();
+                    $("#chn").removeClass('fa fa-times').addClass('fa fa-plus');
+                    $("#chn2").removeClass('fa fa-times').addClass('fa fa-plus');
+                    $("#chn3").removeClass('fa fa-times').addClass('fa fa-plus');
+                    $('#auto1').slideUp();
+                    $('#auto3').slideUp();
+                    $('#auto4').slideUp();
+                }
+            });
+            $('#chn2').click(function () {
+                if ($("#chn2").hasClass('fa fa-times')) {
+                    $("#chn2").removeClass('fa fa-times').addClass('fa fa-plus');
+                    $('#auto3').slideUp();
+                }
+                else {
+                    $("#chn2").removeClass('fa fa-plus').addClass('fa fa-times');
+                    Val1 = $(this).attr('id');
+                    $('#auto3').slideToggle();
+                    $("#chn1").removeClass('fa fa-times').addClass('fa fa-plus');
+                    $("#chn").removeClass('fa fa-times').addClass('fa fa-plus');
+                    $("#chn3").removeClass('fa fa-times').addClass('fa fa-plus');
+                    $('#auto1').slideUp();
+                    $('#auto2').slideUp();
+                    $('#auto4').slideUp();
+                }
+            });
+            $('#chn3').click(function () {
+                if ($("#chn3").hasClass('fa fa-times')) {
+                    $("#chn3").removeClass('fa fa-times').addClass('fa fa-plus');
+                    $('#auto4').slideUp();
+                }
+                else {
+                    $("#chn3").removeClass('fa fa-plus').addClass('fa fa-times');
+                    Val1 = $(this).attr('id');
+                    $('#auto4').slideToggle();
+                    $("#chn1").removeClass('fa fa-times').addClass('fa fa-plus');
+                    $("#chn2").removeClass('fa fa-times').addClass('fa fa-plus');
+                    $("#chn").removeClass('fa fa-times').addClass('fa fa-plus');
+                    $('#auto1').slideUp();
+                    $('#auto2').slideUp();
+                    $('#auto3').slideUp();
+                }
+            });
+        });
+        $(function ($) {
+            $(".inputTextClass").click(function () {
+                $('input[type="text"]').val('');
+            });
+            $(".inputTextClass").click(function () {
+                $('textarea[type="text"]').val('');
+            });
+        });
+        function autocomplete(inp, arr) {
+            /*the autocomplete function takes two arguments,
+            the text field element and an array of possible autocompleted values:*/
+            var currentFocus;
+            /*execute a function when someone writes in the text field:*/
+            inp.addEventListener("input", function (e) {
+                var a, b, i, val = this.value;
+                /*close any already open lists of autocompleted values*/
+                // closeAllLists();
+                if (!val) {
+                    return false;
+                }
+                currentFocus = -1;
+                /*create a DIV element that will contain the items (values):*/
+                a = document.createElement("DIV");
+                a.setAttribute("id", this.id + "autocomplete-list");
+                a.setAttribute("class", "autocomplete-items");
+                /*append the DIV element as a child of the autocomplete container:*/
+                this.parentNode.appendChild(a);
+                /*for each item in the array...*/
+                for (i = 0; i < arr.length; i++) {
+                    /*check if the item starts with the same letters as the text field value:*/
+                    if (arr[i].substr(0, val.length).toUpperCase() == val.toUpperCase()) {
+                        /*create a DIV element for each matching element:*/
+                        b = document.createElement("DIV");
+                        /*make the matching letters bold:*/
+                        b.innerHTML = "<strong>" + arr[i].substr(0, val.length) + "</strong>";
+                        b.innerHTML += arr[i].substr(val.length);
+                        /*insert a input field that will hold the current array item's value:*/
+                        b.innerHTML += "<input type='hidden' value='" + arr[i] + "'>";
+                        /*execute a function when someone clicks on the item value (DIV element):*/
+                        b.addEventListener("click", function (e) {
+                            /*insert the value for the autocomplete text field:*/
+                            var selValue = this.getElementsByTagName("input")[0].value;
+                            inp.value = selValue;
+                            console.log(Val1);
+                            //     if(Val1=="chn")
+                            // {             
+                            //     $('#exp1').show(450);
+                            //    var $item =$('<tr><td>'+selValue+'</td></tr>');
+                            //    $('#chiefTable').append($item).show();
+                            //    $item.show('slow');
+                            //     }              
+                            if (Val1 == 'chn2') {
+                                $('#exp3').show(350);
+                                var $item2 = $('<tr><td>' + selValue + '</td></tr>');
+                                $('#comoriditiesTable').append($item2).show();
+                                $item2.show('slow');
+                                // Val1=null;
+                            }
+                            else if (Val1 == 'chn3') {
+                                $('#exp4').show(350);
+                                var $item3 = $('<tr><td>' + selValue + '</td></tr>');
+                                $('#assosymTable').append($item3).show();
+                                $item3.show('slow');
+                                // Val1=null;
+                            }
+                            // closeAllLists();
+                        });
+                        a.appendChild(b);
+                    }
+                }
+            });
+            /*execute a function presses a key on the keyboard:*/
+            inp.addEventListener("keydown", function (e) {
+                var x = document.getElementById(this.id + "autocomplete-list");
+                // if (x) x = x.getElementsByTagName("div");
+                if (e.keyCode == 40) {
+                    /*If the arrow DOWN key is pressed,
+                    increase the currentFocus variable:*/
+                    currentFocus++;
+                    /*and and make the current item more visible:*/
+                    addActive(x);
+                }
+                else if (e.keyCode == 38) { //up
+                    /*If the arrow UP key is pressed,
+                    decrease the currentFocus variable:*/
+                    currentFocus--;
+                    /*and and make the current item more visible:*/
+                    addActive(x);
+                }
+                else if (e.keyCode == 13) {
+                    /*If the ENTER key is pressed, prevent the form from being submitted,*/
+                    e.preventDefault();
+                    if (currentFocus > -1) {
+                        /*and simulate a click on the "active" item:*/
+                        if (x)
+                            x[currentFocus].click();
+                    }
+                }
+            });
+            function addActive(x) {
+                /*a function to classify an item as "active":*/
+                if (!x)
+                    return false;
+                /*start by removing the "active" class on all items:*/
+                removeActive(x);
+                if (currentFocus >= x.length)
+                    currentFocus = 0;
+                if (currentFocus < 0)
+                    currentFocus = (x.length - 1);
+                /*add class "autocomplete-active":*/
+                x[currentFocus].classList.add("autocomplete-active");
+            }
+            function removeActive(x) {
+                /*a function to remove the "active" class from all autocomplete items:*/
+                for (var i = 0; i < x.length; i++) {
+                    x[i].classList.remove("autocomplete-active");
+                }
+            }
+            function closeAllLists(elmnt) {
+                /*close all autocomplete lists in the document,
+                except the one passed as an argument:*/
+                var x = document.getElementsByClassName("autocomplete-items");
+                for (var i = 0; i < x.length; i++) {
+                    if (elmnt != x[i] && elmnt != inp) {
+                        x[i].parentNode.removeChild(x[i]);
+                    }
+                }
+            }
+            /*execute a function when someone clicks in the document:*/
+            document.addEventListener("click", function (e) {
+                closeAllLists(e.target);
+            });
+        }
+        /*An array containing all the country names in the world:*/
+        // var chieflist = ["ABNORMAL POSTURING OF LIMBS","APATHY","AURA","AUTOMATISM","BAND LIKE SENSATION","ERECTILE DYSFUNCTION","FLEXOR SPASMS","GAIT DISTURBANCES"];
+        var comlist = ["Arthritis", "COPD", "Diabetes Mellitus", "Hypertension", "Renal disorders", "Thyroid Disorder"];
+        var assolist = ["Abnormal", "Breathlessness", "Cold", "Dyspnea on exersion", "Frequent Urination", "Fatigue", "Loss of appetite", "Nausea or vomiting", "Shortness of breath"];
+        /*initiate the autocomplete function on the "service" element, and pass along the sevices array as possible autocomplete values:*/
+        // autocomplete(document.getElementById("chief1"), chieflist);
+        autocomplete(document.getElementById("com1"), comlist);
+        autocomplete(document.getElementById("asso1"), assolist);
+    }
+};
+HistComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-hist',
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./hist.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/hist/hist.component.html")).default,
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./hist.component.css */ "./src/app/hist/hist.component.css")).default]
+    })
+], HistComponent);
+
+
+
+/***/ }),
+
+/***/ "./src/app/home/home.component.css":
+/*!*****************************************!*\
+  !*** ./src/app/home/home.component.css ***!
+  \*****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (".form-control{\r\n    box-shadow: none !important;\r\n    \r\n    }\r\n    input.mat-input-element {\r\n        margin-top: -1.0625em !important;\r\n    }\r\n    .md-form{\r\n        margin-bottom: 1.7rem !important;\r\n        margin-top: -0.1rem !important;\r\n    }\r\n    .name,.name1{\r\n        font-size: 14px !important;\r\n    }\r\n    #bg::before {\r\n    background-image: url('images.jpg');\r\n    content: \"\";\r\n    display: block;\r\n    position: fixed;\r\n    top: 0;\r\n    left: 0;\r\n    width: 100%;\r\n    height: 100%;\r\n    z-index: -2;\r\n    opacity: 0.4;\r\n    background-size: cover;\r\n}\r\n    #bg::after {\r\n\r\n    background: linear-gradient(127deg, #30b2e8 60%, #f7f6f6);\r\n    opacity: 0.5;\r\n    content: \"\";\r\n    display: block;\r\n    position: fixed;\r\n    top: 0px;\r\n    left: 0px;\r\n    width: 100%;\r\n    height: 100%;\r\n    z-index: -1;\r\n     background-size: cover;\r\n    }\r\n    @media only screen and (max-width: 600px) {\r\n\r\n    /* .card.gls{\r\n\r\n    height: 32.8rem !important;\r\n    overflow: auto !important;} */\r\n   .row.med{\r\n\r\n    margin-top: 25px !important;\r\n   }\r\n    footer{\r\n        bottom: -7rem !important;\r\n        width: 100% !important;\r\n     }\r\n    button.sv{\r\n        position: absolute;\r\n        top: -84px !important;\r\n        right: 1rem;\r\n    }\r\n   \r\n    #bg::after,#bg::before {\r\n        position: fixed;\r\n        /* height: 163%; */\r\n        background-attachment:fixed;\r\n        background-size: cover;\r\n    }\r\n    .scroller{\r\n            font-weight: 400 !important;\r\n           \r\n        }\r\n\r\n      .card#dct{\r\n            width: 109.2% !important;\r\n            margin-left: -14px !important;\r\n        }\r\n\r\n    }\r\n    button.mat-button.mat-button-base{\r\n\r\n        background-color: white;\r\n        border-radius: 50px;\r\n        color: #2b95f3;\r\n        box-shadow: 1px 1px 2px 1px darkgrey;\r\n        }\r\n    .material-icons{\r\n        margin-top: -4px !important;\r\n        margin-left: -7px;\r\n         }\r\n    /* header{\r\n        background-color: #006894;\r\n        opacity: 0.5;\r\n        height: 2rem;\r\n        font-family: 'Source Sans Pro', sans-serif !important;\r\n        color: white;\r\n        font-size: 1.3rem;\r\n        padding-left: 29px;\r\n        padding-top: 0px;\r\n    } */\r\n    .card#dct{\r\n        background-color: white;\r\n        height: 4.59rem;\r\n        font-family: 'Source Sans Pro', sans-serif !important;\r\n        font-size: 24px;\r\n        /* margin-top: -110px; */\r\n        width: 90%;\r\n        z-index: 2;\r\n        margin-left: 79px;\r\n        margin-bottom: 21px;\r\n        }\r\n    footer{\r\n        background-color: #ffffff7a;\r\n        height: 2.6rem;\r\n        position: fixed;\r\n        bottom: 0rem;\r\n        padding: 0px;\r\n        margin-left: -1.1rem;\r\n        width: 102.5%;\r\n    }\r\n    .card.gls{\r\n\r\n        background-color: #aeb6c154  !important;\r\n        padding-top: 36px;\r\n        margin-top:-53px;    \r\n        height: 33.5rem;\r\n        overflow: hidden;\r\n        position: relative;\r\n        z-index: 1;\r\n        background: inherit;\r\n        padding-bottom: 26px;\r\n    }\r\n    .name-info{\r\n         font-size: 14px;\r\n    }\r\n    ::-webkit-scrollbar { \r\n        display: none; \r\n    }\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvaG9tZS9ob21lLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSwyQkFBMkI7O0lBRTNCO0lBQ0E7UUFDSSxnQ0FBZ0M7SUFDcEM7SUFDQTtRQUNJLGdDQUFnQztRQUNoQyw4QkFBOEI7SUFDbEM7SUFDQTtRQUNJLDBCQUEwQjtJQUM5QjtJQUVKO0lBQ0ksbUNBQXFEO0lBQ3JELFdBQVc7SUFDWCxjQUFjO0lBQ2QsZUFBZTtJQUNmLE1BQU07SUFDTixPQUFPO0lBQ1AsV0FBVztJQUNYLFlBQVk7SUFDWixXQUFXO0lBQ1gsWUFBWTtJQUNaLHNCQUFzQjtBQUMxQjtJQUNBOztJQUVJLHlEQUF5RDtJQUN6RCxZQUFZO0lBQ1osV0FBVztJQUNYLGNBQWM7SUFDZCxlQUFlO0lBQ2YsUUFBUTtJQUNSLFNBQVM7SUFDVCxXQUFXO0lBQ1gsWUFBWTtJQUNaLFdBQVc7S0FDVixzQkFBc0I7SUFDdkI7SUFFSjs7SUFFSTs7O2lDQUc2QjtHQUM5Qjs7SUFFQywyQkFBMkI7R0FDNUI7SUFDQztRQUNJLHdCQUF3QjtRQUN4QixzQkFBc0I7S0FDekI7SUFDRDtRQUNJLGtCQUFrQjtRQUNsQixxQkFBcUI7UUFDckIsV0FBVztJQUNmOztJQUVBO1FBQ0ksZUFBZTtRQUNmLGtCQUFrQjtRQUNsQiwyQkFBMkI7UUFDM0Isc0JBQXNCO0lBQzFCO0lBQ0E7WUFDUSwyQkFBMkI7O1FBRS9COztNQUVGO1lBQ00sd0JBQXdCO1lBQ3hCLDZCQUE2QjtRQUNqQzs7SUFFSjtJQUVBOztRQUVJLHVCQUF1QjtRQUN2QixtQkFBbUI7UUFDbkIsY0FBYztRQUNkLG9DQUFvQztRQUNwQztJQUVKO1FBQ0ksMkJBQTJCO1FBQzNCLGlCQUFpQjtTQUNoQjtJQUNMOzs7Ozs7Ozs7T0FTRztJQUNIO1FBQ0ksdUJBQXVCO1FBQ3ZCLGVBQWU7UUFDZixxREFBcUQ7UUFDckQsZUFBZTtRQUNmLHdCQUF3QjtRQUN4QixVQUFVO1FBQ1YsVUFBVTtRQUNWLGlCQUFpQjtRQUNqQixtQkFBbUI7UUFDbkI7SUFDSjtRQUNJLDJCQUEyQjtRQUMzQixjQUFjO1FBQ2QsZUFBZTtRQUNmLFlBQVk7UUFDWixZQUFZO1FBQ1osb0JBQW9CO1FBQ3BCLGFBQWE7SUFDakI7SUFFQTs7UUFFSSx1Q0FBdUM7UUFDdkMsaUJBQWlCO1FBQ2pCLGdCQUFnQjtRQUNoQixlQUFlO1FBQ2YsZ0JBQWdCO1FBQ2hCLGtCQUFrQjtRQUNsQixVQUFVO1FBQ1YsbUJBQW1CO1FBQ25CLG9CQUFvQjtJQUN4QjtJQUNBO1NBQ0ssZUFBZTtJQUNwQjtJQUNBO1FBQ0ksYUFBYTtJQUNqQiIsImZpbGUiOiJzcmMvYXBwL2hvbWUvaG9tZS5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLmZvcm0tY29udHJvbHtcclxuICAgIGJveC1zaGFkb3c6IG5vbmUgIWltcG9ydGFudDtcclxuICAgIFxyXG4gICAgfVxyXG4gICAgaW5wdXQubWF0LWlucHV0LWVsZW1lbnQge1xyXG4gICAgICAgIG1hcmdpbi10b3A6IC0xLjA2MjVlbSAhaW1wb3J0YW50O1xyXG4gICAgfVxyXG4gICAgLm1kLWZvcm17XHJcbiAgICAgICAgbWFyZ2luLWJvdHRvbTogMS43cmVtICFpbXBvcnRhbnQ7XHJcbiAgICAgICAgbWFyZ2luLXRvcDogLTAuMXJlbSAhaW1wb3J0YW50O1xyXG4gICAgfVxyXG4gICAgLm5hbWUsLm5hbWUxe1xyXG4gICAgICAgIGZvbnQtc2l6ZTogMTRweCAhaW1wb3J0YW50O1xyXG4gICAgfVxyXG4gXHJcbiNiZzo6YmVmb3JlIHtcclxuICAgIGJhY2tncm91bmQtaW1hZ2U6IHVybCgnc3JjL2Fzc2V0cy9pbWFnZXMvaW1hZ2VzLmpwZycpO1xyXG4gICAgY29udGVudDogXCJcIjtcclxuICAgIGRpc3BsYXk6IGJsb2NrO1xyXG4gICAgcG9zaXRpb246IGZpeGVkO1xyXG4gICAgdG9wOiAwO1xyXG4gICAgbGVmdDogMDtcclxuICAgIHdpZHRoOiAxMDAlO1xyXG4gICAgaGVpZ2h0OiAxMDAlO1xyXG4gICAgei1pbmRleDogLTI7XHJcbiAgICBvcGFjaXR5OiAwLjQ7XHJcbiAgICBiYWNrZ3JvdW5kLXNpemU6IGNvdmVyO1xyXG59XHJcbiNiZzo6YWZ0ZXIge1xyXG5cclxuICAgIGJhY2tncm91bmQ6IGxpbmVhci1ncmFkaWVudCgxMjdkZWcsICMzMGIyZTggNjAlLCAjZjdmNmY2KTtcclxuICAgIG9wYWNpdHk6IDAuNTtcclxuICAgIGNvbnRlbnQ6IFwiXCI7XHJcbiAgICBkaXNwbGF5OiBibG9jaztcclxuICAgIHBvc2l0aW9uOiBmaXhlZDtcclxuICAgIHRvcDogMHB4O1xyXG4gICAgbGVmdDogMHB4O1xyXG4gICAgd2lkdGg6IDEwMCU7XHJcbiAgICBoZWlnaHQ6IDEwMCU7XHJcbiAgICB6LWluZGV4OiAtMTtcclxuICAgICBiYWNrZ3JvdW5kLXNpemU6IGNvdmVyO1xyXG4gICAgfVxyXG5cclxuQG1lZGlhIG9ubHkgc2NyZWVuIGFuZCAobWF4LXdpZHRoOiA2MDBweCkge1xyXG5cclxuICAgIC8qIC5jYXJkLmdsc3tcclxuXHJcbiAgICBoZWlnaHQ6IDMyLjhyZW0gIWltcG9ydGFudDtcclxuICAgIG92ZXJmbG93OiBhdXRvICFpbXBvcnRhbnQ7fSAqL1xyXG4gICAucm93Lm1lZHtcclxuXHJcbiAgICBtYXJnaW4tdG9wOiAyNXB4ICFpbXBvcnRhbnQ7XHJcbiAgIH1cclxuICAgIGZvb3RlcntcclxuICAgICAgICBib3R0b206IC03cmVtICFpbXBvcnRhbnQ7XHJcbiAgICAgICAgd2lkdGg6IDEwMCUgIWltcG9ydGFudDtcclxuICAgICB9XHJcbiAgICBidXR0b24uc3Z7XHJcbiAgICAgICAgcG9zaXRpb246IGFic29sdXRlO1xyXG4gICAgICAgIHRvcDogLTg0cHggIWltcG9ydGFudDtcclxuICAgICAgICByaWdodDogMXJlbTtcclxuICAgIH1cclxuICAgXHJcbiAgICAjYmc6OmFmdGVyLCNiZzo6YmVmb3JlIHtcclxuICAgICAgICBwb3NpdGlvbjogZml4ZWQ7XHJcbiAgICAgICAgLyogaGVpZ2h0OiAxNjMlOyAqL1xyXG4gICAgICAgIGJhY2tncm91bmQtYXR0YWNobWVudDpmaXhlZDtcclxuICAgICAgICBiYWNrZ3JvdW5kLXNpemU6IGNvdmVyO1xyXG4gICAgfVxyXG4gICAgLnNjcm9sbGVye1xyXG4gICAgICAgICAgICBmb250LXdlaWdodDogNDAwICFpbXBvcnRhbnQ7XHJcbiAgICAgICAgICAgXHJcbiAgICAgICAgfVxyXG5cclxuICAgICAgLmNhcmQjZGN0e1xyXG4gICAgICAgICAgICB3aWR0aDogMTA5LjIlICFpbXBvcnRhbnQ7XHJcbiAgICAgICAgICAgIG1hcmdpbi1sZWZ0OiAtMTRweCAhaW1wb3J0YW50O1xyXG4gICAgICAgIH1cclxuXHJcbiAgICB9XHJcbiAgICAgXHJcbiAgICBidXR0b24ubWF0LWJ1dHRvbi5tYXQtYnV0dG9uLWJhc2V7XHJcblxyXG4gICAgICAgIGJhY2tncm91bmQtY29sb3I6IHdoaXRlO1xyXG4gICAgICAgIGJvcmRlci1yYWRpdXM6IDUwcHg7XHJcbiAgICAgICAgY29sb3I6ICMyYjk1ZjM7XHJcbiAgICAgICAgYm94LXNoYWRvdzogMXB4IDFweCAycHggMXB4IGRhcmtncmV5O1xyXG4gICAgICAgIH1cclxuXHJcbiAgICAubWF0ZXJpYWwtaWNvbnN7XHJcbiAgICAgICAgbWFyZ2luLXRvcDogLTRweCAhaW1wb3J0YW50O1xyXG4gICAgICAgIG1hcmdpbi1sZWZ0OiAtN3B4O1xyXG4gICAgICAgICB9XHJcbiAgICAvKiBoZWFkZXJ7XHJcbiAgICAgICAgYmFja2dyb3VuZC1jb2xvcjogIzAwNjg5NDtcclxuICAgICAgICBvcGFjaXR5OiAwLjU7XHJcbiAgICAgICAgaGVpZ2h0OiAycmVtO1xyXG4gICAgICAgIGZvbnQtZmFtaWx5OiAnU291cmNlIFNhbnMgUHJvJywgc2Fucy1zZXJpZiAhaW1wb3J0YW50O1xyXG4gICAgICAgIGNvbG9yOiB3aGl0ZTtcclxuICAgICAgICBmb250LXNpemU6IDEuM3JlbTtcclxuICAgICAgICBwYWRkaW5nLWxlZnQ6IDI5cHg7XHJcbiAgICAgICAgcGFkZGluZy10b3A6IDBweDtcclxuICAgIH0gKi9cclxuICAgIC5jYXJkI2RjdHtcclxuICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiB3aGl0ZTtcclxuICAgICAgICBoZWlnaHQ6IDQuNTlyZW07XHJcbiAgICAgICAgZm9udC1mYW1pbHk6ICdTb3VyY2UgU2FucyBQcm8nLCBzYW5zLXNlcmlmICFpbXBvcnRhbnQ7XHJcbiAgICAgICAgZm9udC1zaXplOiAyNHB4O1xyXG4gICAgICAgIC8qIG1hcmdpbi10b3A6IC0xMTBweDsgKi9cclxuICAgICAgICB3aWR0aDogOTAlO1xyXG4gICAgICAgIHotaW5kZXg6IDI7XHJcbiAgICAgICAgbWFyZ2luLWxlZnQ6IDc5cHg7XHJcbiAgICAgICAgbWFyZ2luLWJvdHRvbTogMjFweDtcclxuICAgICAgICB9XHJcbiAgICBmb290ZXJ7XHJcbiAgICAgICAgYmFja2dyb3VuZC1jb2xvcjogI2ZmZmZmZjdhO1xyXG4gICAgICAgIGhlaWdodDogMi42cmVtO1xyXG4gICAgICAgIHBvc2l0aW9uOiBmaXhlZDtcclxuICAgICAgICBib3R0b206IDByZW07XHJcbiAgICAgICAgcGFkZGluZzogMHB4O1xyXG4gICAgICAgIG1hcmdpbi1sZWZ0OiAtMS4xcmVtO1xyXG4gICAgICAgIHdpZHRoOiAxMDIuNSU7XHJcbiAgICB9XHJcblxyXG4gICAgLmNhcmQuZ2xze1xyXG5cclxuICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjYWViNmMxNTQgICFpbXBvcnRhbnQ7XHJcbiAgICAgICAgcGFkZGluZy10b3A6IDM2cHg7XHJcbiAgICAgICAgbWFyZ2luLXRvcDotNTNweDsgICAgXHJcbiAgICAgICAgaGVpZ2h0OiAzMy41cmVtO1xyXG4gICAgICAgIG92ZXJmbG93OiBoaWRkZW47XHJcbiAgICAgICAgcG9zaXRpb246IHJlbGF0aXZlO1xyXG4gICAgICAgIHotaW5kZXg6IDE7XHJcbiAgICAgICAgYmFja2dyb3VuZDogaW5oZXJpdDtcclxuICAgICAgICBwYWRkaW5nLWJvdHRvbTogMjZweDtcclxuICAgIH1cclxuICAgIC5uYW1lLWluZm97XHJcbiAgICAgICAgIGZvbnQtc2l6ZTogMTRweDtcclxuICAgIH1cclxuICAgIDo6LXdlYmtpdC1zY3JvbGxiYXIgeyBcclxuICAgICAgICBkaXNwbGF5OiBub25lOyBcclxuICAgIH0iXX0= */");
+
+/***/ }),
+
+/***/ "./src/app/home/home.component.ts":
+/*!****************************************!*\
+  !*** ./src/app/home/home.component.ts ***!
+  \****************************************/
+/*! exports provided: HomeComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HomeComponent", function() { return HomeComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+
+
+let HomeComponent = class HomeComponent {
+    constructor() { }
+    ngOnInit() {
+        $(document).ready(function () {
+            $('ul li#vitals').addClass('active');
+            $(' ul li').click(function () {
+                $('ul li').removeClass('active');
+                $(this).addClass('active');
+            });
+        });
+        $('.backB').click(function () {
+            const url = 'http://164.164.87.34:4200/';
+            window.open(url, '_self');
+        });
+        function doAnimation(container, animatorClass) {
+            $(container).removeClass('bounceIn pulse slideInDown flipOutX flipInY flipInX animated').addClass(animatorClass + ' animated').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function () {
+                $(this).removeClass(animatorClass + ' animated');
+            });
+        }
+        $(".slide-btn").click(function () {
+            var panel = ".patient-banner-info";
+            if ($(panel).is(":visible")) {
+                // doAnimation(panel, "flipOutX");
+                $(panel).slideUp();
+                $(".pic-icon").toggleClass('image-flip');
+            }
+            else {
+                $(panel).slideDown();
+                // doAnimation(panel, "flipInX");
+                $(".pic-icon").toggleClass('image-flip');
+            }
+        });
+    }
+};
+HomeComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-home',
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./home.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/home/home.component.html")).default,
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./home.component.css */ "./src/app/home/home.component.css")).default]
+    })
+], HomeComponent);
+
+
+
+/***/ }),
+
+/***/ "./src/app/orders1/orders1.component.css":
+/*!***********************************************!*\
+  !*** ./src/app/orders1/orders1.component.css ***!
+  \***********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("@media only screen and (max-width: 600px) {\r\n  i{\r\n    font-size: 10.5px !important;\r\n      padding: 2.8px 3px !important;\r\n\r\n  }\r\n  .hero-message::before {\r\n              \r\n    min-width: 92% !important;\r\n  \r\n    }\r\n  table th{\r\n\r\n    font-size :13px !important;\r\n  }\r\n  h3{\r\n    font-size: 20.5px !important;\r\n  }\r\n  .col-md-4.bt{\r\n    margin-bottom: -41px;\r\n  }\r\n  h1{\r\n    font-size: 31px;\r\n  }\r\n  h2{\r\n    font-size: 22px;\r\n    margin-top: 10px;\r\n  }\r\n  .card.tb {\r\n    margin-top: -2rem;\r\n    max-height: 152px !important;\r\n    overflow: auto !important ;\r\n    background-color: transparent;\r\n}\r\n  .card.left{\r\n\r\n    margin-left: 21px !important;\r\n  }\r\n  .dropdown{\r\n    cursor: pointer;\r\n    margin-top: 12px;\r\n    width: 88%;\r\n  }\r\n.card.sc{\r\n  background-color: #62a6c2 !important;\r\n  position: absolute;\r\n  z-index: 1;\r\n  width: 92% !important;\r\n  left: 0.97rem !important;\r\n}\r\n#scan.card.sc{\r\n\r\n  top: 6rem !important;\r\n\r\n}\r\n#scan1.card.sc{\r\n\r\n  top: 8.7rem !important;\r\n\r\n}\r\n#scan2.card.sc{\r\n\r\n  top: 11.38rem !important;\r\n\r\n}\r\n#scan3.card.sc{\r\n\r\n  top: 14rem !important;\r\n\r\n}\r\n#scan4.card.sc{\r\n\r\n  top: 16.8rem !important;\r\n\r\n}\r\n\r\n    #options.dropdown-menu.show{\r\n      transform: translate3d(-13px, 26px, 0px);\r\n\r\n    }\r\n\r\n\r\n  }\r\n \r\n\r\n  .hero-message::before {\r\n    content: \"\";\r\n    display: block;\r\n    position: absolute;\r\n    border-radius: 4px;\r\n    margin-left: 0px;\r\n    min-width: 91%;\r\n    border-radius: 4px;\r\n    height: 2.5rem;\r\n    z-index: -1;\r\n    opacity: 0.5;\r\n    background-color: #006894;\r\n    }\r\n \r\n\r\n  .inputTextClass{\r\n      outline: none;\r\n      border: none;\r\n      caret-color: white !important;\r\n      color: white !important;\r\n      background-color: transparent;\r\n      width: 100%;\r\n      border-bottom: 1.3px solid #dad3d3;\r\n      box-shadow: none !important;\r\n  }\r\n \r\n\r\n  .card-header.head{\r\n        padding-top: 10px;\r\n        background-color: transparent;\r\n        color: #716e6e !important;\r\n        border:none;\r\n    }\r\n \r\n\r\n  .card-body.six{\r\n        cursor: pointer;\r\n        height: 13rem;;\r\n    }\r\n \r\n\r\n  ::-webkit-scrollbar { \r\n        display: none; \r\n        }\r\n \r\n\r\n  .btn.btn-primary.btn-rounded.waves-effect.waves-light{\r\n\r\n            background-color: #27959a !important;\r\n           \r\n          \r\n          }\r\n \r\n\r\n  .dropdown .dropdown-menu .dropdown-item:hover{\r\n            background-color:   #27959a;\r\n\r\n          }\r\n \r\n\r\n  .dropdown-toggle::after{\r\n            float: right;\r\n            margin-top: 9px;\r\n          }\r\n \r\n\r\n  button#dropdownMenu5.btn.btn-primary.dropdown-toggle{\r\n            font-size: 17px;\r\n        box-shadow: none;\r\n\r\n          }\r\n \r\n\r\n  #dropdownMenu5.btn.btn-primary.dropdown-toggle.waves-effect.waves-light{\r\n            background-color: #fff !important;\r\n            width:100%;\r\n            margin-left: 0px;\r\n            text-align: left;\r\n            color:#716e6e;\r\n            font-size: 14px !important;\r\n            padding: 10.8px;\r\n            \r\n          }\r\n \r\n\r\n  .dropdown-item:hover{\r\n    background-color:   #27959a;\r\n    box-shadow: 0 5px 11px 0 rgba(0,0,0,.18), 0 4px 15px 0 rgba(0,0,0,.15);\r\n    color:white;\r\n    border-radius: .125rem;\r\n    transition: all .1s linear;\r\n  }\r\n \r\n\r\n  .dropdown-menu{\r\n  width:100%;\r\n  }\r\n \r\n\r\n  .dropdown .dropdown-menu .dropdown-item{\r\n    padding: 0.4rem;\r\n    width: 89%;\r\n    text-align: left;\r\n    font-size: .9rem;\r\n  }\r\n \r\n\r\n  .btn{\r\n      padding: 0 !important;\r\n      /* margin: 0 !important; */\r\n  }\r\n \r\n\r\n  .btn-primary.dropdown-toggle {\r\n    background-color: transparent !important;\r\n    color: #716e6e;\r\n    box-shadow: none;\r\n    text-align: left;\r\n  }\r\n \r\n\r\n  .btn-primary.dropdown-toggle:focus{\r\n    background-color: transparent !important;\r\n    color :#716e6e;\r\n  }\r\n \r\n\r\n  .btn-primary.dropdown-toggle:hover {\r\n    background-color: transparent !important;\r\n    color :#716e6e;\r\n    \r\n  }\r\n \r\n\r\n  .dropdown-item:hover{\r\n  color:white !important;\r\n  }\r\n \r\n\r\n  #options.dropdown-menu.show{\r\n    transform: translate3d(-45px, 33px, 0px);\r\n\r\n  }\r\n \r\n\r\n  .btn{\r\n  text-transform:capitalize !important;\r\n  padding: 0.38rem 0.5rem;\r\n  }\r\n \r\n\r\n  i {\r\n    display: inline-block;\r\n    text-align: center;\r\n    color: #f6f8f9cc;\r\n    font-size: 12px;\r\n    border: 1.5px solid #f6f8f9cc;\r\n    border-radius: 50% !important;\r\n    padding: 3px 4px;\r\n    float: right;\r\n  \r\n    }\r\n \r\n\r\n  .dropdown {\r\n    position: inherit !important;\r\n    padding: 21px;\r\n\r\n}\r\n \r\n\r\n  #chn{\r\n  cursor: pointer;\r\n}\r\n \r\n\r\n  table{\r\n\r\n  color: white !important;\r\n}\r\n \r\n\r\n  table th{\r\n\r\n  font-size :13.7px;\r\n}\r\n \r\n\r\n  .card.tb{\r\n  margin-top: 11px !important;\r\n  max-height:260px; \r\n  overflow: auto ;\r\n  opacity: 0.6;\r\n\r\n  background:linear-gradient(160deg,#006894,#006894)!important;\r\n}\r\n \r\n\r\n  .list-group-item{\r\n  background-color: transparent;\r\n  color: white;\r\n  border-top: none;\r\n  border: none;\r\n   margin-top: 4px;\r\n  padding: 9px;\r\n  font-size: 14px;\r\n}\r\n \r\n\r\n  h4{\r\n  padding-top: 10px !important;\r\n\r\n  padding-left: 9px !important;\r\n}\r\n \r\n\r\n  .card.sc{\r\n  padding: 6.4px !important;\r\n \r\n  position: absolute;\r\n  \r\n  z-index: 8;\r\n  width: 19%;\r\n  left: 19.97rem;\r\n  background-color: #4193b7;\r\n  \r\n}\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvb3JkZXJzMS9vcmRlcnMxLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRTtJQUNFLDRCQUE0QjtNQUMxQiw2QkFBNkI7O0VBRWpDO0VBQ0E7O0lBRUUseUJBQXlCOztJQUV6QjtFQUNGOztJQUVFLDBCQUEwQjtFQUM1QjtFQUNBO0lBQ0UsNEJBQTRCO0VBQzlCO0VBQ0E7SUFDRSxvQkFBb0I7RUFDdEI7RUFDQTtJQUNFLGVBQWU7RUFDakI7RUFDQTtJQUNFLGVBQWU7SUFDZixnQkFBZ0I7RUFDbEI7RUFDQTtJQUNFLGlCQUFpQjtJQUNqQiw0QkFBNEI7SUFDNUIsMEJBQTBCO0lBQzFCLDZCQUE2QjtBQUNqQztFQUNFOztJQUVFLDRCQUE0QjtFQUM5QjtFQUNBO0lBQ0UsZUFBZTtJQUNmLGdCQUFnQjtJQUNoQixVQUFVO0VBQ1o7QUFDRjtFQUNFLG9DQUFvQztFQUNwQyxrQkFBa0I7RUFDbEIsVUFBVTtFQUNWLHFCQUFxQjtFQUNyQix3QkFBd0I7QUFDMUI7QUFDQTs7RUFFRSxvQkFBb0I7O0FBRXRCO0FBQ0E7O0VBRUUsc0JBQXNCOztBQUV4QjtBQUNBOztFQUVFLHdCQUF3Qjs7QUFFMUI7QUFDQTs7RUFFRSxxQkFBcUI7O0FBRXZCO0FBQ0E7O0VBRUUsdUJBQXVCOztBQUV6Qjs7SUFFSTtNQUNFLHdDQUF3Qzs7SUFFMUM7OztFQUdGOzs7RUFHQTtJQUNFLFdBQVc7SUFDWCxjQUFjO0lBQ2Qsa0JBQWtCO0lBQ2xCLGtCQUFrQjtJQUNsQixnQkFBZ0I7SUFDaEIsY0FBYztJQUNkLGtCQUFrQjtJQUNsQixjQUFjO0lBQ2QsV0FBVztJQUNYLFlBQVk7SUFDWix5QkFBeUI7SUFDekI7OztFQUdBO01BQ0UsYUFBYTtNQUNiLFlBQVk7TUFDWiw2QkFBNkI7TUFDN0IsdUJBQXVCO01BQ3ZCLDZCQUE2QjtNQUM3QixXQUFXO01BQ1gsa0NBQWtDO01BQ2xDLDJCQUEyQjtFQUMvQjs7O0VBQ0U7UUFDSSxpQkFBaUI7UUFDakIsNkJBQTZCO1FBQzdCLHlCQUF5QjtRQUN6QixXQUFXO0lBQ2Y7OztFQUNBO1FBQ0ksZUFBZTtRQUNmLGFBQWE7SUFDakI7OztFQUNBO1FBQ0ksYUFBYTtRQUNiOzs7RUFFQTs7WUFFSSxvQ0FBb0M7OztVQUd0Qzs7O0VBQ0E7WUFDRSwyQkFBMkI7O1VBRTdCOzs7RUFDQTtZQUNFLFlBQVk7WUFDWixlQUFlO1VBQ2pCOzs7RUFDQTtZQUNFLGVBQWU7UUFDbkIsZ0JBQWdCOztVQUVkOzs7RUFDQTtZQUNFLGlDQUFpQztZQUNqQyxVQUFVO1lBQ1YsZ0JBQWdCO1lBQ2hCLGdCQUFnQjtZQUNoQixhQUFhO1lBQ2IsMEJBQTBCO1lBQzFCLGVBQWU7O1VBRWpCOzs7RUFFVjtJQUNJLDJCQUEyQjtJQUMzQixzRUFBc0U7SUFDdEUsV0FBVztJQUNYLHNCQUFzQjtJQUN0QiwwQkFBMEI7RUFDNUI7OztFQUNBO0VBQ0EsVUFBVTtFQUNWOzs7RUFDQTtJQUNFLGVBQWU7SUFDZixVQUFVO0lBQ1YsZ0JBQWdCO0lBQ2hCLGdCQUFnQjtFQUNsQjs7O0VBQ0E7TUFDSSxxQkFBcUI7TUFDckIsMEJBQTBCO0VBQzlCOzs7RUFFQztJQUNDLHdDQUF3QztJQUN4QyxjQUFjO0lBQ2QsZ0JBQWdCO0lBQ2hCLGdCQUFnQjtFQUNsQjs7O0VBQ0E7SUFDRSx3Q0FBd0M7SUFDeEMsY0FBYztFQUNoQjs7O0VBQ0M7SUFDQyx3Q0FBd0M7SUFDeEMsY0FBYzs7RUFFaEI7OztFQUNBO0VBQ0Esc0JBQXNCO0VBQ3RCOzs7RUFFQTtJQUNFLHdDQUF3Qzs7RUFFMUM7OztFQUVGO0VBQ0Usb0NBQW9DO0VBQ3BDLHVCQUF1QjtFQUN2Qjs7O0VBQ0E7SUFDRSxxQkFBcUI7SUFDckIsa0JBQWtCO0lBQ2xCLGdCQUFnQjtJQUNoQixlQUFlO0lBQ2YsNkJBQTZCO0lBQzdCLDZCQUE2QjtJQUM3QixnQkFBZ0I7SUFDaEIsWUFBWTs7SUFFWjs7O0VBSUY7SUFDRSw0QkFBNEI7SUFDNUIsYUFBYTs7QUFFakI7OztFQUNBO0VBQ0UsZUFBZTtBQUNqQjs7O0VBQ0E7O0VBRUUsdUJBQXVCO0FBQ3pCOzs7RUFDQTs7RUFFRSxpQkFBaUI7QUFDbkI7OztFQUNBO0VBQ0UsMkJBQTJCO0VBQzNCLGdCQUFnQjtFQUNoQixlQUFlO0VBQ2YsWUFBWTs7RUFFWiw0REFBNEQ7QUFDOUQ7OztFQUNBO0VBQ0UsNkJBQTZCO0VBQzdCLFlBQVk7RUFDWixnQkFBZ0I7RUFDaEIsWUFBWTtHQUNYLGVBQWU7RUFDaEIsWUFBWTtFQUNaLGVBQWU7QUFDakI7OztFQUNBO0VBQ0UsNEJBQTRCOztFQUU1Qiw0QkFBNEI7QUFDOUI7OztFQUNBO0VBQ0UseUJBQXlCOztFQUV6QixrQkFBa0I7O0VBRWxCLFVBQVU7RUFDVixVQUFVO0VBQ1YsY0FBYztFQUNkLHlCQUF5Qjs7QUFFM0IiLCJmaWxlIjoic3JjL2FwcC9vcmRlcnMxL29yZGVyczEuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIkBtZWRpYSBvbmx5IHNjcmVlbiBhbmQgKG1heC13aWR0aDogNjAwcHgpIHtcclxuICBpe1xyXG4gICAgZm9udC1zaXplOiAxMC41cHggIWltcG9ydGFudDtcclxuICAgICAgcGFkZGluZzogMi44cHggM3B4ICFpbXBvcnRhbnQ7XHJcblxyXG4gIH1cclxuICAuaGVyby1tZXNzYWdlOjpiZWZvcmUge1xyXG4gICAgICAgICAgICAgIFxyXG4gICAgbWluLXdpZHRoOiA5MiUgIWltcG9ydGFudDtcclxuICBcclxuICAgIH1cclxuICB0YWJsZSB0aHtcclxuXHJcbiAgICBmb250LXNpemUgOjEzcHggIWltcG9ydGFudDtcclxuICB9XHJcbiAgaDN7XHJcbiAgICBmb250LXNpemU6IDIwLjVweCAhaW1wb3J0YW50O1xyXG4gIH1cclxuICAuY29sLW1kLTQuYnR7XHJcbiAgICBtYXJnaW4tYm90dG9tOiAtNDFweDtcclxuICB9XHJcbiAgaDF7XHJcbiAgICBmb250LXNpemU6IDMxcHg7XHJcbiAgfVxyXG4gIGgye1xyXG4gICAgZm9udC1zaXplOiAyMnB4O1xyXG4gICAgbWFyZ2luLXRvcDogMTBweDtcclxuICB9XHJcbiAgLmNhcmQudGIge1xyXG4gICAgbWFyZ2luLXRvcDogLTJyZW07XHJcbiAgICBtYXgtaGVpZ2h0OiAxNTJweCAhaW1wb3J0YW50O1xyXG4gICAgb3ZlcmZsb3c6IGF1dG8gIWltcG9ydGFudCA7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiB0cmFuc3BhcmVudDtcclxufVxyXG4gIC5jYXJkLmxlZnR7XHJcblxyXG4gICAgbWFyZ2luLWxlZnQ6IDIxcHggIWltcG9ydGFudDtcclxuICB9XHJcbiAgLmRyb3Bkb3due1xyXG4gICAgY3Vyc29yOiBwb2ludGVyO1xyXG4gICAgbWFyZ2luLXRvcDogMTJweDtcclxuICAgIHdpZHRoOiA4OCU7XHJcbiAgfVxyXG4uY2FyZC5zY3tcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiAjNjJhNmMyICFpbXBvcnRhbnQ7XHJcbiAgcG9zaXRpb246IGFic29sdXRlO1xyXG4gIHotaW5kZXg6IDE7XHJcbiAgd2lkdGg6IDkyJSAhaW1wb3J0YW50O1xyXG4gIGxlZnQ6IDAuOTdyZW0gIWltcG9ydGFudDtcclxufVxyXG4jc2Nhbi5jYXJkLnNje1xyXG5cclxuICB0b3A6IDZyZW0gIWltcG9ydGFudDtcclxuXHJcbn1cclxuI3NjYW4xLmNhcmQuc2N7XHJcblxyXG4gIHRvcDogOC43cmVtICFpbXBvcnRhbnQ7XHJcblxyXG59XHJcbiNzY2FuMi5jYXJkLnNje1xyXG5cclxuICB0b3A6IDExLjM4cmVtICFpbXBvcnRhbnQ7XHJcblxyXG59XHJcbiNzY2FuMy5jYXJkLnNje1xyXG5cclxuICB0b3A6IDE0cmVtICFpbXBvcnRhbnQ7XHJcblxyXG59XHJcbiNzY2FuNC5jYXJkLnNje1xyXG5cclxuICB0b3A6IDE2LjhyZW0gIWltcG9ydGFudDtcclxuXHJcbn1cclxuXHJcbiAgICAjb3B0aW9ucy5kcm9wZG93bi1tZW51LnNob3d7XHJcbiAgICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlM2QoLTEzcHgsIDI2cHgsIDBweCk7XHJcblxyXG4gICAgfVxyXG5cclxuXHJcbiAgfVxyXG4gXHJcblxyXG4gIC5oZXJvLW1lc3NhZ2U6OmJlZm9yZSB7XHJcbiAgICBjb250ZW50OiBcIlwiO1xyXG4gICAgZGlzcGxheTogYmxvY2s7XHJcbiAgICBwb3NpdGlvbjogYWJzb2x1dGU7XHJcbiAgICBib3JkZXItcmFkaXVzOiA0cHg7XHJcbiAgICBtYXJnaW4tbGVmdDogMHB4O1xyXG4gICAgbWluLXdpZHRoOiA5MSU7XHJcbiAgICBib3JkZXItcmFkaXVzOiA0cHg7XHJcbiAgICBoZWlnaHQ6IDIuNXJlbTtcclxuICAgIHotaW5kZXg6IC0xO1xyXG4gICAgb3BhY2l0eTogMC41O1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogIzAwNjg5NDtcclxuICAgIH1cclxuXHJcblxyXG4gICAgLmlucHV0VGV4dENsYXNze1xyXG4gICAgICBvdXRsaW5lOiBub25lO1xyXG4gICAgICBib3JkZXI6IG5vbmU7XHJcbiAgICAgIGNhcmV0LWNvbG9yOiB3aGl0ZSAhaW1wb3J0YW50O1xyXG4gICAgICBjb2xvcjogd2hpdGUgIWltcG9ydGFudDtcclxuICAgICAgYmFja2dyb3VuZC1jb2xvcjogdHJhbnNwYXJlbnQ7XHJcbiAgICAgIHdpZHRoOiAxMDAlO1xyXG4gICAgICBib3JkZXItYm90dG9tOiAxLjNweCBzb2xpZCAjZGFkM2QzO1xyXG4gICAgICBib3gtc2hhZG93OiBub25lICFpbXBvcnRhbnQ7XHJcbiAgfSBcclxuICAgIC5jYXJkLWhlYWRlci5oZWFke1xyXG4gICAgICAgIHBhZGRpbmctdG9wOiAxMHB4O1xyXG4gICAgICAgIGJhY2tncm91bmQtY29sb3I6IHRyYW5zcGFyZW50O1xyXG4gICAgICAgIGNvbG9yOiAjNzE2ZTZlICFpbXBvcnRhbnQ7XHJcbiAgICAgICAgYm9yZGVyOm5vbmU7XHJcbiAgICB9XHJcbiAgICAuY2FyZC1ib2R5LnNpeHtcclxuICAgICAgICBjdXJzb3I6IHBvaW50ZXI7XHJcbiAgICAgICAgaGVpZ2h0OiAxM3JlbTs7XHJcbiAgICB9XHJcbiAgICA6Oi13ZWJraXQtc2Nyb2xsYmFyIHsgXHJcbiAgICAgICAgZGlzcGxheTogbm9uZTsgXHJcbiAgICAgICAgfVxyXG4gICAgICAgIFxyXG4gICAgICAgIC5idG4uYnRuLXByaW1hcnkuYnRuLXJvdW5kZWQud2F2ZXMtZWZmZWN0LndhdmVzLWxpZ2h0e1xyXG5cclxuICAgICAgICAgICAgYmFja2dyb3VuZC1jb2xvcjogIzI3OTU5YSAhaW1wb3J0YW50O1xyXG4gICAgICAgICAgIFxyXG4gICAgICAgICAgXHJcbiAgICAgICAgICB9XHJcbiAgICAgICAgICAuZHJvcGRvd24gLmRyb3Bkb3duLW1lbnUgLmRyb3Bkb3duLWl0ZW06aG92ZXJ7XHJcbiAgICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6ICAgIzI3OTU5YTtcclxuXHJcbiAgICAgICAgICB9XHJcbiAgICAgICAgICAuZHJvcGRvd24tdG9nZ2xlOjphZnRlcntcclxuICAgICAgICAgICAgZmxvYXQ6IHJpZ2h0O1xyXG4gICAgICAgICAgICBtYXJnaW4tdG9wOiA5cHg7XHJcbiAgICAgICAgICB9XHJcbiAgICAgICAgICBidXR0b24jZHJvcGRvd25NZW51NS5idG4uYnRuLXByaW1hcnkuZHJvcGRvd24tdG9nZ2xle1xyXG4gICAgICAgICAgICBmb250LXNpemU6IDE3cHg7XHJcbiAgICAgICAgYm94LXNoYWRvdzogbm9uZTtcclxuXHJcbiAgICAgICAgICB9XHJcbiAgICAgICAgICAjZHJvcGRvd25NZW51NS5idG4uYnRuLXByaW1hcnkuZHJvcGRvd24tdG9nZ2xlLndhdmVzLWVmZmVjdC53YXZlcy1saWdodHtcclxuICAgICAgICAgICAgYmFja2dyb3VuZC1jb2xvcjogI2ZmZiAhaW1wb3J0YW50O1xyXG4gICAgICAgICAgICB3aWR0aDoxMDAlO1xyXG4gICAgICAgICAgICBtYXJnaW4tbGVmdDogMHB4O1xyXG4gICAgICAgICAgICB0ZXh0LWFsaWduOiBsZWZ0O1xyXG4gICAgICAgICAgICBjb2xvcjojNzE2ZTZlO1xyXG4gICAgICAgICAgICBmb250LXNpemU6IDE0cHggIWltcG9ydGFudDtcclxuICAgICAgICAgICAgcGFkZGluZzogMTAuOHB4O1xyXG4gICAgICAgICAgICBcclxuICAgICAgICAgIH1cclxuICAgICAgICAgIFxyXG4uZHJvcGRvd24taXRlbTpob3ZlcntcclxuICAgIGJhY2tncm91bmQtY29sb3I6ICAgIzI3OTU5YTtcclxuICAgIGJveC1zaGFkb3c6IDAgNXB4IDExcHggMCByZ2JhKDAsMCwwLC4xOCksIDAgNHB4IDE1cHggMCByZ2JhKDAsMCwwLC4xNSk7XHJcbiAgICBjb2xvcjp3aGl0ZTtcclxuICAgIGJvcmRlci1yYWRpdXM6IC4xMjVyZW07XHJcbiAgICB0cmFuc2l0aW9uOiBhbGwgLjFzIGxpbmVhcjtcclxuICB9XHJcbiAgLmRyb3Bkb3duLW1lbnV7XHJcbiAgd2lkdGg6MTAwJTtcclxuICB9XHJcbiAgLmRyb3Bkb3duIC5kcm9wZG93bi1tZW51IC5kcm9wZG93bi1pdGVte1xyXG4gICAgcGFkZGluZzogMC40cmVtO1xyXG4gICAgd2lkdGg6IDg5JTtcclxuICAgIHRleHQtYWxpZ246IGxlZnQ7XHJcbiAgICBmb250LXNpemU6IC45cmVtO1xyXG4gIH1cclxuICAuYnRue1xyXG4gICAgICBwYWRkaW5nOiAwICFpbXBvcnRhbnQ7XHJcbiAgICAgIC8qIG1hcmdpbjogMCAhaW1wb3J0YW50OyAqL1xyXG4gIH1cclxuXHJcbiAgIC5idG4tcHJpbWFyeS5kcm9wZG93bi10b2dnbGUge1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogdHJhbnNwYXJlbnQgIWltcG9ydGFudDtcclxuICAgIGNvbG9yOiAjNzE2ZTZlO1xyXG4gICAgYm94LXNoYWRvdzogbm9uZTtcclxuICAgIHRleHQtYWxpZ246IGxlZnQ7XHJcbiAgfVxyXG4gIC5idG4tcHJpbWFyeS5kcm9wZG93bi10b2dnbGU6Zm9jdXN7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiB0cmFuc3BhcmVudCAhaW1wb3J0YW50O1xyXG4gICAgY29sb3IgOiM3MTZlNmU7XHJcbiAgfVxyXG4gICAuYnRuLXByaW1hcnkuZHJvcGRvd24tdG9nZ2xlOmhvdmVyIHtcclxuICAgIGJhY2tncm91bmQtY29sb3I6IHRyYW5zcGFyZW50ICFpbXBvcnRhbnQ7XHJcbiAgICBjb2xvciA6IzcxNmU2ZTtcclxuICAgIFxyXG4gIH1cclxuICAuZHJvcGRvd24taXRlbTpob3ZlcntcclxuICBjb2xvcjp3aGl0ZSAhaW1wb3J0YW50O1xyXG4gIH1cclxuIFxyXG4gICNvcHRpb25zLmRyb3Bkb3duLW1lbnUuc2hvd3tcclxuICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlM2QoLTQ1cHgsIDMzcHgsIDBweCk7XHJcblxyXG4gIH1cclxuICBcclxuLmJ0bntcclxuICB0ZXh0LXRyYW5zZm9ybTpjYXBpdGFsaXplICFpbXBvcnRhbnQ7XHJcbiAgcGFkZGluZzogMC4zOHJlbSAwLjVyZW07XHJcbiAgfVxyXG4gIGkge1xyXG4gICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xyXG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gICAgY29sb3I6ICNmNmY4ZjljYztcclxuICAgIGZvbnQtc2l6ZTogMTJweDtcclxuICAgIGJvcmRlcjogMS41cHggc29saWQgI2Y2ZjhmOWNjO1xyXG4gICAgYm9yZGVyLXJhZGl1czogNTAlICFpbXBvcnRhbnQ7XHJcbiAgICBwYWRkaW5nOiAzcHggNHB4O1xyXG4gICAgZmxvYXQ6IHJpZ2h0O1xyXG4gIFxyXG4gICAgfVxyXG5cclxuICBcclxuXHJcbiAgLmRyb3Bkb3duIHtcclxuICAgIHBvc2l0aW9uOiBpbmhlcml0ICFpbXBvcnRhbnQ7XHJcbiAgICBwYWRkaW5nOiAyMXB4O1xyXG5cclxufVxyXG4jY2hue1xyXG4gIGN1cnNvcjogcG9pbnRlcjtcclxufVxyXG50YWJsZXtcclxuXHJcbiAgY29sb3I6IHdoaXRlICFpbXBvcnRhbnQ7XHJcbn1cclxudGFibGUgdGh7XHJcblxyXG4gIGZvbnQtc2l6ZSA6MTMuN3B4O1xyXG59XHJcbi5jYXJkLnRie1xyXG4gIG1hcmdpbi10b3A6IDExcHggIWltcG9ydGFudDtcclxuICBtYXgtaGVpZ2h0OjI2MHB4OyBcclxuICBvdmVyZmxvdzogYXV0byA7XHJcbiAgb3BhY2l0eTogMC42O1xyXG5cclxuICBiYWNrZ3JvdW5kOmxpbmVhci1ncmFkaWVudCgxNjBkZWcsIzAwNjg5NCwjMDA2ODk0KSFpbXBvcnRhbnQ7XHJcbn1cclxuLmxpc3QtZ3JvdXAtaXRlbXtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiB0cmFuc3BhcmVudDtcclxuICBjb2xvcjogd2hpdGU7XHJcbiAgYm9yZGVyLXRvcDogbm9uZTtcclxuICBib3JkZXI6IG5vbmU7XHJcbiAgIG1hcmdpbi10b3A6IDRweDtcclxuICBwYWRkaW5nOiA5cHg7XHJcbiAgZm9udC1zaXplOiAxNHB4O1xyXG59XHJcbmg0e1xyXG4gIHBhZGRpbmctdG9wOiAxMHB4ICFpbXBvcnRhbnQ7XHJcblxyXG4gIHBhZGRpbmctbGVmdDogOXB4ICFpbXBvcnRhbnQ7XHJcbn1cclxuLmNhcmQuc2N7XHJcbiAgcGFkZGluZzogNi40cHggIWltcG9ydGFudDtcclxuIFxyXG4gIHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuICBcclxuICB6LWluZGV4OiA4O1xyXG4gIHdpZHRoOiAxOSU7XHJcbiAgbGVmdDogMTkuOTdyZW07XHJcbiAgYmFja2dyb3VuZC1jb2xvcjogIzQxOTNiNztcclxuICBcclxufVxyXG4iXX0= */");
+
+/***/ }),
+
+/***/ "./src/app/orders1/orders1.component.ts":
+/*!**********************************************!*\
+  !*** ./src/app/orders1/orders1.component.ts ***!
+  \**********************************************/
+/*! exports provided: Orders1Component */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Orders1Component", function() { return Orders1Component; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+
+
+let Orders1Component = class Orders1Component {
+    constructor() { }
+    ngOnInit() {
+        var Nameid;
+        var Val1;
+        $('#arrow1').click(function () {
+            $('#exp1').show(450);
+            var $item1 = $('<tr><td>' + $('#service1').val() + '</td><td>' + "No" + '</td><td>' + "<input class='form-control' type='text'  style='margin-left: -9px;width: 43px;background-color:transparent;height: 17px; box-shadow: none; color: white; border: none; border-bottom: 1.5px solid #ffffffc7;border-radius: 0;'/>" + '</td><td>' + "<select class='form-control' style='box-shadow:none;display:block !important; background-color: transparent; color: white;border: none;border-radius: 0;padding:0;width:66px;cursor:pointer; margin-top: -5px;height: 23px;border-bottom: 1.5px solid #ffffffbf;'><option style='color:black;'>Select</option><option style='color:black;'>Routine</option><option style='color:black;'>Stat</option></select>" + '</td><td>' + "<select class='form-control' style='    margin-top: -5px;box-shadow:none;display:block !important; background-color: transparent; color: white;border: none;border-radius: 0;padding:0;width:116px;cursor:pointer;height: 23px;border-bottom: 1.5px solid #ffffffbf;'><option style='color:black;'>Select</option><option style='color:black;'>Banjara Demo</option><option style='color:black;'>Blood Bank</option></select>" + '</td><td>' + "<img data-placement='bottom'  width='23px' style='cursor:pointer;border-radius:50%;'  src='assets/images/pencil.png' title='Edit'/><img title='close' data-placement='bottom'  width='16px' style='cursor:pointer;border-radius:50%;position: relative;right: -5px;'  src='assets/images/close.jpg' />" + '</td></tr>').hide();
+            $('#current').append($item1).show();
+            $item1.show('slow');
+        });
+        $('#arrow2').click(function () {
+            $('#exp2').show(450);
+            var $item2 = $('<tr><td>' + $('#drug1').val() + '</td><td>' + "<select class='form-control' style='box-shadow:none;display:block !important; background-color: transparent; color: white;border: none;border-radius: 0;padding:0;width:116px;cursor:pointer;margin-top: -5px;height: 23px;border-bottom: 1.5px solid #ffffffbf;'><option style='color:black;'>As Needed</option><option style='color:black;'>Once a Day</option><option style='color:black;'>Twise a Day</option><option style='color:black;'>One Per Week</option></select>" + '</td><td>' + "<input class='form-control' type='text'  style='margin-left: 10px;width: 54px;background-color:transparent;height: 17px; box-shadow: none; color: white; border: none; border-bottom: 1.5px solid #ffffffc7;border-radius: 0;'/>" + '</td><td>' + "16" + '</td><td>' + "<select class='form-control' style='box-shadow:none;display:block !important; background-color: transparent; color: white;border: none;border-radius: 0;padding:0;width:116px;cursor:pointer;margin-top: -5px;height: 23px;border-bottom: 1.5px solid #ffffffbf;'><option style='color:black;'>As Instructed</option><option style='color:black;'>After Dinner</option><option style='color:black;'>Before Food</option><option style='color:black;'>At Bedtime</option></select>" + '</td><td>' + "<select class='form-control' style='box-shadow:none;display:block !important; background-color: transparent; color: white;border: none;border-radius: 0;padding:0;width:66px;cursor:pointer;margin-top: -5px;height: 23px;border-bottom: 1.5px solid #ffffffbf;'><option style='color:black;'>Select</option><option style='color:black;'>Routine</option><option style='color:black;'>Stat</option></select>" + '</td><td>' + "15" + '</td><td>' + "<img   data-placement='bottom'  width='23px' style='cursor:pointer;border-radius:50%;'  src='assets/images/pencil.png' title='Edit'/><img  data-placement='bottom'  width='16px' style='cursor:pointer;border-radius:50%;position: relative;right: -5px;'  src='assets/images/close.jpg' title='close'/>" + '</td></tr>').hide();
+            $('#drugtb').append($item2).show();
+            $item2.show('slow');
+        });
+        $('#arrow3').click(function () {
+            $('#exp3').show(450);
+            var $item3 = $('<tr><td>' + $('#package1').val() + '</td><td>' + "450.00" + '</td><td>' + "<select class='form-control' style='box-shadow:none;display:block !important; background-color: transparent; color: white;border: none;border-radius: 0;padding:0;width:116px;cursor:pointer;margin-top: -5px;height: 23px;border-bottom: 1.5px solid #ffffffbf;'><option style='color:black;'>Select</option><option style='color:black;'>Banjara Demo</option><option style='color:black;'>Blood Bank</option></select>" + '</td><td>' + "<img  data-placement='bottom'  width='23px' style='cursor:pointer;border-radius:50%;'  src='assets/images/pencil.png' title='Edit'/><img data-placement='bottom'  width='16px' style='cursor:pointer;border-radius:50%;position: relative;right: -5px;'  src='assets/images/close.jpg' title='close'/>" + '</td></tr>').hide();
+            $('#packagetb').append($item3).show();
+            $item3.show('slow');
+        });
+        $('#arrow4').click(function () {
+            $('#exp4').show(450);
+            var $item4 = $('<tr><td>' + $('#direct1').val() + '</td><td>' + "<select class='form-control' style='box-shadow:none;display:block !important; background-color: transparent; color: white;border: none;border-radius: 0;padding:0;width:116px;cursor:pointer;margin-top: -5px;height: 23px;border-bottom: 1.5px solid #ffffffbf;'><option style='color:black;'>Select</option><option style='color:black;'>Nursing Charges</option><option style='color:black;'>Nutrition Service</option><option style='color:black;'>Registration Fees</option></select>" + '</td><td>' + "<input class='form-control'   type='text' style='margin-left: -5px;width: 46px;background-color:transparent;height: 17px; box-shadow: none; color: white; border: none; border-bottom: 1.5px solid #ffffffc7;border-radius: 0;'/>" + '</td><td>' + "2560" + '</td><td>' + "1500" + '</td><td>' + "<select class='form-control' style='box-shadow:none;display:block !important; background-color: transparent; color: white;border: none;border-radius: 0;padding:0;width:66px;cursor:pointer;margin-top: -5px;height: 23px;border-bottom: 1.5px solid #ffffffbf;'><option style='color:black;'>Select</option><option style='color:black;'>Routine</option><option style='color:black;'>Stat</option></select>" + '</td><td>' + "<select class='form-control' style='box-shadow:none;display:block !important; background-color: transparent; color: white;border: none;border-radius: 0;padding:0;width:116px;cursor:pointer;height: 23px;border-bottom: 1.5px solid #ffffffbf;margin-top: -5px;'><option style='color:black;margin-top: -5px;'>Select</option><option style='color:black;'>Bed Charges</option><option style='color:black;'>Banjara Demo</option></select>" + '</td><td>' + "<img  data-placement='bottom'  width='23px' style='cursor:pointer;border-radius:50%;'  src='assets/images/pencil.png' title='Edit'/><img  data-placement='bottom'  title='close' width='16px' style='cursor:pointer;border-radius:50%;position: relative;right: -5px;'  src='assets/images/close.jpg' />" + '</td></tr>').hide();
+            $('#directtb').append($item4).show();
+            $item4.show('slow');
+        });
+        $('#arrow5').click(function () {
+            $('#exp5').show(450);
+            var $item5 = $('<tr><td>' + $('#set1').val() + '</td><td>' + "<input class='form-control'  type='text' style='margin-left: -5px;width: 46px;background-color:transparent;height: 19px; box-shadow: none; color: white; border: none; border-bottom: 2px solid #ffffffc7;border-radius: 0;'/>" + '</td><td>' + "<img data-placement='bottom'  width='23px' style='cursor:pointer;border-radius:50%;'  src='assets/images/pencil.png' title='Edit'/><img  data-placement='bottom' title='close'  width='16px' style='cursor:pointer;border-radius:50%;position: relative;right: -5px;'  src='assets/images/close.jpg' />" + '</td></tr>').hide();
+            $('#ordertb').append($item5).show();
+            $item5.show('slow');
+        });
+        $(function ($) {
+            $('#chn').click(function () {
+                if ($("#chn").hasClass('fa fa-times')) {
+                    $("#chn").removeClass('fa fa-times').addClass('fa fa-plus');
+                    $('#scan').slideUp();
+                }
+                else {
+                    $("#chn").removeClass('fa fa-plus').addClass('fa fa-times');
+                    Val1 = $(this).attr('id');
+                    $('#scan').slideToggle();
+                    $("#chn1").removeClass('fa fa-times').addClass('fa fa-plus');
+                    $("#chn2").removeClass('fa fa-times').addClass('fa fa-plus');
+                    $("#chn3").removeClass('fa fa-times').addClass('fa fa-plus');
+                    $("#chn4").removeClass('fa fa-times').addClass('fa fa-plus');
+                    $('#scan1').slideUp();
+                    $('#scan2').slideUp();
+                    $('#scan3').slideUp();
+                    $('#scan4').slideUp();
+                }
+            });
+            $('#chn1').click(function () {
+                if ($("#chn1").hasClass('fa fa-times')) {
+                    $("#chn1").removeClass('fa fa-times').addClass('fa fa-plus');
+                    $('#scan1').slideUp();
+                }
+                else {
+                    $("#chn1").removeClass('fa fa-plus').addClass('fa fa-times');
+                    Val1 = $(this).attr('id');
+                    $('#scan1').slideToggle();
+                    $("#chn").removeClass('fa fa-times').addClass('fa fa-plus');
+                    $("#chn2").removeClass('fa fa-times').addClass('fa fa-plus');
+                    $("#chn3").removeClass('fa fa-times').addClass('fa fa-plus');
+                    $("#chn4").removeClass('fa fa-times').addClass('fa fa-plus');
+                    $('#scan').slideUp();
+                    $('#scan2').slideUp();
+                    $('#scan3').slideUp();
+                    $('#scan4').slideUp();
+                }
+            });
+            $('#chn2').click(function () {
+                if ($("#chn2").hasClass('fa fa-times')) {
+                    $("#chn2").removeClass('fa fa-times').addClass('fa fa-plus');
+                    $('#scan2').slideUp();
+                }
+                else {
+                    $("#chn2").removeClass('fa fa-plus').addClass('fa fa-times');
+                    Val1 = $(this).attr('id');
+                    $('#scan2').slideToggle();
+                    $("#chn1").removeClass('fa fa-times').addClass('fa fa-plus');
+                    $("#chn").removeClass('fa fa-times').addClass('fa fa-plus');
+                    $("#chn3").removeClass('fa fa-times').addClass('fa fa-plus');
+                    $("#chn4").removeClass('fa fa-times').addClass('fa fa-plus');
+                    $('#scan').slideUp();
+                    $('#scan1').slideUp();
+                    $('#scan3').slideUp();
+                    $('#scan4').slideUp();
+                }
+            });
+            $('#chn3').click(function () {
+                if ($("#chn3").hasClass('fa fa-times')) {
+                    $("#chn3").removeClass('fa fa-times').addClass('fa fa-plus');
+                    $('#scan3').slideUp();
+                }
+                else {
+                    $("#chn3").removeClass('fa fa-plus').addClass('fa fa-times');
+                    Val1 = $(this).attr('id');
+                    $('#scan3').slideToggle();
+                    $("#chn1").removeClass('fa fa-times').addClass('fa fa-plus');
+                    $("#chn2").removeClass('fa fa-times').addClass('fa fa-plus');
+                    $("#chn").removeClass('fa fa-times').addClass('fa fa-plus');
+                    $("#chn4").removeClass('fa fa-times').addClass('fa fa-plus');
+                    $('#scan').slideUp();
+                    $('#scan1').slideUp();
+                    $('#scan2').slideUp();
+                    $('#scan4').slideUp();
+                }
+            });
+            $('#chn4').click(function () {
+                if ($("#chn4").hasClass('fa fa-times')) {
+                    $("#chn4").removeClass('fa fa-times').addClass('fa fa-plus');
+                    $('#scan4').slideUp();
+                }
+                else {
+                    $("#chn4").removeClass('fa fa-plus').addClass('fa fa-times');
+                    Val1 = $(this).attr('id');
+                    $('#scan4').slideToggle();
+                    $("#chn1").removeClass('fa fa-times').addClass('fa fa-plus');
+                    $("#chn2").removeClass('fa fa-times').addClass('fa fa-plus');
+                    $("#chn3").removeClass('fa fa-times').addClass('fa fa-plus');
+                    $("#chn").removeClass('fa fa-times').addClass('fa fa-plus');
+                    $('#scan').slideUp();
+                    $('#scan1').slideUp();
+                    $('#scan2').slideUp();
+                    $('#scan3').slideUp();
+                }
+            });
+        });
+        $(function ($) {
+            $(".inputTextClass").click(function () {
+                $('input[type="text"]').val('');
+            });
+        });
+        function autocomplete(inp, arr) {
+            /*the autocomplete function takes two arguments,
+            the text field element and an array of possible autocompleted values:*/
+            var currentFocus;
+            /*execute a function when someone writes in the text field:*/
+            inp.addEventListener("input", function (e) {
+                var a, b, i, val = this.value;
+                /*close any already open lists of autocompleted values*/
+                // closeAllLists();
+                if (!val) {
+                    return false;
+                }
+                currentFocus = -1;
+                /*create a DIV element that will contain the items (values):*/
+                a = document.createElement("DIV");
+                a.setAttribute("id", this.id + "autocomplete-list");
+                a.setAttribute("class", "autocomplete-items");
+                /*append the DIV element as a child of the autocomplete container:*/
+                this.parentNode.appendChild(a);
+                /*for each item in the array...*/
+                for (i = 0; i < arr.length; i++) {
+                    /*check if the item starts with the same letters as the text field value:*/
+                    if (arr[i].substr(0, val.length).toUpperCase() == val.toUpperCase()) {
+                        /*create a DIV element for each matching element:*/
+                        b = document.createElement("DIV");
+                        /*make the matching letters bold:*/
+                        b.innerHTML = "<strong>" + arr[i].substr(0, val.length) + "</strong>";
+                        b.innerHTML += arr[i].substr(val.length);
+                        /*insert a input field that will hold the current array item's value:*/
+                        b.innerHTML += "<input type='hidden' value='" + arr[i] + "'>";
+                        /*execute a function when someone clicks on the item value (DIV element):*/
+                        b.addEventListener("click", function (e) {
+                            /*insert the value for the autocomplete text field:*/
+                            var selValue = this.getElementsByTagName("input")[0].value;
+                            inp.value = selValue;
+                            console.log(selValue);
+                            console.log(Val1);
+                            if (Val1 == "chn") {
+                                $('#exp1').show(450);
+                                var $item = $('<tr class="ani" id="row"><td>' + selValue + '</td><td>' + "Yes" + '</td><td>' + "<input class='form-control' type='text'  style='margin-left: -9px;width: 43px;background-color:transparent;height: 17px; box-shadow: none; color: white; border: none; border-bottom: 1.5px solid #ffffffc7;border-radius: 0;'/>" + '</td><td>' + "<select class='form-control' style='box-shadow:none;display:block !important; background-color: transparent; color: white;border: none;border-radius: 0;padding:0;width:66px;cursor:pointer; margin-top: -5px;height: 23px;border-bottom: 1.5px solid #ffffffbf;'><option style='color:black;'>Select</option><option style='color:black;'>Routine</option><option style='color:black;'>Stat</option></select>" + '</td><td>' + "<select class='form-control' style='    margin-top: -5px;box-shadow:none;display:block !important; background-color: transparent; color: white;border: none;border-radius: 0;padding:0;width:116px;cursor:pointer;height: 23px;border-bottom: 1.5px solid #ffffffbf;'><option style='color:black;'>Select</option><option style='color:black;'>Banjara Demo</option><option style='color:black;'>Blood Bank</option></select>" + '</td><td>' + "<img data-placement='bottom'  width='23px' style='cursor:pointer;border-radius:50%;'  src='assets/images/pencil.png' title='Edit'/><img title='close' data-placement='bottom'  width='16px' style='cursor:pointer;border-radius:50%;position: relative;right: -5px;'  src='assets/images/close.jpg' />" + '</td></tr>').hide();
+                                $('#current').append($item).show();
+                                $item.show('slow');
+                            }
+                            else if (Val1 == "chn1") {
+                                $('#exp2').show(450);
+                                var $item1 = $('<tr id="row"><td>' + selValue + '</td><td>' + "<select class='form-control' style='box-shadow:none;display:block !important; background-color: transparent; color: white;border: none;border-radius: 0;padding:0;width:116px;cursor:pointer;margin-top: -5px;height: 23px;border-bottom: 1.5px solid #ffffffbf;'><option style='color:black;'>As Needed</option><option style='color:black;'>Once a Day</option><option style='color:black;'>Twise a Day</option><option style='color:black;'>One Per Week</option></select>" + '</td><td>' + "<input class='form-control' type='text'  style='margin-left: 10px;width: 54px;background-color:transparent;height: 17px; box-shadow: none; color: white; border: none; border-bottom: 1.5px solid #ffffffc7;border-radius: 0;'/>" + '</td><td>' + "26" + '</td><td>' + "<select class='form-control' style='box-shadow:none;display:block !important; background-color: transparent; color: white;border: none;border-radius: 0;padding:0;width:116px;cursor:pointer;margin-top: -5px;height: 23px;border-bottom: 1.5px solid #ffffffbf;'><option style='color:black;'>As Instructed</option><option style='color:black;'>After Dinner</option><option style='color:black;'>Before Food</option><option style='color:black;'>At Bedtime</option></select>" + '</td><td>' + "<select class='form-control' style='box-shadow:none;display:block !important; background-color: transparent; color: white;border: none;border-radius: 0;padding:0;width:66px;cursor:pointer;margin-top: -5px;height: 23px;border-bottom: 1.5px solid #ffffffbf;'><option style='color:black;'>Select</option><option style='color:black;'>Routine</option><option style='color:black;'>Stat</option></select>" + '</td><td>' + "15" + '</td><td>' + "<img   data-placement='bottom'  width='23px' style='cursor:pointer;border-radius:50%;'  src='assets/images/pencil.png' title='Edit'/><img  data-placement='bottom'  width='16px' style='cursor:pointer;border-radius:50%;position: relative;right: -5px;'  src='assets/images/close.jpg' title='close'/>" + '</td></tr>');
+                                $('#drugtb').append($item1).show();
+                                $item1.show('slow');
+                            }
+                            else if (Val1 == "chn2") {
+                                $('#exp3').show(350);
+                                var $item2 = $('<tr id="row"><td>' + selValue + '</td><td>' + "100.00" + '</td><td>' + "<select class='form-control' style='box-shadow:none;display:block !important; background-color: transparent; color: white;border: none;border-radius: 0;padding:0;width:116px;cursor:pointer;margin-top: -5px;height: 23px;border-bottom: 1.5px solid #ffffffbf;'><option style='color:black;'>Select</option><option style='color:black;'>Banjara Demo</option><option style='color:black;'>Blood Bank</option></select>" + '</td><td>' + "<img  data-placement='bottom'  width='23px' style='cursor:pointer;border-radius:50%;'  src='assets/images/pencil.png' title='Edit'/><img data-placement='bottom'  width='16px' style='cursor:pointer;border-radius:50%;position: relative;right: -5px;'  src='assets/images/close.jpg' title='close'/>" + '</td></tr>');
+                                $('#packagetb').append($item2).show();
+                                $item2.show('slow');
+                            }
+                            else if (Val1 == "chn3") {
+                                $('#exp4').show(350);
+                                var $item3 = $('<tr id="row"><td>' + selValue + '</td><td>' + "<select class='form-control' style='box-shadow:none;display:block !important; background-color: transparent; color: white;border: none;border-radius: 0;padding:0;width:116px;cursor:pointer;margin-top: -5px;height: 23px;border-bottom: 1.5px solid #ffffffbf;'><option style='color:black;'>Select</option><option style='color:black;'>Nursing Charges</option><option style='color:black;'>Nutrition Service</option><option style='color:black;'>Registration Fees</option></select>" + '</td><td>' + "<input class='form-control'   type='text' style='margin-left: -5px;width: 46px;background-color:transparent;height: 17px; box-shadow: none; color: white; border: none; border-bottom: 1.5px solid #ffffffc7;border-radius: 0;'/>" + '</td><td>' + "1000" + '</td><td>' + "2000" + '</td><td>' + "<select class='form-control' style='box-shadow:none;display:block !important; background-color: transparent; color: white;border: none;border-radius: 0;padding:0;width:66px;cursor:pointer;margin-top: -5px;height: 23px;border-bottom: 1.5px solid #ffffffbf;'><option style='color:black;'>Select</option><option style='color:black;'>Routine</option><option style='color:black;'>Stat</option></select>" + '</td><td>' + "<select class='form-control' style='box-shadow:none;display:block !important; background-color: transparent; color: white;border: none;border-radius: 0;padding:0;width:116px;cursor:pointer;height: 23px;border-bottom: 1.5px solid #ffffffbf;margin-top: -5px;'><option style='color:black;margin-top: -5px;'>Select</option><option style='color:black;'>Bed Charges</option><option style='color:black;'>Banjara Demo</option></select>" + '</td><td>' + "<img  data-placement='bottom'  width='23px' style='cursor:pointer;border-radius:50%;'  src='assets/images/pencil.png' title='Edit'/><img  data-placement='bottom'  title='close' width='16px' style='cursor:pointer;border-radius:50%;position: relative;right: -5px;'  src='assets/images/close.jpg' />" + '</td></tr>');
+                                $('#directtb').append($item3).show();
+                                $item3.show('slow');
+                            }
+                            else if (Val1 == "chn4") {
+                                $('#exp5').show(350);
+                                var $item4 = $('<tr id="row"><td>' + selValue + '</td><td>' + "<input class='form-control'  type='text' style='margin-left: -5px;width: 46px;background-color:transparent;height: 19px; box-shadow: none; color: white; border: none; border-bottom: 2px solid #ffffffc7;border-radius: 0;'/>" + '</td><td>' + "<img data-placement='bottom'  width='23px' style='cursor:pointer;border-radius:50%;'  src='assets/images/pencil.png' title='Edit'/><img  data-placement='bottom' title='close'  width='16px' style='cursor:pointer;border-radius:50%;position: relative;right: -5px;'  src='assets/images/close.jpg' />" + '</td></tr>');
+                                $('#ordertb').append($item4).show();
+                                $item4.show('slow');
+                            }
+                            // closeAllLists();
+                        });
+                        a.appendChild(b);
+                    }
+                }
+            });
+            /*execute a function presses a key on the keyboard:*/
+            inp.addEventListener("keydown", function (e) {
+                var x = document.getElementById(this.id + "autocomplete-list");
+                // if (x) x = x.getElementsByTagName("div");
+                if (e.keyCode == 40) {
+                    /*If the arrow DOWN key is pressed,
+                    increase the currentFocus variable:*/
+                    currentFocus++;
+                    /*and and make the current item more visible:*/
+                    addActive(x);
+                }
+                else if (e.keyCode == 38) { //up
+                    /*If the arrow UP key is pressed,
+                    decrease the currentFocus variable:*/
+                    currentFocus--;
+                    /*and and make the current item more visible:*/
+                    addActive(x);
+                }
+                else if (e.keyCode == 13) {
+                    /*If the ENTER key is pressed, prevent the form from being submitted,*/
+                    e.preventDefault();
+                    if (currentFocus > -1) {
+                        /*and simulate a click on the "active" item:*/
+                        if (x)
+                            x[currentFocus].click();
+                    }
+                }
+            });
+            function addActive(x) {
+                /*a function to classify an item as "active":*/
+                if (!x)
+                    return false;
+                /*start by removing the "active" class on all items:*/
+                removeActive(x);
+                if (currentFocus >= x.length)
+                    currentFocus = 0;
+                if (currentFocus < 0)
+                    currentFocus = (x.length - 1);
+                /*add class "autocomplete-active":*/
+                x[currentFocus].classList.add("autocomplete-active");
+            }
+            function removeActive(x) {
+                /*a function to remove the "active" class from all autocomplete items:*/
+                for (var i = 0; i < x.length; i++) {
+                    x[i].classList.remove("autocomplete-active");
+                }
+            }
+            function closeAllLists(elmnt) {
+                /*close all autocomplete lists in the document,
+                except the one passed as an argument:*/
+                var x = document.getElementsByClassName("autocomplete-items");
+                for (var i = 0; i < x.length; i++) {
+                    if (elmnt != x[i] && elmnt != inp) {
+                        x[i].parentNode.removeChild(x[i]);
+                    }
+                }
+            }
+            /*execute a function when someone clicks in the document:*/
+            document.addEventListener("click", function (e) {
+                closeAllLists(e.target);
+            });
+        }
+        /*An array containing all the country names in the world:*/
+        var sevices = ["ADMINISTRATIVE CHARGES", "AMINOLEVULINIC ACID (RANDOM)-URINE", "AMINOLEVULINIC ACID (24HR, URINE)-5", "ALPHA-HYDROXYPROGESTERONE-17", "BED ROLL CHARGES", " BLOOD PRESSURE CHECKUP", "CATH-033 - 2-WIRE EP STUDY", "COOLER (CALENDER DAY)", "DISPOSABLE BED SHEET", "DRIED BLOOD SPOT", "DISPOSABLE PILLOW COVER", " FACILITATION CHARGES - B", "FOOD AND BEVARAGES"];
+        var drugs = ["Acetaminophen", "Adderall", "Amoxicillin", "Bactroban", "Basaglar", "Belbuca", "Belsomra", "Belviq", "Benadryl", "Cardizem", "Carvedilol", "Cefdinir", "Ceftriaxone", "Cefuroxime"];
+        var packages = ["AMNIOCENTESIS", "AMNIODRAINAGE", "BABYS BILL-[TWIN SHARING]", "COLPOSCOPY WITH LEEP", "DIETARY MONTHLY PACKAGE", "FULL BODY PACKAGE", "WELLNESS PACKAGE"];
+        var directs = ["ASSISTANT SURGEON FEE", "BLOOD COMPONENTS", "INACTIVE", "LASER CHARGES", "LR CHARGES", "LTP DONOR BILL", "OPD CONSULTATION FEE", "OT RENT MINOR", " THERAPEUTIC PHLEBOTOMY"];
+        var sets = ["Antenatal Booking Bloods", "Acute chest pain", "Breast Sentinel node", "Breast Bloods", "Breast one stop both", "ED Trauma", "ED Poisoning", "Fracture of Humerus"];
+        /*initiate the autocomplete function on the "service" element, and pass along the sevices array as possible autocomplete values:*/
+        autocomplete(document.getElementById("service1"), sevices);
+        autocomplete(document.getElementById("drug1"), drugs);
+        autocomplete(document.getElementById("package1"), packages);
+        autocomplete(document.getElementById("direct1"), directs);
+        autocomplete(document.getElementById("set1"), sets);
+    }
+};
+Orders1Component = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-orders1',
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./orders1.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/orders1/orders1.component.html")).default,
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./orders1.component.css */ "./src/app/orders1/orders1.component.css")).default]
+    })
+], Orders1Component);
+
+
+
+/***/ }),
+
+/***/ "./src/app/translate.pipe.ts":
+/*!***********************************!*\
+  !*** ./src/app/translate.pipe.ts ***!
+  \***********************************/
+/*! exports provided: TranslatePipe */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "TranslatePipe", function() { return TranslatePipe; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _translate_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./translate.service */ "./src/app/translate.service.ts");
+
+
+
+let TranslatePipe = class TranslatePipe {
+    constructor(translate) {
+        this.translate = translate;
+    }
+    transform(key) {
+        return this.translate.data[key] || key;
+    }
+};
+TranslatePipe.ctorParameters = () => [
+    { type: _translate_service__WEBPACK_IMPORTED_MODULE_2__["TranslateService"] }
+];
+TranslatePipe = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Pipe"])({
+        name: 'translate',
+        pure: false
+    })
+], TranslatePipe);
+
+
+
+/***/ }),
+
+/***/ "./src/app/translate.service.ts":
+/*!**************************************!*\
+  !*** ./src/app/translate.service.ts ***!
+  \**************************************/
+/*! exports provided: TranslateService */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "TranslateService", function() { return TranslateService; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm2015/http.js");
+
+
+
+let TranslateService = class TranslateService {
+    constructor(http) {
+        this.http = http;
+        this.data = {};
+    }
+    use(lang) {
+        return new Promise((resolve, reject) => {
+            const langPath = `assets/i18n/${lang || 'en'}.json`;
+            this.http.get(langPath).subscribe(translation => {
+                this.data = Object.assign({}, translation || {});
+                resolve(this.data);
+            }, error => {
+                this.data = {};
+                resolve(this.data);
+            });
+        });
+    }
+};
+TranslateService.ctorParameters = () => [
+    { type: _angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpClient"] }
+];
+TranslateService = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])()
+], TranslateService);
+
+
+
+/***/ }),
+
+/***/ "./src/app/vitals/vitals.component.css":
+/*!*********************************************!*\
+  !*** ./src/app/vitals/vitals.component.css ***!
+  \*********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (".form-control{\r\n    box-shadow: none !important;\r\n    \r\n    \r\n    }\r\n    input.mat-input-element {\r\n        margin-top: -1.0625em !important;\r\n    }\r\n    .md-form{\r\n        margin-bottom: 1.7rem !important;\r\n        margin-top: -0.1rem !important;\r\n        \r\n    }\r\n    .mat-form-field-wrapper{\r\n\r\n        margin-bottom:-10px !important;\r\n    }\r\n    mat-form-field{\r\n\r\n        margin-bottom: -10px;\r\n    }\r\n    ::-webkit-scrollbar { \r\n        display: none; \r\n        }\r\n    .hero-message::before {\r\n            content: \"\";\r\n            display: block;\r\n            position: absolute;\r\n            border-radius: 4px;\r\n            margin-left: 0px;\r\n            min-width: 92.3%;\r\n            border-radius: 4px;\r\n            height: 2.5rem;\r\n            z-index: -1;\r\n            opacity: 0.5;\r\n            background-color: #006894;\r\n            }\r\n    .list-group-item{\r\n                background-color: transparent;\r\n                color: white;\r\n                border-top: none;\r\n                 margin-top: 4px;\r\n                 border: none;\r\n                padding: 9px;\r\n                font-size: 14px;\r\n              }\r\n    h4{\r\n                padding-top: 10px !important;\r\n              \r\n                padding-left: 9px !important;\r\n              }\r\n    .cdk-text-field-autofill-monitored{\r\n                background-color: transparent !important;\r\n            }\r\n    .card.tb{\r\n                    margin-top: -14px;\r\n                    max-height:313px; \r\n                    overflow: auto ;\r\n                    opacity: 0.6;\r\n                    background:linear-gradient(160deg,#006894,#006894) !important;\r\n                  }\r\n    h3{\r\n                    margin-top: 4px;\r\n                  }\r\n    @media only screen and (max-width: 600px) {\r\n                .card.tb{\r\n                    max-height: 11rem !important;\r\n                    overflow: auto;\r\n                    margin-top: -15px;\r\n                }\r\n            h3{\r\n\r\n                margin-left: 8px;\r\n                font-size: 20px;\r\n                margin-top:  6px !important;\r\n            }\r\n            h2{\r\n                font-size: 22px;\r\n                margin-top: 10px;\r\n              }\r\n            .hero-message::before {\r\n              \r\n                min-width: 92%;\r\n            \r\n                }\r\n\r\n            }\r\n    /* .lgi-custom:hover {\r\n            background: rgba(239, 239, 239, 0.5)!important;\r\n            transform: scale(1.05, 1.1);\r\n            color: #666666 !important;}\r\n   */\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvdml0YWxzL3ZpdGFscy5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksMkJBQTJCOzs7SUFHM0I7SUFDQTtRQUNJLGdDQUFnQztJQUNwQztJQUNBO1FBQ0ksZ0NBQWdDO1FBQ2hDLDhCQUE4Qjs7SUFFbEM7SUFDQTs7UUFFSSw4QkFBOEI7SUFDbEM7SUFDQTs7UUFFSSxvQkFBb0I7SUFDeEI7SUFDQTtRQUNJLGFBQWE7UUFDYjtJQUNBO1lBQ0ksV0FBVztZQUNYLGNBQWM7WUFDZCxrQkFBa0I7WUFDbEIsa0JBQWtCO1lBQ2xCLGdCQUFnQjtZQUNoQixnQkFBZ0I7WUFDaEIsa0JBQWtCO1lBQ2xCLGNBQWM7WUFDZCxXQUFXO1lBQ1gsWUFBWTtZQUNaLHlCQUF5QjtZQUN6QjtJQUNBO2dCQUNJLDZCQUE2QjtnQkFDN0IsWUFBWTtnQkFDWixnQkFBZ0I7aUJBQ2YsZUFBZTtpQkFDZixZQUFZO2dCQUNiLFlBQVk7Z0JBQ1osZUFBZTtjQUNqQjtJQUNBO2dCQUNFLDRCQUE0Qjs7Z0JBRTVCLDRCQUE0QjtjQUM5QjtJQUVIO2dCQUNLLHdDQUF3QztZQUM1QztJQUVJO29CQUNJLGlCQUFpQjtvQkFDakIsZ0JBQWdCO29CQUNoQixlQUFlO29CQUNmLFlBQVk7b0JBQ1osNkRBQTZEO2tCQUMvRDtJQUNBO29CQUNFLGVBQWU7a0JBQ2pCO0lBR047Z0JBQ0k7b0JBQ0ksNEJBQTRCO29CQUM1QixjQUFjO29CQUNkLGlCQUFpQjtnQkFDckI7WUFDSjs7Z0JBRUksZ0JBQWdCO2dCQUNoQixlQUFlO2dCQUNmLDJCQUEyQjtZQUMvQjtZQUNBO2dCQUNJLGVBQWU7Z0JBQ2YsZ0JBQWdCO2NBQ2xCO1lBQ0Y7O2dCQUVJLGNBQWM7O2dCQUVkOztZQUVKO0lBQ0E7Ozs7SUFJUiIsImZpbGUiOiJzcmMvYXBwL3ZpdGFscy92aXRhbHMuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5mb3JtLWNvbnRyb2x7XHJcbiAgICBib3gtc2hhZG93OiBub25lICFpbXBvcnRhbnQ7XHJcbiAgICBcclxuICAgIFxyXG4gICAgfVxyXG4gICAgaW5wdXQubWF0LWlucHV0LWVsZW1lbnQge1xyXG4gICAgICAgIG1hcmdpbi10b3A6IC0xLjA2MjVlbSAhaW1wb3J0YW50O1xyXG4gICAgfVxyXG4gICAgLm1kLWZvcm17XHJcbiAgICAgICAgbWFyZ2luLWJvdHRvbTogMS43cmVtICFpbXBvcnRhbnQ7XHJcbiAgICAgICAgbWFyZ2luLXRvcDogLTAuMXJlbSAhaW1wb3J0YW50O1xyXG4gICAgICAgIFxyXG4gICAgfVxyXG4gICAgLm1hdC1mb3JtLWZpZWxkLXdyYXBwZXJ7XHJcblxyXG4gICAgICAgIG1hcmdpbi1ib3R0b206LTEwcHggIWltcG9ydGFudDtcclxuICAgIH1cclxuICAgIG1hdC1mb3JtLWZpZWxke1xyXG5cclxuICAgICAgICBtYXJnaW4tYm90dG9tOiAtMTBweDtcclxuICAgIH1cclxuICAgIDo6LXdlYmtpdC1zY3JvbGxiYXIgeyBcclxuICAgICAgICBkaXNwbGF5OiBub25lOyBcclxuICAgICAgICB9XHJcbiAgICAgICAgLmhlcm8tbWVzc2FnZTo6YmVmb3JlIHtcclxuICAgICAgICAgICAgY29udGVudDogXCJcIjtcclxuICAgICAgICAgICAgZGlzcGxheTogYmxvY2s7XHJcbiAgICAgICAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuICAgICAgICAgICAgYm9yZGVyLXJhZGl1czogNHB4O1xyXG4gICAgICAgICAgICBtYXJnaW4tbGVmdDogMHB4O1xyXG4gICAgICAgICAgICBtaW4td2lkdGg6IDkyLjMlO1xyXG4gICAgICAgICAgICBib3JkZXItcmFkaXVzOiA0cHg7XHJcbiAgICAgICAgICAgIGhlaWdodDogMi41cmVtO1xyXG4gICAgICAgICAgICB6LWluZGV4OiAtMTtcclxuICAgICAgICAgICAgb3BhY2l0eTogMC41O1xyXG4gICAgICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjMDA2ODk0O1xyXG4gICAgICAgICAgICB9XHJcbiAgICAgICAgICAgIC5saXN0LWdyb3VwLWl0ZW17XHJcbiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiB0cmFuc3BhcmVudDtcclxuICAgICAgICAgICAgICAgIGNvbG9yOiB3aGl0ZTtcclxuICAgICAgICAgICAgICAgIGJvcmRlci10b3A6IG5vbmU7XHJcbiAgICAgICAgICAgICAgICAgbWFyZ2luLXRvcDogNHB4O1xyXG4gICAgICAgICAgICAgICAgIGJvcmRlcjogbm9uZTtcclxuICAgICAgICAgICAgICAgIHBhZGRpbmc6IDlweDtcclxuICAgICAgICAgICAgICAgIGZvbnQtc2l6ZTogMTRweDtcclxuICAgICAgICAgICAgICB9XHJcbiAgICAgICAgICAgICAgaDR7XHJcbiAgICAgICAgICAgICAgICBwYWRkaW5nLXRvcDogMTBweCAhaW1wb3J0YW50O1xyXG4gICAgICAgICAgICAgIFxyXG4gICAgICAgICAgICAgICAgcGFkZGluZy1sZWZ0OiA5cHggIWltcG9ydGFudDtcclxuICAgICAgICAgICAgICB9XHJcbiAgICAgICAgICAgICAgXHJcbiAgICAgICAgICAgLmNkay10ZXh0LWZpZWxkLWF1dG9maWxsLW1vbml0b3JlZHtcclxuICAgICAgICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6IHRyYW5zcGFyZW50ICFpbXBvcnRhbnQ7XHJcbiAgICAgICAgICAgIH1cclxuICAgICAgICAgXHJcbiAgICAgICAgICAgICAgICAuY2FyZC50YntcclxuICAgICAgICAgICAgICAgICAgICBtYXJnaW4tdG9wOiAtMTRweDtcclxuICAgICAgICAgICAgICAgICAgICBtYXgtaGVpZ2h0OjMxM3B4OyBcclxuICAgICAgICAgICAgICAgICAgICBvdmVyZmxvdzogYXV0byA7XHJcbiAgICAgICAgICAgICAgICAgICAgb3BhY2l0eTogMC42O1xyXG4gICAgICAgICAgICAgICAgICAgIGJhY2tncm91bmQ6bGluZWFyLWdyYWRpZW50KDE2MGRlZywjMDA2ODk0LCMwMDY4OTQpICFpbXBvcnRhbnQ7XHJcbiAgICAgICAgICAgICAgICAgIH1cclxuICAgICAgICAgICAgICAgICAgaDN7XHJcbiAgICAgICAgICAgICAgICAgICAgbWFyZ2luLXRvcDogNHB4O1xyXG4gICAgICAgICAgICAgICAgICB9XHJcbiAgICAgICAgICAgICAgICAgIFxyXG4gICAgICAgICAgICBcclxuICAgICAgICAgICAgQG1lZGlhIG9ubHkgc2NyZWVuIGFuZCAobWF4LXdpZHRoOiA2MDBweCkge1xyXG4gICAgICAgICAgICAgICAgLmNhcmQudGJ7XHJcbiAgICAgICAgICAgICAgICAgICAgbWF4LWhlaWdodDogMTFyZW0gIWltcG9ydGFudDtcclxuICAgICAgICAgICAgICAgICAgICBvdmVyZmxvdzogYXV0bztcclxuICAgICAgICAgICAgICAgICAgICBtYXJnaW4tdG9wOiAtMTVweDtcclxuICAgICAgICAgICAgICAgIH1cclxuICAgICAgICAgICAgaDN7XHJcblxyXG4gICAgICAgICAgICAgICAgbWFyZ2luLWxlZnQ6IDhweDtcclxuICAgICAgICAgICAgICAgIGZvbnQtc2l6ZTogMjBweDtcclxuICAgICAgICAgICAgICAgIG1hcmdpbi10b3A6ICA2cHggIWltcG9ydGFudDtcclxuICAgICAgICAgICAgfVxyXG4gICAgICAgICAgICBoMntcclxuICAgICAgICAgICAgICAgIGZvbnQtc2l6ZTogMjJweDtcclxuICAgICAgICAgICAgICAgIG1hcmdpbi10b3A6IDEwcHg7XHJcbiAgICAgICAgICAgICAgfVxyXG4gICAgICAgICAgICAuaGVyby1tZXNzYWdlOjpiZWZvcmUge1xyXG4gICAgICAgICAgICAgIFxyXG4gICAgICAgICAgICAgICAgbWluLXdpZHRoOiA5MiU7XHJcbiAgICAgICAgICAgIFxyXG4gICAgICAgICAgICAgICAgfVxyXG5cclxuICAgICAgICAgICAgfVxyXG4gICAgICAgICAgICAvKiAubGdpLWN1c3RvbTpob3ZlciB7XHJcbiAgICAgICAgICAgIGJhY2tncm91bmQ6IHJnYmEoMjM5LCAyMzksIDIzOSwgMC41KSFpbXBvcnRhbnQ7XHJcbiAgICAgICAgICAgIHRyYW5zZm9ybTogc2NhbGUoMS4wNSwgMS4xKTtcclxuICAgICAgICAgICAgY29sb3I6ICM2NjY2NjYgIWltcG9ydGFudDt9XHJcbiAgICovIl19 */");
+
+/***/ }),
+
+/***/ "./src/app/vitals/vitals.component.ts":
+/*!********************************************!*\
+  !*** ./src/app/vitals/vitals.component.ts ***!
+  \********************************************/
+/*! exports provided: VitalsComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "VitalsComponent", function() { return VitalsComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+
+
+let VitalsComponent = class VitalsComponent {
+    constructor() { }
+    ngOnInit() {
+        $(function ($) {
+            $("li").click(function () {
+                var newVal1 = $(this).text();
+                if (newVal1 == "General Vitals") {
+                    $("#general-vitals").show(450);
+                    $("#cardiac-vitals").hide();
+                    $("#pediatric-vitals").hide();
+                    $("#er-vitals").hide();
+                    $("#ot-parameters").hide();
+                }
+                else if (newVal1 == "Cardiac Vitals") {
+                    $("#general-vitals").hide();
+                    $("#cardiac-vitals").show(450);
+                    $("#pediatric-vitals").hide();
+                    $("#er-vitals").hide();
+                    $("#ot-parameters").hide();
+                }
+                else if (newVal1 == "Pediatric Vitals") {
+                    $("#general-vitals").hide();
+                    $("#cardiac-vitals").hide();
+                    $("#pediatric-vitals").show(450);
+                    $("#er-vitals").hide();
+                    $("#ot-parameters").hide();
+                }
+                else if (newVal1 == "ER Vitals") {
+                    $("#general-vitals").hide();
+                    $("#cardiac-vitals").hide();
+                    $("#pediatric-vitals").hide();
+                    $("#er-vitals").show(450);
+                    $("#ot-parameters").hide();
+                }
+                else if (newVal1 == "OT Parameters") {
+                    $("#general-vitals").hide();
+                    $("#cardiac-vitals").hide();
+                    $("#pediatric-vitals").hide();
+                    $("#er-vitals").hide();
+                    $("#ot-parameters").show(450);
+                }
+            });
+        });
+    }
+};
+VitalsComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-vitals',
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./vitals.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/vitals/vitals.component.html")).default,
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./vitals.component.css */ "./src/app/vitals/vitals.component.css")).default]
+    })
+], VitalsComponent);
+
+
+
+/***/ }),
+
+/***/ "./src/environments/environment.ts":
+/*!*****************************************!*\
+  !*** ./src/environments/environment.ts ***!
+  \*****************************************/
+/*! exports provided: environment */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "environment", function() { return environment; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+// This file can be replaced during build by using the `fileReplacements` array.
+// `ng build --prod` replaces `environment.ts` with `environment.prod.ts`.
+// The list of file replacements can be found in `angular.json`.
+
+const environment = {
+    production: false
+};
+/*
+ * For easier debugging in development mode, you can import the following file
+ * to ignore zone related error stack frames such as `zone.run`, `zoneDelegate.invokeTask`.
+ *
+ * This import should be commented out in production mode because it will have a negative impact
+ * on performance if an error is thrown.
+ */
+// import 'zone.js/dist/zone-error';  // Included with Angular CLI.
+
+
+/***/ }),
+
+/***/ "./src/main.ts":
+/*!*********************!*\
+  !*** ./src/main.ts ***!
+  \*********************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var hammerjs__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! hammerjs */ "./node_modules/hammerjs/hammer.js");
+/* harmony import */ var hammerjs__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(hammerjs__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/platform-browser-dynamic */ "./node_modules/@angular/platform-browser-dynamic/fesm2015/platform-browser-dynamic.js");
+/* harmony import */ var _app_app_module__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./app/app.module */ "./src/app/app.module.ts");
+/* harmony import */ var _environments_environment__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./environments/environment */ "./src/environments/environment.ts");
+
+
+
+
+
+
+if (_environments_environment__WEBPACK_IMPORTED_MODULE_5__["environment"].production) {
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["enableProdMode"])();
+}
+Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_3__["platformBrowserDynamic"])().bootstrapModule(_app_app_module__WEBPACK_IMPORTED_MODULE_4__["AppModule"])
+    .catch(err => console.error(err));
+
+
+/***/ }),
+
+/***/ 0:
+/*!***************************!*\
+  !*** multi ./src/main.ts ***!
+  \***************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! C:\Users\Administrator\pwa\src\main.ts */"./src/main.ts");
+
+
+/***/ })
+
+},[[0,"runtime","vendor"]]]);
+//# sourceMappingURL=main-es2015.js.map
